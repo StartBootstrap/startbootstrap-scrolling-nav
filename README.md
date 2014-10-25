@@ -1,2 +1,2 @@
-startbootstrap-scrolling-nav
-============================
+Start Bootstrap - Scrolling Nav
+=========
