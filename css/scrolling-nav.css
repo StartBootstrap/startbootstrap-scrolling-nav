@@ -38,23 +38,46 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
-.about-section {
+.odd-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
 }
 
-.services-section {
+.even-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+.light {
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.light a {
+    color: LightBlue;
+}
+
+.light a:hover {
+    color: Aqua;
+    text-decoration: none;
+}
+
+.show-on-scroll {
+    content: "About";
+}
+
+.fa-google-plus-square {
+    color: red;
+}
+
+.fa-google-plus-square:hover {
+    color: DarkRed;
+}
+
+.fa-github-square {
+    color: black;
 }
