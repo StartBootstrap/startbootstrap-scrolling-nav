@@ -94,8 +94,12 @@ margin: 100px auto;
 /*http://res.cloudinary.com/liberationfront/image/upload/v1495403215/contactmosman_eyn1xn.jpg*/
 
 .contact {
-  padding: 500px 0 310px 0;
-  background: url("img/contactmosman2.jpg");
+  padding: 25px 0 310px 0;
+  background: url("img/contactmosman2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .contact i {
