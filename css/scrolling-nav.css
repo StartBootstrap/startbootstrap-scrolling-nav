@@ -14,13 +14,9 @@ html {
     height: 100%;
 }
 
-@media(max-width: 767px) {
-      h1 {
-            font-size: 30px;
-      }
-      h2 {
-            font-size: 10px;
-      }
+#cm{
+  font-size:6vw;
+  text-align:center;
 }
 
 @media(min-width:767px) {
