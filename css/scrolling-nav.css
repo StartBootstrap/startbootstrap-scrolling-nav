@@ -16,11 +16,12 @@ html {
 
 #cm{
   font-size:5vw;
-  text-align:center;
+
 }
 
 h2 {
   font-size: 3.0vh;
+
 }
 
 @media(min-width:767px) {
@@ -32,11 +33,11 @@ h2 {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
-.navbar {
-
-
-}
-
+    .navbar-default {
+        background-color: white;
+        border-color: white;
+      
+    }
 
 .top-nav-collapse {
         padding: 0;
