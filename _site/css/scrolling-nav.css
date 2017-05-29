@@ -54,25 +54,28 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: auto;
-    padding-top: 150px;
+    padding: 150px 0 250px 0;
     text-align: center;
     background: #fff;
 }
 
 /* OVER MOSMAN ////////////////////////////////////////////////////////////////// */
 
-.over-section {
+#about {
     height: auto;
-    padding-top: 150px;
+    padding: 150px 0 150px 0;
     text-align: center;
-    background: #fff;
+    background: black;
 }
 
+.over-section {
+    color: #fff;
+}
 /* KLEIN WERK ////////////////////////////////////////////////////////////////// */
 
 .klein-section {
     height: auto;
-    padding-top: 150px;
+    padding: 150px 0 150px 0;
     text-align: center;
     background: #fff;
 }
