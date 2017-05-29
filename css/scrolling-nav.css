@@ -94,6 +94,9 @@ of those sections to manage the look and feel of the site. */
     padding: 50px;
     text-align: center;
     background: black;
+    width: 100%; /*new*/
+    max-width: 560px; /*new*/
+    margin: 0 auto;
 
 }
 
