@@ -82,6 +82,7 @@ of those sections to manage the look and feel of the site. */
 .groot-section {
     height: 100%;
     padding-top: 150px;
+    margin: 100px auto;
     text-align: center;
     background: #fff;
 }
@@ -114,10 +115,6 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
 }
 
-.container-fluid {
-    background-color: black;
-    width: 100%;
-}
 
 #project {
 margin: 100px auto;
