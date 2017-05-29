@@ -90,13 +90,19 @@ of those sections to manage the look and feel of the site. */
 /* MOSFABRIEK ////////////////////////////////////////////////////////////////// */
 
 #mosfabriek {
-    height: auto;
-    padding: 50px;
-    text-align: center;
+
     background: black;
+    padding: 200px 50px 200px 50px;
+
+}
+
+.mosfabriek {
+    height: auto;
+    text-align: center;
     width: 100%; /*new*/
     max-width: 560px; /*new*/
     margin: 0 auto;
+    margin-bottom: 20px auto;
 
 }
 
