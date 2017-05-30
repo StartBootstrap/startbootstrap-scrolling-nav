@@ -39,13 +39,41 @@ h2 {
 
     }
 
+    .navbar-default .navbar-nav > li > a {
+      color: black;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+      color: rgba(18,126,19,255);
+      background-color: transparent;
+    }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+      color: #555;
+      background-color: #e7e7e7;
+    }
+
+    .navbar-default .navbar-brand {
+    color: black;
+}
+
 .top-nav-collapse {
         padding: 0;
     }
 }
+
+.navbar-brand>img {
+    display: block;
+    margin: -8px 0 0 0;
+
+}
+
 .center-block {
   margin: 50px auto;
 }
+
 
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -105,7 +133,7 @@ of those sections to manage the look and feel of the site. */
     width: 100%; /*new*/
     max-width: 660px; /*new*/
     margin: 0 auto;
-  
+
 
 }
 
@@ -159,12 +187,11 @@ of those sections to manage the look and feel of the site. */
   font-size: 2.5em;
   border: 1px solid #555;
   background-color: rgba(0,0,0,0.6);
-  padding-top: 20px;
+  padding-top: 15px;
   height: 75px;
   color: #fff;
   font-weight: 500;
   line-height: 40px;
-  padding-left: 50px;
   text-align: center;
 }
 
