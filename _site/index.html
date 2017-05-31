@@ -73,7 +73,7 @@
 
 .contact {
   padding: 25px 0 310px 0;
-  background: url("img/contactmosman2.jpg") no-repeat center center fixed;
+  background: url("img/contactmosman.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -137,7 +137,7 @@
 
       <center>
             <div class="center-block">
-              <img class="img-responsive" alt="logo" src="img/mmlogo2.png">
+              <img class="img-responsive" alt="logo" src="img/mmlogo1.png">
             </div>
       </center>
 
@@ -184,7 +184,7 @@
           <div class="row text-center col-lg-8 col-lg-offset-2">
 
               <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                  <a class="thumbnail" href="#">
+                  <a class="thumbnail" data-toggle="modal" data-target="#myModal">
                       <img class="img-responsive" src="img/TN4.png" alt="">
                   </a>
               </div>
@@ -287,6 +287,16 @@
       </div>
   </div>
 
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-body">
+              <img src="img/g4.jpg" class="img-responsive">
+          </div>
+      </div>
+    </div>
+  </div>
+
     </section>
 
   <section id="mosfabriek">
@@ -354,6 +364,10 @@
 <!-- Scrolling Nav JavaScript -->
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/scrolling-nav.js"></script>
+
+
+<!-- Photozoom -->
+<script src="js/modal.js"></script>
 
 </body>
 </html>

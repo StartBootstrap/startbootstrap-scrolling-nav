@@ -82,23 +82,21 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: auto;
-    padding: 150px 0 250px 0;
+    padding: 100px 0 250px 0;
     text-align: center;
     background: #fff;
 }
 
 /* OVER MOSMAN ////////////////////////////////////////////////////////////////// */
 
-#about {
+.over-section {
     height: auto;
     padding: 150px 0 150px 0;
     text-align: center;
     background: black;
-}
-
-.over-section {
     color: #fff;
 }
+
 /* KLEIN WERK ////////////////////////////////////////////////////////////////// */
 
 .klein-section {
@@ -107,11 +105,6 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #fff;
 }
-
-.modal.and.carousel {
-  position: absolute; // Needed because the carousel overrides the position property
-}
-
 
 /* GROOT WERK ////////////////////////////////////////////////////////////////// */
 
@@ -138,10 +131,7 @@ of those sections to manage the look and feel of the site. */
     width: 100%; /*new*/
     max-width: 660px; /*new*/
     margin: 0 auto;
-
-
 }
-
 
 .videowrapper {
     float: none;
@@ -175,7 +165,7 @@ of those sections to manage the look and feel of the site. */
 
 .contact {
   padding: 80px 0 200px 0 !important;
-  background: url("img/contactmosman2.jpg") no-repeat center center fixed;
+  background: url("img/contactmosman.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
