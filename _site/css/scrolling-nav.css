@@ -108,6 +108,11 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
+.modal.and.carousel {
+  position: absolute; // Needed because the carousel overrides the position property
+}
+
+
 /* GROOT WERK ////////////////////////////////////////////////////////////////// */
 
 .groot-section {
@@ -169,7 +174,7 @@ of those sections to manage the look and feel of the site. */
 /*http://res.cloudinary.com/liberationfront/image/upload/v1495403215/contactmosman_eyn1xn.jpg*/
 
 .contact {
-  padding: 25px 0 310px 0;
+  padding: 80px 0 200px 0 !important;
   background: url("img/contactmosman2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
