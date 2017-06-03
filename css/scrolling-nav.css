@@ -44,7 +44,7 @@ h2 {
     }
     .navbar-default .navbar-nav > li > a:hover,
     .navbar-default .navbar-nav > li > a:focus {
-      color: rgba(18,126,19,255);
+      color: #e7e7e7;
       background-color: transparent;
     }
 
@@ -59,6 +59,11 @@ h2 {
     color: black;
 }
 
+.navbar-brand>img {
+    display: block;
+    margin: -10px 0 0 0;
+}
+
 .top-nav-collapse {
         padding: 0;
     }
@@ -66,8 +71,13 @@ h2 {
 
 .navbar-brand>img {
     display: block;
-    margin: -10px 0 0 0;
+    margin: -px 0 0 0;
 
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: black;
 }
 
 .center-block {
