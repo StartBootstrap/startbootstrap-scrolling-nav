@@ -32,7 +32,7 @@ h2 {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-
+}
     .navbar-default {
         background-color: white;
         border-color: white;
@@ -61,7 +61,7 @@ h2 {
 
 .navbar-brand>img {
     display: block;
-    margin: -10px 0 0 0;
+    margin: 0 0 0 0;
 }
 
 .top-nav-collapse {
@@ -69,6 +69,27 @@ h2 {
     }
 }
 
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 5px;
+    background-color: white;
+
+}
+
+@media (min-width: 768px) {
+
+
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+}
 /*@media(min-width:767px) {
 .navbar-brand>img {
     display: block;
@@ -81,11 +102,27 @@ h2 {
     background-color: black;
 }
 
-.center-block {
-  margin: 50px auto;
+@media (min-width: 768px) {
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 }
 
-
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 18px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
@@ -93,7 +130,7 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: auto;
-    padding: 100px 0 250px 0;
+    padding: 150px 0 250px 0;
     text-align: center;
     background: #fff;
 }
