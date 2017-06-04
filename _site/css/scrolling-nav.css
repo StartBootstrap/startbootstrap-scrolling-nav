@@ -9,7 +9,7 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 html {
@@ -93,6 +93,7 @@ h2 {
 .navbar-nav>li>a {
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -103,7 +104,6 @@ h2 {
     float: right;
     padding: 9px 10px;
     margin-top: 18px;
-
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
