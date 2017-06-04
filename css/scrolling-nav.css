@@ -297,6 +297,14 @@ footer span.copyright {
   text-transform: none;
 }
 
+footer span.email {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-transform: none;
+}
+
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
