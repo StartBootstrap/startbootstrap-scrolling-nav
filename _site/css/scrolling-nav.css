@@ -24,6 +24,8 @@ h2 {
 
 }
 
+/* NAV //////////////////////////////////////////////////////////////////////*/
+
 @media(min-width:767px) {
     .navbar {
 
@@ -64,6 +66,13 @@ h2 {
     margin: 0 0 0 0;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: black;
+}
+
+/* nav collapse ///////////////////////////////////////////////////////////////////// */
+
 .top-nav-collapse {
         padding: 0;
     }
@@ -75,31 +84,6 @@ h2 {
     margin-bottom: 5px;
     background-color: white;
 
-}
-
-@media (min-width: 768px) {
-
-
-
-.navbar-nav>li>a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-}
-
-}
-/*@media(min-width:767px) {
-.navbar-brand>img {
-    display: block;
-    margin: -5px;
-
-} */
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: white;
-    background-color: black;
 }
 
 @media (min-width: 768px) {
@@ -116,7 +100,7 @@ h2 {
     float: right;
     padding: 9px 10px;
     margin-top: 18px;
-    margin-right: 10px;
+  
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
@@ -127,6 +111,8 @@ h2 {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
+
+/* HEADER ////////////////////////////////////////////////////////////////////////// */
 
 .intro-section {
     height: auto;
