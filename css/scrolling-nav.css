@@ -32,7 +32,7 @@ h2 {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-
+}
     .navbar-default {
         background-color: white;
         border-color: white;
@@ -61,7 +61,7 @@ h2 {
 
 .navbar-brand>img {
     display: block;
-    margin: -10px 0 0 0;
+    margin: 0 0 0 0;
 }
 
 .top-nav-collapse {
@@ -69,22 +69,60 @@ h2 {
     }
 }
 
-.navbar-brand>img {
-    display: block;
-    margin: -px 0 0 0;
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 5px;
+    background-color: white;
 
 }
+
+@media (min-width: 768px) {
+
+
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+}
+/*@media(min-width:767px) {
+.navbar-brand>img {
+    display: block;
+    margin: -5px;
+
+} */
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: white;
     background-color: black;
 }
 
-.center-block {
-  margin: 50px auto;
+@media (min-width: 768px) {
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 }
 
-
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 18px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
@@ -92,7 +130,7 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: auto;
-    padding: 100px 0 250px 0;
+    padding: 150px 0 250px 0;
     text-align: center;
     background: #fff;
 }
@@ -174,7 +212,7 @@ of those sections to manage the look and feel of the site. */
 /*http://res.cloudinary.com/liberationfront/image/upload/v1495403215/contactmosman_eyn1xn.jpg*/
 
 .contact {
-  padding: 80px 0 200px 0 !important;
+  padding: 80px 0 215px 0 !important;
   background: url("img/contactmosman.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -252,7 +290,7 @@ of those sections to manage the look and feel of the site. */
 
 .footer-section {
     height: auto;
-    padding: 150px 0 150px 0;
+    padding: 50px 0 50px 0;
     text-align: center;
     background: black;
 }
@@ -261,12 +299,15 @@ footer {
   padding: 25px 0;
   text-align: center;
 }
+
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
   text-transform: uppercase;
   text-transform: none;
 }
+
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
@@ -274,12 +315,14 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
+
 ul.social-buttons {
   margin-bottom: 0;
 }
+
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: black;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -291,11 +334,13 @@ ul.social-buttons li a {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #e7e7e7;
 }
+
 .btn:focus,
 .btn:active,
 .btn.active,
