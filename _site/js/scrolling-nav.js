@@ -15,7 +15,8 @@ $(function() {
 
 
 // jQuery for collapsing nav when clicking
-$('.nav a').on('click', function(){
-    $('.btn-navbar').click(); //bootstrap 2.x
-    $('.navbar-toggle').click(); //bootstrap 3.x by Richard
+
+
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
 });

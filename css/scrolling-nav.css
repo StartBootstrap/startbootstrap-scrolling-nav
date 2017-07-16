@@ -106,6 +106,10 @@ h2 {
     border-radius: 4px;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff !important;
+}
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
@@ -129,21 +133,11 @@ of those sections to manage the look and feel of the site. */
     color: #fff;
 }
 
-/* KLEIN WERK ////////////////////////////////////////////////////////////////// */
+/* WERK ////////////////////////////////////////////////////////////////// */
 
 .klein-section {
     height: auto;
     padding: 150px 0 150px 0;
-    text-align: center;
-    background: #fff;
-}
-
-/* GROOT WERK ////////////////////////////////////////////////////////////////// */
-
-.groot-section {
-    height: 100%;
-    padding-top: 150px;
-    margin: 100px auto;
     text-align: center;
     background: #fff;
 }
