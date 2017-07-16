@@ -44,21 +44,16 @@ h2 {
 
     }
 
+    .navbar-default .navbar-nav > li > a:focus,
     .navbar-default .navbar-nav > li > a {
       color: black;
     }
-    .navbar-default .navbar-nav > li > a:hover,
-    .navbar-default .navbar-nav > li > a:focus {
-      color: #e7e7e7;
+
+    .navbar-default .navbar-nav > li > a:hover {
+      color: black;
       background-color: transparent;
     }
 
-    .navbar-default .navbar-nav > .active > a,
-    .navbar-default .navbar-nav > .active > a:hover,
-    .navbar-default .navbar-nav > .active > a:focus {
-      color: #555;
-      background-color: #e7e7e7;
-    }
 
     .navbar-default .navbar-brand {
     color: black;
@@ -311,7 +306,13 @@ footer ul.quicklinks {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+
 }
+
+footer ul.quicklinks li a:hover {
+  color: white !important;
+}
+
 
 ul.social-buttons {
   margin-bottom: 0;
@@ -335,7 +336,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #e7e7e7;
+  background-color: black !important;
 }
 
 .btn:focus,
