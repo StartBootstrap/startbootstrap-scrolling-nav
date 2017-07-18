@@ -1,12 +1,3 @@
-// jQuery for collapsing nav when clicking
-
-
-$(function(){
-    var navMain = $("#nav-main");
-    navMain.on("click", "a", null, function () {
-        navMain.collapse('hide');
-    });
-});
 
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
