@@ -12,6 +12,11 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
 html {
     width: 100%;
     height: 100%;
