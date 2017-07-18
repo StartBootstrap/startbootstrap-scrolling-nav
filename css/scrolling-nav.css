@@ -32,7 +32,7 @@ h2 {
 @media(min-width:767px) {
     .navbar {
 
-        padding: 5px 0;
+
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -107,15 +107,15 @@ h2 {
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: white;
+    background-color: white !important;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: white;
+    border-color: white !important;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: white;
+    border-color: white !important;
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
