@@ -86,6 +86,28 @@ html {
 }
 
 
+/* NAVIGATION overrided from css*/
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+
+
+@media (min-width: 768px) {
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* CONTACTFORM (overrided from css) */
+
 .contact {
   padding: 25px 0 310px 0;
   background: url("img/contactmosman.jpg") no-repeat center center fixed;
@@ -167,26 +189,6 @@ ul.social-buttons li a:active {
   outline: none;
 }
 
-/* to override css*/
-
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    margin-right: -15px;
-    margin-left: -15px;
-    margin-bottom: 10px;
-    background-color: white;
-
-}
-
-
-@media (min-width: 768px) {
-.navbar-nav>li>a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-}
 </style>
 
 <!--GoogleAnalytics-->
@@ -201,7 +203,7 @@ ul.social-buttons li a:active {
   ga('send', 'pageview');
 
   // jQuery for collapsing nav when clicking
-  
+
   $('.navbar-collapse a').click(function(){
       $(".navbar-collapse").collapse('hide');
   });
