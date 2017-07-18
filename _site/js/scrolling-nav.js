@@ -1,4 +1,10 @@
 
+// jQuery for collapsing nav when clicking
+
+
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
@@ -11,12 +17,4 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-});
-
-
-// jQuery for collapsing nav when clicking
-
-
-$('.navbar-collapse a').click(function(){
-    $(".navbar-collapse").collapse('hide');
 });
