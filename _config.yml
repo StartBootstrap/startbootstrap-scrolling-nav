@@ -10,9 +10,12 @@ description: > # "Mosman is het kunstzinnige repertoire van microlandschappen on
 copyright:
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 port: 4002
+
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
+
+
 
 # Build settings
 markdown: kramdown
