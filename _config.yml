@@ -2,19 +2,20 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://mos-man.be
-title: Mosman
-email: your-email@domain.com
-author: Your Name
-description: > # "Mosman is het kunstzinnige repertoire van microlandschappen ontwikkeld door Joachim Sohie. Met voornamelijk inheemse mossoorten creëert Mosman kunstwerken die onze verbeelding weten te prikkelen."
-copyright:
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+url: http://www.mos-man.be
+title: Mosman: "Zelf creator van je eigen wereld."
+email: mosfabriek@gmail.com
+author: LiberationFront
+description: > # "Met verschillende soorten mos en varen, bouwt Mosman indrukwekkende microklimaten, vaak ongeziene landschappen uit de schaduw van de natuur."
+
 port: 4002
 
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
 
+gems:
+    - jekyll-seo-tag
 
 
 # Build settings
@@ -27,8 +28,8 @@ permalink: pretty
 
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
+    url:
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url:
   - title: linkedin
     url:
