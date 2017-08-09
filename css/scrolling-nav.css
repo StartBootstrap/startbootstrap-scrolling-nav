@@ -27,34 +27,59 @@ html {
     }
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
+/* Custom divs. */
 
 .intro-section {
-    height: 100%;
+    overflow:hidden;
+    position:relative;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.about-section {
-    height: 100%;
-    padding-top: 150px;
+.odd-section {
+    overflow:hidden;
+    min-height: 100%;
+    padding-top: 50px;
     text-align: center;
     background: #eee;
 }
 
-.services-section {
-    height: 100%;
+.even-section {
+    overflow:hidden;
+    min-height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+.light {
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.light a {
+    color: LightBlue;
+}
+
+.light a:hover {
+    color: Aqua;
+    text-decoration: none;
+}
+
+.show-on-scroll {
+    content: "About";
+}
+
+.fa-google-plus-square {
+    color: red;
+}
+
+.fa-google-plus-square:hover {
+    color: DarkRed;
+}
+
+.fa-github-square {
+    color: black;
 }
