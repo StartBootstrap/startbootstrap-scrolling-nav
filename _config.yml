@@ -1,0 +1,36 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://www.mos-man.be
+title: Mosman: "Zelf creator van je eigen wereld."
+email: mosfabriek@gmail.com
+author: LiberationFront
+description: > # "Met verschillende soorten mos en varen, bouwt Mosman indrukwekkende microklimaten, vaak ongeziene landschappen uit de schaduw van de natuur."
+
+port: 4002
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+gems:
+    - jekyll-seo-tag
+    - jekyll-sitemap
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url:
+  - title: github
+    url:
+  - title: linkedin
+    url:
