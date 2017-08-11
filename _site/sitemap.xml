@@ -5,8 +5,16 @@
         <lastmod>2017-07-19T02:17:04+02:00</lastmod>
     </url>
     <url>
+        <loc>http://localhost:4002/404.html</loc>
+        <lastmod>2017-08-04T23:46:15+02:00</lastmod>
+    </url>
+    <url>
         <loc>http://localhost:4002/</loc>
         <lastmod>2017-08-04T18:59:29+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://localhost:4002/nieuws/</loc>
+        <lastmod>2017-08-04T23:51:22+02:00</lastmod>
     </url>
     <url>
         <loc>http://localhost:4002/privacybeleid/</loc>
