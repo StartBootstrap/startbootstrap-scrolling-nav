@@ -1,7 +1,10 @@
 {
     "title": "Scrolling Nav",
     "name": "startbootstrap-scrolling-nav",
-    "version": "4.1.2",
+    "version": "4.2.0",
+    "scripts": {
+        "start": "gulp watch"
+    },
     "description": "A smooth scrolling navigation HTML template built with Bootstrap",
     "keywords": [
         "css",
@@ -26,12 +29,14 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-scrolling-nav.git"
     },
     "dependencies": {
-        "bootstrap": "4.2.1",
-        "jquery": "3.3.1",
+        "bootstrap": "4.3.1",
+        "jquery": "3.4.1",
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
-        "browser-sync": "2.26.3",
-        "gulp": "4.0.0"
+        "browser-sync": "2.26.5",
+        "del": "^4.1.1",
+        "gulp": "4.0.2",
+        "merge-stream": "^1.0.1"
     }
 }
