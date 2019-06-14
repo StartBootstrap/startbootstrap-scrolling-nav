@@ -1,9 +1,9 @@
 {
     "title": "Scrolling Nav",
     "name": "startbootstrap-scrolling-nav",
-    "version": "4.2.0",
+    "version": "4.2.1",
     "scripts": {
-        "start": "gulp watch"
+        "start": "node_modules/.bin/gulp watch"
     },
     "description": "A smooth scrolling navigation HTML template built with Bootstrap",
     "keywords": [
@@ -34,9 +34,9 @@
         "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
-        "browser-sync": "2.26.5",
+        "browser-sync": "2.26.7",
         "del": "^4.1.1",
         "gulp": "4.0.2",
-        "merge-stream": "^1.0.1"
+        "merge-stream": "2.0.0"
     }
 }
