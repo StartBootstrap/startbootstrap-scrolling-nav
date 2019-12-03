@@ -303,7 +303,7 @@ The analysis pays particular attention to aspects related to privacy, licenses a
 | |1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?  |/ |/|/|/|/|/|/|
 | |1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |/ |/|/|/|/|/|/|
 | **Intellectual Property Rights of the dataset** | | |
-| | 2.1 Do you have created and generated the dataset ? | yes| yes| yes |yes|yes| yes|
+| | 2.1 Do you have created and generated the dataset ? | yes| yes| yes |yes|yes| yes| yes|
 | | 2.2 Are you the owner of the dataset? Who is the owner? |/ |/|/|/|/|yes|yes|
 | | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? | yes |yes| yes| yes|yes|yes|yes|
 | | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with open license? | yes |yes| yes| yes|yes|yes|yes|
@@ -598,7 +598,7 @@ Smoke weed every day
 
 ### 11.7 Types of crimes
 
-Our final dataset features 56 types of crimes, after analysing all of them we ended up paying more attantion to some crime types. For example, **theft of art objets** which obviously leads to the conclusion that **the presence of cultutal institutions** that have valuable instances in their collections is **directly connected to potential threat of crime**. Below are the top 7 regions featuring the highest number of **theft of art objets**:
+Our final dataset features 56 types of crimes, after analysing all of them we ended up paying more attention to some crime types. For example, **theft of art objets** which obviously leads to the conclusion that **the presence of cultutal institutions** that have valuable instances in their collections is **directly connected to potential threat of crime**. Below are the top 7 regions featuring the highest number of **theft of art objets**:
 
 1. Lombardia
 2. Toscana
@@ -607,7 +607,7 @@ Our final dataset features 56 types of crimes, after analysing all of them we en
 5. Emilia-Romagna
 6. Sicilia
 
-**intellectual property violations** are spread mostly in the regions, many of which represent the highest cultural value in our dataset, ex. **Lazio, Campania** have the highest density of cultural institutions. Also, **Sicilia, Lazio** and **Lombardia** feature the highest number of theatres, which lead us to the conclusion that regions with a **better presence of cultural organizations** can be connected to number of **Intellectual property violations** that include literary works, inventions and designs that are result of a more educated and culturalised society. 
+**intellectual property violations** are spread mostly in the regions, many of which represent the highest cultural value in our dataset, ex. **Lazio, Campania** have the highest density of cultural institutions. Also, **Sicilia, Lazio** and **Lombardia** feature the highest number of theatres, which lead us to the conclusion that regions with a **better presence of cultural organizations** can be connected to number of **Intellectual property violations** that include literary works, inventions and designs that can be considered as results of a more educated and cultural society. 
 
 1. Campania
 2. **Sicilia**
