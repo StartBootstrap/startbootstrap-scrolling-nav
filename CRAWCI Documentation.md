@@ -204,7 +204,7 @@ def Aligner(cleaned-data1,cleaned-data2,outputdata,area):
 
 CRAWCI Project, The final dataset, created 15 November 2019
 CSV: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset%20and%20rdf/typesofcrimes.csv
-RDF: https://github.com/simayguzel/crawci/blob/master/dataset/dataset.rdf
+RDF: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset%20and%20rdf/crimedataset.rdf
 License: Open Data License v2.0 https://www.dati.gov.it/content/italian-open-data-license-v20">Italian 
 
 Content description: This dataset contains the total number of reports of all the types of crimes in italian regions. 
@@ -595,6 +595,27 @@ According to the obtained data, **Liguria** is the region with the highest densi
 ### 11.6 Correlation
 
 Smoke weed every day 
+
+### 11.7 Types of crimes
+
+Our final dataset features 56 types of crimes, after analysing all of them we ended up paying more attantion to some crime types. For example, **theft of art objets** which obviously leads to the conclusion that **the presence of cultutal institutions** that have valuable instances in their collections is **directly connected to potential threat of crime**. Below are the top 7 regions featuring the highest number of **theft of art objets**:
+
+1. Lombardia
+2. Toscana
+3. Lazio
+4. Campania
+5. Emilia-Romagna
+6. Sicilia
+
+**Intellectual property violations** are spread mostly in the regions, many of which represent the highest cultural value in our dataset, ex. **Lazio, Campania** have the highest density of cultural institutions. Also, **Sicilia, Lazio** and **Lombardia** feature the highest number of theatres, which lead us to the conclusion that regions with a **better presence of cultural organizations** can be connected to number of **Intellectual property violations** that include literary works, inventions and designs that are result of a more educated and culturalised society. 
+
+1. Campania
+2. Sicilia
+3. Lazio
+4. Puglia
+5. Lombardia
+6. Calabria
+
 
 ### 6.4 What about our initial questions? 
 
