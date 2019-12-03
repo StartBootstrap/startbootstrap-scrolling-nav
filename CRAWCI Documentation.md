@@ -647,7 +647,7 @@ Pearson's correlation is calculated as shown(eg.criminal reports and the cultura
  ```bash
  (0.02,207.885) (0,4.985) (0.0511,79.898) (0.0238,475.194) (0.33,620) (0.0131,169.999) (0.0261,35.552) (0.0265,229.630)(0.0341,176.246) (0.0315,30.108) (0.0413,47.067) (0.0312,276.255) (0.0224,43.136) (0.0132,8.205) (0.0263,222.685) (0.0129,149.334) (0.0083,13.570) (0.0132,61.137) (0.0121,176.318) (0.0125,47.465)
  ```
-![alt text](https://github.com/simayguzel/OpenDataCRAWCI/crime-ci.png)
+![alt text](crime-ci.png)
 
 
 - Correlation between the density of cultural institutions and average salary: 0.59963
