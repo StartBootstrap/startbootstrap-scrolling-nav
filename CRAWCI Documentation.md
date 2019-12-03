@@ -198,6 +198,18 @@ def Aligner(cleaned-data1,cleaned-data2,outputdata,area):
     aligned = a.merge(b, on=area)
     aligned.to_csv(outputdata,index=False)
 ```
+
+### D7 (Types of crimes)
+
+CRAWCI Project, The final dataset, created 15 November 2019
+CSV: https://github.com/simayguzel/crawci/blob/master/dataset/crawciopendata.csv
+RDF: https://github.com/simayguzel/crawci/blob/master/dataset/dataset.rdf
+License:
+
+Content description: This dataset contains the total number of reports of all the types of crimes in italian regions. 
+
+Methodology: **D7** derives from **D2**,the cleaning of which was done semi-automatically using Python scripts and the library Pandas mentioned above. Hence, we managed to obtain the data of our interest, specifically about regions, not cities, for 2016.  However, since the original **D2** does not have a consistent order, there was a need for its manual curation. 
+
 ### 4. Quality analysis of the datasets 
 
 This section considers the necessary requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati). The four characteristics to control the level of information quality are:
