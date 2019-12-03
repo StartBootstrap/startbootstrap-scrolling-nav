@@ -40,7 +40,7 @@ Advertisements and promotions among citizens to make an awareness on the importa
   - Bring the delivery of public services to a new level
 
 
-### 3. Original datasets and mushup dataset
+## 3. Original datasets and mushup dataset
 
 ### D1
 
@@ -210,7 +210,7 @@ Content description: This dataset contains the total number of reports of all th
 
 Methodology: **D7** derives from **D2**,the cleaning of which was done semi-automatically using Python scripts and the library Pandas mentioned above. Hence, we managed to obtain the data of our interest, specifically about regions, not cities, for 2016.  However, since the original **D2** does not have a consistent order, there was a need for its manual curation. 
 
-### 4. Quality analysis of the datasets 
+## 4. Quality analysis of the datasets 
 
 This section considers the necessary requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati). The four characteristics to control the level of information quality are:
 
@@ -280,64 +280,64 @@ This section considers the necessary requirements, established according to the 
 
 5. D5 makes use of integer values for indicating Comune, Provincia, Regione without a complementary explanation. 
 
-### 5. Ethical-legal analysis
+## 5. Ethical-legal analysis
 
 This analysis is designed to assess compliance with legal and ethical aspects in accordance with European, state and local regulations and compliance with good practices relating to publication in open data.
 
 The analysis pays particular attention to aspects related to privacy, licenses and interest for the purpose of creating a service that balances the public function, transparency and rights of individual citizens.
 
-## Legal checklist
+### 5.1 Legal checklist
 
 
-| | To check | D.1|  D.2 | D.3 | D4 | D5 | D6 | 
-| ----------- | --------| ------|--------|-------|---------|---------|---------|
-| **Privacy issues** | 1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679? |yes |yes| yes | yes| yes| yes|
-| | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorize the PA to release them? Or any other legal basis? Identify the legal basis. |yes |yes|yes  |yes | yes| yes|
-| | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorize the PA to release them ? |yes |yes|yes  |yes | yes| yes|
-| | 1.4 Is the dataset free of any information that combined with common data available in the web, could identify the person? If so, is there a law that authorize the PA to release them?  |yes |yes|yes  |yes | yes| yes|
-| | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? |yes |yes|yes  |yes | yes| yes|
-| | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out?  |/ |/|/|/|/|/|
-| | 1.7 Are you using geolocalization capabilities ? Do you check that the geolocalization process can’t identify single individuals in some circumstances? | no|no|no|no|no|no|
-| |1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? | yes|yes|yes|yes|yes|yes|
-| |1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?  |/ |/|/|/|/|/|
-| |1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |/ |/|/|/|/|/|
+| | To check | D.1|  D.2 | D.3 | D4 | D5 | D6 | D7 | 
+| ----------- | --------| ------|--------|-------|---------|---------|---------|---------|
+| **Privacy issues** | 1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679? |yes |yes| yes | yes| yes| yes|yes|
+| | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorize the PA to release them? Or any other legal basis? Identify the legal basis. |yes |yes|yes  |yes | yes| yes|yes|
+| | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorize the PA to release them ? |yes |yes|yes  |yes | yes| yes|yes|
+| | 1.4 Is the dataset free of any information that combined with common data available in the web, could identify the person? If so, is there a law that authorize the PA to release them?  |yes |yes|yes  |yes | yes| yes|yes|
+| | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? |yes |yes|yes  |yes | yes| yes|yes|
+| | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out?  |/ |/|/|/|/|/|/|
+| | 1.7 Are you using geolocalization capabilities ? Do you check that the geolocalization process can’t identify single individuals in some circumstances? | no|no|no|no|no|no|no|
+| |1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? | yes|yes|yes|yes|yes|yes|yes|
+| |1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?  |/ |/|/|/|/|/|/|
+| |1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |/ |/|/|/|/|/|/|
 | **Intellectual Property Rights of the dataset** | | |
-| | 2.1 Do you have created and generated the dataset ? | yes| yes| yes |yes|yes|
-| | 2.2 Are you the owner of the dataset? Who is the owner? |/ |/|/|/|/|yes|
-| | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? | yes |yes| yes| yes|yes|yes|
-| | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with open license? | yes |yes| yes| yes|yes|yes|
+| | 2.1 Do you have created and generated the dataset ? | yes| yes| yes |yes|yes|yes|
+| | 2.2 Are you the owner of the dataset? Who is the owner? |/ |/|/|/|/|yes|yes|
+| | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? | yes |yes| yes| yes|yes|yes|yes|
+| | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with open license? | yes |yes| yes| yes|yes|yes|yes|
 | **License** | | |
 | | 3.1 Do you release the dataset with an open data license ? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)?| yes |yes| yes| yes|yes|yes|
-| | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ?| no|no|no|no|no|yes|
- | | 3.3 Do you release the API (in case you have) with an open source license ? |? |?|?|?|?|no|
+| | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ?| no|no|no|no|no|yes|yes|
+ | | 3.3 Do you release the API (in case you have) with an open source license ? |? |?|?|?|?|no|no|
 | **Limitations on public access** | | |
-| | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |/|/|/|/|/|yes|
-| | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |/|/|/|/|/|yes|
-| |4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ?|/|/|/|/|/|yes|
-| |4.4 Do you check if there are some limitations concerning the public interest ?|/|/|/|/|/|yes|
-| |4.5 Do you check the international law limitations ?|/|/|/|/|/|yes|
-| |4.6 Do you check the INSPIRE law limitations for the spatial data?|/|/|/|/|/|yes|
+| | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |/|/|/|/|/|yes|yes|
+| | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |/|/|/|/|/|yes|yes|
+| |4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ?|/|/|/|/|/|yes|yes|
+| |4.4 Do you check if there are some limitations concerning the public interest ?|/|/|/|/|/|yes|yes|
+| |4.5 Do you check the international law limitations ?|/|/|/|/|/|yes|yes|
+| |4.6 Do you check the INSPIRE law limitations for the spatial data?|/|/|/|/|/|yes|yes|
 | **Economical Conditions** | | |
-| | 5.1 Do you check that the dataset could be released for free ? |yes|yes|yes|yes|yes|yes|
-| | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ? | |yes|yes|yes|yes|yes|yes|
-| |5.3 Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ? |/|/|/|/|/|/|
-| |5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”?|yes|yes|yes|yes|yes|yes|
-| | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation?|/|/|/|/|/|/|
+| | 5.1 Do you check that the dataset could be released for free ? |yes|yes|yes|yes|yes|yes|yes|
+| | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ? | |yes|yes|yes|yes|yes|yes|yes|
+| |5.3 Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ? |/|/|/|/|/|/|/|
+| |5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”?|yes|yes|yes|yes|yes|yes|yes|
+| | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation?|/|/|/|/|/|/|/|
 | **Temporary aspects** | | |
-| |6.1 Do you have a temporary policy for updating the dataset ? |?/ non viene infranta |?/ non viene infranta |?/ non viene infranta |/|/|/|/|/|/|
-| | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ?|/|/|/|/|/|/|
-| | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ?|/|/|/|/|/|/|
-| |6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?|/|/|/|/|/|/|
+| |6.1 Do you have a temporary policy for updating the dataset ? |?/ non viene infranta |?/ non viene infranta |?/ non viene infranta |/|/|/|/|/|/|/|
+| | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ?|/|/|/|/|/|/|/|
+| | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ?|/|/|/|/|/|/|/|
+| |6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?|/|/|/|/|/|/|/|
 
 The Datasets do not include any personal information of individuals since no attributes about an individual are released. Hence, an identity cannot be inferred. What is more, date-sets are not cross-referenced and not connected between other databases and datasets. We have not identified threats related to how information can be identified and connected to specific individuals.
 
-### Licenses
+### 5.2 Licenses
 
 D1, D2, D3 and D4 are licensed under Creative Commons License(https://creativecommons.org/licenses/by/3.0/) – Attribution – 3.0 and D5 is licensed under the Open Data License (ODL) v2.0(https://opendatacommons.org/licenses/odbl/), which is very similar to a CC-BY 4.0. Each dataset is accompanied by a clear license declaration.The content of the website is covered by a "All rights reserved" copyright statement. 
 
 Our final dataset has an open licence which allows others to republish the content or data on their own website, to derive new content or data from yours, to make money by selling products that use your content or data, to republish the content or data while charging a fee for access as long as the reusers give attribution or share-alike). Our creative work has Open Data License v2.0(https://www.dati.gov.it/content/italian-open-data-license-v20">Italian). 
 
-### 4.3 Technical analysis (formats, metadata, URIs, provenance)
+## 6. Technical analysis 
 
 ### **D1, D2, D4**
 
@@ -347,7 +347,7 @@ A CSV should normally follow RFC 4180(https://tools.ietf.org/html/rfc4180), howe
 
 None of the datasets **D1, D2, D4**  was published in .RDF format which give us a reson to consider all the original  datasets as 3-star Open Data.
 
-Overall, **D1, D2, D4** are very consistent, all of the follow a well-defined structure and include explanations for the abbreviations.  However, Datasets **D1, D2, D4** make arbitrary use of uppercase and lowercase. Moreover, **D2** list types of crimes in different order to different regions, which made it difficult to manipulate data while extracting necessary information. 
+Finally, **D1, D2, D4** are consistent, all of the datasets follow a well-defined structure and include explanations for the abbreviations.  However, Datasets **D1, D2, D4** make arbitrary use of uppercase and lowercase. Moreover, **D2** list types of crimes in different order to different regions, which made it difficult to manipulate data while extracting necessary information. 
 
 ### **D3** 
 
@@ -359,24 +359,27 @@ The original D5 can be downloaded as **.xlsx, .xml, .json,**  or can be exported
 
 Dataset D5 makes arbitrary use of uppercase and lowercase. Also, D5 has empty rows which lack information about theatres and makes harder data processing and data extraction.
 
-None of the datasets was published in RDF format which give us a reson to consider all the original  datasets as 3-star Open Data.
+Ultimately, none of the datasets was published in RDF format which give us a reson to consider all the original datasets as 3-star Open Data. What is more, there is no indication about the encoding of the files (if it's ASCII, ISO-8859-1), despite this is encouraged by the ["Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2017/08/03/open-data-online-linee-guida-valorizzazione-del-patrimonio-informativo-pubblico). We consider this problem as an accute one since the wrong encoding can potentially lead to various problems in the automatic data processing for example,  incorrect data results since some cells may be skipped while processing data.
 
-# CSV to RDF Conversion.
+## 7. Mashup Data Curation.
 
-### csv2rdf
+CRAWCI Mashup datasets **D6** and **D7** were produced as a 5 star Open Data, following the principles of 5-star deployment scheme for data to be published on the Web. Please find below the detailed expanations.
+
+
+### 7.1 csv2rdf
 
 To convert our data we used csv2rdf which is a Java based application, which relies on Apache Jena to convert tabular data to RDF. https://github.com/anuzzolese/csv2rdf/blob/master/README.md
 
 The binaries can be obtained by compiling the source code with MAVEN from command line, i.e.
 
-## Compiling
+### Compiling
 
 ```bash 
 mvn clean install
 ```
 Once the source code have been compiled a JAR named stlab.csv2rdf-1.0.jar is available in the target folder.
 
-## Usage
+### Usage
 
 The JAR stlab.csv2rdf-1.0.jar can be used as a command line tool.
 The synopsis is the following
@@ -393,7 +396,7 @@ The character used as separator within the CSV file (e.g. , or ;).
 * -m,--mapping &lt;file&gt;   
  A file providing the mapping between CSV columns and the properties of our target CRAWCI ontology.
     
- The file  contains a set of key=value lines, where each key represents a column position in the source CSV (the counting of positions starts from index 1) and each value is a pair property-datatype composed of property URI form a target ontology or vocabulary and a datatype URI. The property-datatype pairs are separated by the character '>'. The datatype is optional, hence it is possible to provide the property URI only without any datatype. We remark that if no datatype is provided, then the tool tries to infer the more appropriate datatype for the value to transform to RDF. 
+ The file contains a set of key=value lines, where each key represents a column position in the source CSV (the counting of positions starts from index 1) and each value is a pair property-datatype composed of property URI form a target ontology or vocabulary and a datatype URI. The property-datatype pairs are separated by the character '>'. The datatype is optional, hence it is possible to provide the property URI only without any datatype. We remark that if no datatype is provided, then the tool tries to infer the more appropriate datatype for the value to transform to RDF. 
 
  Additionally, the following file, named *mapping* and containing key=property>datatype pairs, define the mapping to be used in order to generate the properties.
  
@@ -419,13 +422,11 @@ The character used as separator within the CSV file (e.g. , or ;).
  The execution of the tool with the arguments as provided produced the following RDF serialised by using the TURTLE syntax.
  
 
-4. In the MIUR page of the csv D1 dataset there is no indication about the encoding of the file (if it's ASCII, ISO-8859-1), despite this is encouraged by the ["Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2017/08/03/open-data-online-linee-guida-valorizzazione-del-patrimonio-informativo-pubblico). This problem can create various problems in the automatic computation of the data. In fact, a wrong encoding declaration during the analysis may create incorrect data results (some cells may be skipped for example). After trying multiple encodings, the only one that seemed to work without corrupting, using Python library "csv", was "utf-8-sig" ([see Python documentation about it here](https://docs.python.org/2/library/codecs.html#encodings-and-unicode)). An example of a script using that encoding can be seen in [section 5.1](https://github.com/sebucci/sebucci.github.io/blob/master/readme.md#51-data-processing)
+### 7.2 Updating the dataset over time
 
-### 4.4 Updating the dataset over time
+We do not plan to update CRAWCI datasets as it consider the specific year, namely 2016. However, it would be interesting to analyse other years to see the results in dynamic.
 
-We do not plan to update SEBuCCI as it takes a picture of a specific school year, namely 2016-2017. However, it would be interesting to create new datasets for the following school years to be able to make comparisons between datasets.
-
-### 4.5 Summary
+## 8. Analysis Summary
 
 | Id | Problem description | Severity (1-3) | Type (Syntax/Semantics) | Proposed solution |
 |-------------------------------|----------------------------|----------------|-------------------------|----------------------------|
@@ -436,85 +437,13 @@ We do not plan to update SEBuCCI as it takes a picture of a specific school year
 | D1 | Ambiguity between title and content (school/institutes ID)| 2 | Semantics | Disambiguation through alignment scripts with other datasets |
 | D2 | Ambiguity with the content of the cells (-, "Non richiesto") | 2 | Semantics | Our solution was to consider them both as "NO" | 
 
-## 5. Visualization
-
-### 5.1 Data processing
-
-Although the final dataset has been released in RDF format, the CSV has also been made available on the project GitHub repository as it was used to extract the data needed in order to produce the visualization. 
-
-Python was used to process the CSV dataset. Each row of the CSV was converted into a list of dictionaries with the help of the "CSV" library:
-
-```python
-def process_data(source_csv_file_path):
-    import csv
-    data = list()
-    with open(source_csv_file_path, 'r', encoding='utf-8-sig') as test:  #Notice the utf-8-sig
-        processed_data = csv.DictReader(test, delimiter=',')
-        for x in processed_data:
-            x = dict(x)
-            data.append(x)
-    return data
- ```
-We then developed algorithms to calculate percentages and extract data specifically useful for the final visualization.
-Once the final sub-datasets that were used for computation were acquired, we used the JSON Python library to convert them into a json format as it was one of the inputs requested by the visualization library.
-
-```python
-import json
-def jsonize(data,nome):
-    risultatojson = open(nome+".json", "w+")  #automatically creates a json file with the name specified in the input
-    json_data = json.dumps(data)  #converts the data into json format
-    risultatojson.write(json_data) #writes on the new file the converted data
-```
-*\*_All the other scripts can be seen in the [Script Directory](https://github.com/sebucci/sebucci.github.io/blob/master/script/)_*
-
-#### 5.1.1 Get school coordinates from address:
-
-In order to get the latitude and longitude of schools knowing their addresses, we employed the following script: [address2latlon.py](https://github.com/sebucci/sebucci.github.io/blob/master/script/address2latlon.py).
-
-It uses the library [GeoPy](https://geopy.readthedocs.io/en/stable/), which is a client for several popular geocoding web services (under [MIT license](https://github.com/geopy/geopy/blob/master/LICENSE)). Using this library we were able to retrieve geographical coordinates of schools, but only for the province of Bologna, because it has a limiter in usage, so we decided to reduce the set of schools (sebucci is still a demo).
-
-We faced another problem here: according to our dataset we should have 430 schools, but we were able to retrieve only 298 of them. Their addresses are difficult to parse, because they are not well formed.
-
-### 5.2 Handling the visualization (technical description)
+## 9. Handling the visualization (technical description)
 
 In order to visualize the data the following libraries were used:
 
-* **Leaflet.js**: An open-source JavaScript library for mobile-friendly interactive maps.
-* **Chart.js**: Simple yet flexible JavaScript charting for designers and developers.
 * **Bootstrap**: Build responsive, mobile-first projects on the web with the world's most popular front-end component library.
 
-#### 5.2.1 Further information and licenses
-
-**Leaflet.js**
-
-* Code &copy; [BSD](https://github.com/Leaflet/Leaflet/blob/master/LICENSE)
-* Data &copy; [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) 
-
-* In making use of [Wikimedia Tile](https://foundation.wikimedia.org/wiki/Maps_Terms_of_Use) we comply with [OpenStreetMap copyright policy](https://www.openstreetmap.org/copyright).
-
-**OpenStreetMap** 
-
-Both **Wikimedia Tile** and **Leaflet** use data from **OpenStreetMap**.
-
-* Data &copy; [ODbL](https://www.openstreetmap.org/copyright)
-
-**GEOJSON**: Leaflet makes it possible to draw polygons directly from geojson files:
-
-* Regions: To help us draw regions, data from [Stefano Cudini's repository](https://github.com/stefanocudini/leaflet-geojson-selector/blob/master/examples/italy-regions.json) were used.
-
-* Provinces: To help us draw provinces, data from [Dataninja repository](https://github.com/Dataninja/geo-shapes/tree/master/italy/regions) were used.
-**N.B.** Each region is contained in a single json file, except for Sardegna provinces which were not updated to 2017. In order to handle this problem, we retrieved additional data from the ISTAT archive [CONFINI DELLE UNITÀ AMMINISTRATIVE A FINI STATISTICI AL 1 GENNAIO 2018](https://www.istat.it/it/archivio/222527), [CC BY 3.0](https://www.istat.it/it/note-legali).
-
-**Chart.js**
-For the visualization of school self-evaluation a specific bar chart was chosen ([MIT license](https://www.chartjs.org/docs/latest/notes/license.html)).
-
-**Bootstrap**
-v4.1.3., Code &copy; MIT, Docs CC BY 3.0.
-
-### 5.3 Behind the icons (light bulbs and museum buildings)
-The visualization makes use of visual metaphors to synthetically represent the data. 
-
-#### 5.3.1 Cultural institutions
+### 9.1 Cultural institutions
 N. of cultural institutions divided by Km^2.
 
 For Italy, each region, each province we established the following threshold:
@@ -523,17 +452,7 @@ For Italy, each region, each province we established the following threshold:
 -two museum icons if >= 0.0224 and < 0.0448;
 -three museum icons if >= 0.0448.
 
-#### 5.3.2 School building safety certificates
-For each school building we calculated the percentage of available certificates (for example if 4 of 8 certificates are available, then the percentage is 50%). 
-For each school we calculated the average of percentages of available certificates (for example if a school has two buildings, with 25% and 50% of available certificates respectively, then the final percentage is 37.5%).
-
-For Italy, each region, each province, each school we established the following threshold:
-
--red light bulb <= 33%;
--yellow light bulb > 33% and <=66%;
--green light bulb > 66%.
-
-## 6. Final considerations
+## 10. Final considerations
 
 ### 6.1 School safety certificates
 
@@ -596,66 +515,6 @@ The Italian provinces with double the number of cultural institutions compared t
 15.	Ancona
 16.	Livorno
 
-
-On the other hand, the provinces with the lowest values (<0.022) are **57**, among which the worst 16 are: 
-
-1.	Belluno (**worst**)
-2.	Caltanissetta
-3.	Enna
-4.	Rovigo
-5.	Foggia
-6.	Potenza
-7.	Rieti
-8.	Agrigento
-9.	Sondrio
-10.	Matera
-11.	Taranto
-12.	Sassari
-13.	Treviso
-14.	Crotone
-15.	Nuoro
-16.	Sud Sardegna 
-
-
-### 6.3 School self-evaluation
-
-As regards school self-evaluation results (sum of percentage of 5,6 and 7 minus sum of percentage of 1,2,3 and 4), the top 16 Italian provinces are:
-
-1.	Isernia (**best**)
-2.	Terni
-3.	Verbano-Cusio-Ossola
-4.	Benevento
-5.	Cremona
-6.	Ascoli Piceno
-7.	Campobasso
-8.	Udine
-9.	Alessandria
-10.	Catanzaro
-11.	Rimini
-12.	Pordenone
-13.	Arezzo
-14.	Barletta-Andria-Trani
-15.	Vibo Valentia
-16.	Perugia.
-
-On the other hand, the worst 16 are:
-
-1.	Rovigo (**worst**)
-2.	Sassari
-3.	Cagliari
-4.	Sud Sardegna
-5.	Novara
-6.	Nuoro
-7.	Pistoia
-8.	Imperia
-9.	Biella
-10.	Napoli
-11.	Pavia
-12.	Parma
-13.	Trieste
-14.	Modena
-15.	Chieti
-16.	Catania
 
 ### 6.4 What about our initial questions? 
 
