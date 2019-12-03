@@ -1,8 +1,8 @@
 # The CRAWCI project. Crime rate, Average wages and Cultural Institutions: what relationship?
 
-Simay Guzel 
-Elizaveta Siurina
-Hizkiel Mitiku Alemayehu
+- Simay Guzel 
+- Elizaveta Siurina
+- Hizkiel Mitiku Alemayehu
 
 ## 1. Introduction
 
@@ -215,10 +215,10 @@ Methodology: **D7** derives from **D2**,the cleaning of which was done semi-auto
 
 This section considers the necessary requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati). The four characteristics to control the level of information quality are:
 
-**accuracy** (syntactic and semantic) - the data, and its attributes, correctly represent the real value of the concept or event to which it refers;
-**coherence** - the data, and its attributes, is not contradictory to other data regarding the context of use of the owner administration;
-**completeness** - the data is exhaustive for all its expected values and with respect to the relative entities (sources) that contribute to the definition of the procedure;
-**currentness** (or timeliness of updating) - the data, and its attributes, is of the "right time" (it is updated) with respect to the procedure to which it refers.
+- **accuracy** (syntactic and semantic) - the data, and its attributes, correctly represent the real value of the concept or event to which it refers;
+- **coherence** - the data, and its attributes, is not contradictory to other data regarding the context of use of the owner administration;
+- **completeness** - the data is exhaustive for all its expected values and with respect to the relative entities (sources) that contribute to the definition of the procedure;
+- **currentness** (or timeliness of updating) - the data, and its attributes, is of the "right time" (it is updated) with respect to the procedure to which it refers.
 
 <table>      
 <col width="20%" />      
@@ -308,7 +308,7 @@ The analysis pays particular attention to aspects related to privacy, licenses a
 | | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? | yes |yes| yes| yes|yes|yes|yes|
 | | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with open license? | yes |yes| yes| yes|yes|yes|yes|
 | **License** | | |
-| | 3.1 Do you release the dataset with an open data license ? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)?| yes |yes| yes| yes|yes|yes|
+| | 3.1 Do you release the dataset with an open data license ? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)?| yes |yes| yes| yes|yes|yes| yes|
 | | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ?| no|no|no|no|no|yes|yes|
  | | 3.3 Do you release the API (in case you have) with an open source license ? |? |?|?|?|?|no|no|
 | **Limitations on public access** | | |
@@ -516,7 +516,7 @@ According to the obtained data, **Lombardia** is the region with the highest num
 19. Valle d'Aosta
 20. Molise
 
-### 11.3 Diffusion of the internet
+### 11.3 Diffusion of the Internet
 
 According to the obtained data, **Lombardia** is the region with the highest percentage of diffusion of the internet, while **Calabria** has the lowest one. The regions are ordered descendingly according to the percentage:
 
@@ -607,14 +607,34 @@ Our final dataset features 56 types of crimes, after analysing all of them we en
 5. Emilia-Romagna
 6. Sicilia
 
-**Intellectual property violations** are spread mostly in the regions, many of which represent the highest cultural value in our dataset, ex. **Lazio, Campania** have the highest density of cultural institutions. Also, **Sicilia, Lazio** and **Lombardia** feature the highest number of theatres, which lead us to the conclusion that regions with a **better presence of cultural organizations** can be connected to number of **Intellectual property violations** that include literary works, inventions and designs that are result of a more educated and culturalised society. 
+**intellectual property violations** are spread mostly in the regions, many of which represent the highest cultural value in our dataset, ex. **Lazio, Campania** have the highest density of cultural institutions. Also, **Sicilia, Lazio** and **Lombardia** feature the highest number of theatres, which lead us to the conclusion that regions with a **better presence of cultural organizations** can be connected to number of **Intellectual property violations** that include literary works, inventions and designs that are result of a more educated and culturalised society. 
 
 1. Campania
-2. Sicilia
-3. Lazio
+2. **Sicilia**
+3. **Lazio**
 4. Puglia
-5. Lombardia
+5. **Lombardia**
 6. Calabria
+
+**swindles and cyber frauds** and **cybercrime** are present in the regions, 3 of which demonstarte the higher percentage of diffusion of the Internet (**Lombardia, Lazio, Veneto**).
+
+**swindles and cyber frauds**:
+
+1. **Lombardia**
+2. Campania
+3. **Lazio**
+4. Piemonte
+5. Emilia-Romagna
+6. **Veneto**
+
+**cybercrime**:
+
+1. **Lombardia**
+2. Liguria
+3. **Lazio**
+4. Toscana
+5. Piemonte
+6. Emilia-Romagna
 
 
 ### 6.4 What about our initial questions? 
