@@ -640,6 +640,20 @@ Our final dataset features 56 types of crimes, after analysing all of them we en
 ### 6.4 What about our initial questions? 
 
 
+Correlation coefficients are used in statistics to measure how strong a relationship is between two variables. The formulas return a value between -1(negative correlation) and 1(positive correlation). In this project, by calculating the correlation between the density of cultural institutions and(respectively) average salary, internet diffusion, the number of total criminal reports; we have obtained that there is always a positive correlation among them. 
 
+Pearson's correlation is calculated as shown(eg.criminal reports and the cultural institution density):
+
+ ```bash
+ (0.02,207.885) (0,4.985) (0.0511,79.898) (0.0238,475.194) (0.33,620) (0.0131,169.999) (0.0261,35.552) (0.0265,229.630)(0.0341,176.246) (0.0315,30.108) (0.0413,47.067) (0.0312,276.255) (0.0224,43.136) (0.0132,8.205) (0.0263,222.685) (0.0129,149.334) (0.0083,13.570) (0.0132,61.137) (0.0121,176.318) (0.0125,47.465)
+ ```
+![alt text](https://github.com/simayguzel/OpenDataCRAWCI/crime-ci.png)
+
+
+- Correlation between the density of cultural institutions and average salary: 0.59963
+- Correlation between the density of cultural institutions and internet diffusion: 0.44787
+- Correlation between the density of cultural institutions and the number of total criminal reports: 0.69353
+
+Therefore, our hypothesis(the high level of cultural institution presence increases the internet diffusion level, average salary which indicates the regional community having a higher welfare level) is proved. On the other hand, we have assumed a decrease in the number of criminal reports with the increase of cultural institution presence but we have got positive correlation instead of negative one which has not proved this aspect of our hypothesis.
 
 
