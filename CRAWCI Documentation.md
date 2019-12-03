@@ -163,7 +163,7 @@ CRAWCI Project, The final dataset, created 15 November 2019
 CSV: https://github.com/simayguzel/crawci/blob/master/dataset/crawciopendata.csv
 RDF: https://github.com/simayguzel/crawci/blob/master/dataset/dataset.rdf
 
-License: 
+License: Open Data License v2.0 https://www.dati.gov.it/content/italian-open-data-license-v20">Italian
 
 Content description: This dataset includes1) the number of theaters; 2)the percentage of internet usage in families; 3) the number of crime reports; 4)the average salary; 5) The density of cultural institutions per square km.  The result will be a presented as an explorable map which allows users to visualize all the data about regions. 
 
@@ -202,9 +202,9 @@ def Aligner(cleaned-data1,cleaned-data2,outputdata,area):
 ### D7 (Types of crimes)
 
 CRAWCI Project, The final dataset, created 15 November 2019
-CSV: https://github.com/simayguzel/crawci/blob/master/dataset/crawciopendata.csv
+CSV: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset%20and%20rdf/typesofcrimes.csv
 RDF: https://github.com/simayguzel/crawci/blob/master/dataset/dataset.rdf
-License:
+License: Open Data License v2.0 https://www.dati.gov.it/content/italian-open-data-license-v20">Italian 
 
 Content description: This dataset contains the total number of reports of all the types of crimes in italian regions. 
 
