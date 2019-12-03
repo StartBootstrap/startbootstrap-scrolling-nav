@@ -464,91 +464,141 @@ For Italy, each region, each province we established the following threshold:
 -two museum icons if >= 0.0224 and < 0.0448;
 -three museum icons if >= 0.0448.
 
-## 11. Final considerations
+## 11. Statistical Summary
 
-### 6.1 School safety certificates
+### 11.1 Average Salary
 
-According to statistics, **Prato** is the only Italian province with a green light as concerns building certificates (>66%). Alongside with Prato, the top **16** provinces of Italy are:
+According to the obtained data, **Lombardia** is the region with the biggest salary, while **Sicilia** has the lowest one. The regions are ordered descendingly according to the average salary:
 
-1.	Prato (**best**)
-2.	Ancona
-3.	Mantova
-4.	Livorno
-5.	Ravenna
-6.	Pistoia
-7.	Monza E Della Brianza
-8.	Torino
-9.	Lodi
-10.	Savona
-11.	Rimini
-12.	Biella
-13.	Venezia
-14.	Bari
-15.	Udine
-16.	Como
+1. Lombardia (**the biggest** average salary)
+2. Emilia-Romagna
+3. Trentino Aldo Adige
+4. Veneto
+5. Toscana
+6. Friuli-Venezia Giulia
+7. Marche
+8. Lazio
+9. Liguria
+10. Umbria
+11. Piemonte
+12. Valle d'Aosta
+13. Puglia
+14. Abruzzo
+15. Sardegna
+16. Molise
+17. Basilicata
+18. Campania
+19. Calabria
+20. Sicilia
 
-On the opposite side, the following provinces get a red light (<33%):
+### 11.2 Total number of theatres
 
-1.	Pescara (**worst**)
-2.	Nuoro 
-3.	Reggio Calabria
-4.	Vibo Valentia
-5.	L'aquila
-6.	Crotone
-7.	Foggia 
-8.	Catanzaro 
-9.	Teramo
-10.	Chieti
-11.	Trieste
-12.	Roma
-13.	Isernia
-14.	Caserta
-15.	Frosinone
-16.	Rieti
+According to the obtained data, **Lombardia** is the region with the highest number of theatres, while **Molise** has the lowest one. The regions are ordered descendingly according to the total number:
 
-### 6.2 Cultural institutions
+1. Lombardia
+2. Veneto
+3. Emilia-Romagna
+4. Toscana
+5. Sicilia
+6. Piemonte
+7. Trentino Aldo Adige
+8. Lazio
+9. Marche
+10. Puglia
+11. Friuli-Venezia Giulia
+12. Calabria
+13. Liguria
+14. Sardegna
+15. Campania
+16. Umbria
+17. Abruzzo
+18. Basilicata
+19. Valle d'Aosta
+20. Molise
 
-The Italian provinces with double the number of cultural institutions compared to the Italian average per square kilometre are 14. The top 16 are:
+### 11.3 Diffusion of the internet
 
-1.	Trieste (**best**)
-2.	Napoli
-3.	Genova
-4.	Roma
-5.	Prato
-6.	Firenze
-7.	Milano
-8.	Imperia
-9.	Pistoia
-10.	Varese
-11.	Rimini
-12.	Ascoli Piceno
-13.	Macerata
-14.	Gorizia
-15.	Ancona
-16.	Livorno
+According to the obtained data, **Lombardia** is the region with the highest percentage of diffusion of the internet, while **Calabria** has the lowest one. The regions are ordered descendingly according to the percentage:
 
+1. Lombardia
+2. Friuli-Venezia Giulia
+3. Lazio
+4. Veneto
+5. Trentino Aldo Adige
+6. Sardegna
+7. Emilia-Romagna
+8. Toscana
+9. Marche
+10. Abruzzo
+11. Valle d'Aosta
+12. Piemonte
+13. Umbria
+14. Liguria
+15. Campania
+16. Molise
+17. Basilicata
+18. Puglia
+19. Sicilia
+20. Calabria
+
+### 11.4 Total number of criminal reports
+
+According to the obtained data, **Lombardia** is the region with the highest crime rate, while **Valle d'Aosta** has the lowest one. The regions are ordered descendingly according to the total number of criminal reports:
+
+1. Lombardia
+2. Lazio
+3. Emilia-Romagna
+4. Campania
+5. Piemonte
+6. Sicilia
+7. Toscana
+8. Veneto
+9. Puglia
+10. Liguria
+11. Calabria
+12. Sardegna
+13. Marche
+14. Abruzzo
+15. Friuli-Venezia Giulia
+16. Trentino Aldo Adige
+17. Umbria
+18. Basilicata
+19. Molise
+20. Valle d'Aosta
+
+
+### 11.5 Cultural institutions
+
+According to the obtained data, **Liguria** is the region with the highest density of cultural institutions, while **Valle d'Aosta** has the lowest one. The regions order descendingly according to the total number:
+
+1. Liguria
+2. Marche
+3. Toscana
+4. Umbria
+5. Lazio
+6. Emilia-Romagna
+7. Campania
+8. Friuli-Venezia Giulia
+9. Piemonte
+10. Lombardia
+11. Abruzzo
+12. Calabria
+13. Molise
+14. Veneto
+15. Puglia
+16. Sardegna
+17. Sicilia
+18. Basilicata
+19. Trentino Aldo Adige
+20. Valle d'Aosta
+
+### 11.6 Correlation
+
+Smoke weed every day 
 
 ### 6.4 What about our initial questions? 
 
-1. Does the presence of libraries, museums and other cultural institutions in school surroundings impact how schools evaluate their teaching performance? 
-2. Do building certifications also play a role in school self-evaluation? 
 
-#### Cultural institutions
-
-By looking at the best provinces for school self-evaluation and cultural institutions per Km^2, we see that only **Rimini** and **Ascoli Piceno** appear on both lists. On this basis, we can state that **having a high number of cultural institutions nearby the school has no apparent relation with student performance**.
-
-
-In the same way, by looking at the worst provinces for school self-evaluation and cultural institutions per Km^2, we see that only **Rovigo**, **Sassari**, **Nuoro** and **Sud Sardegna** appear on both lists. On this basis, we can state that **having a low number of cultural institutions nearby the school may slightly have a negative influence on student performance**.
-
-In conclusion, **the number of cultural institutions nearby the school very slightly influence student performance**.
-
-#### School safety certificates
-
-By looking at the best provinces on both school self-evaluation and school safety certificates, **Rimini** and **Pordenone** are the only provinces on both lists. We can conclude that, according to our data, **having a good percentage of school safety certificates has no apparent relation with student performance**.
-
-In the same way, by looking at the provinces having the lowest percentage of school safety certificates and the lowest school self-evaluation results, we can see that only **Nuoro**, **Trieste** and **Chieti** are included in both lists. From this, we can state that **having a bad percentage of school safety certificates has no apparent relation with student performance**.
-
-In conclusion, **the percentage of school safety certificates do not have an apparent relation with student performance**.
 
 
 
