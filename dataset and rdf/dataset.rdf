@@ -5,131 +5,190 @@
          xmlns:foaf="http://xmlns.com/foaf/spec/"
          xmlns:cis="http://dati.beniculturali.it/cis/"
          xmlns:bot="https://w3id.org/bot#"
-         xmlns:dc="http://purl.org/dc/elements/1.1/">
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/piemonte">
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:crawci="http://www.semanticweb.org/simayguzel/crawci#">
+
+      <!-- Piemonte -->
+         
+   <rdf:Description rdf:about="http://dbpedia.org/page/Piedmont">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/34290">34290</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/44">44</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/207885">207885</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/69,1">69,1</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/valledoasto">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/69,1">69,1</crawci:hasInternetDiffusion>
+        <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0246</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Valle D'oasto -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Aosta_Valley">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/33504">33504</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/2">2</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/4085">4085</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/69,4">69,4</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/liguria">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/69,4">69,4</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Liguria -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Liguria">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/35866">35866</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/23">23</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/79898">79898</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/65,2">65,2</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/lombardia">
+      <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/65,2">65,2</crawci:hasInternetDiffusion>
+      <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0511</crawci:hasDensityofCulturalInstitution>
+      </rdf:Description>
+
+   <!-- Lombardia -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Lombardy">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/40459">40459</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/113">113</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/475194">475194</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/73,7">73,7</ds:internet_diffusion>
-   </rdf:Description>
-    <rdf:Description rdf:about="https://crawci.github.io/resource/region/trentino">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/73,7">73,7</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0238</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Trentino -->
+    <rdf:Description rdf:about="http://dbpedia.org/page/Trentino-Alto_Adige/Südtirol">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/396740">396740</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/43">43</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/33620">33620</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/72,5">72,5</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/veneto">
+      <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/72,5">72,5</crawci:hasInternetDiffusion>
+      <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</crawci:hasDensityofCulturalInstitution>
+      <crawci:hasInternetDiffusionLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</crawci:hasInternetDiffusionLevel>
+      </rdf:Description>
+
+   <!-- Veneto -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Veneto">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/39521">39521</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/77">77</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/169999">169999</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/72,6">72,6</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/friulivenezia">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/72,6">72,6</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0131</crawci:hasDensityofCulturalInstitution>
+       </rdf:Description>
+
+   <!-- Friuli Venezia Giulia -->
+
+   <rdf:Description rdf:about="http://dbpedia.org/page/Friuli-Venezia_Giulia">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/374830">374830</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/27">27</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/47465">47465</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/73,1">73,1</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/emiliaromagna">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/73,1">73,1</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0261</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Emilia Romagna -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Emilia-Romagna">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/40187">40187</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/67">67</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/229630">229630</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/71,9">71,9</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/valledoasto">
-      <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/33504">33504</ds:average_salary>
-      <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/2">2</cis:hostsCulturalEvent>
-      <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/4085">4085</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/69,4">69,4</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/toscana">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/71,9">71,9</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0265</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+ <!-- Toscana -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Tuscany">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/38202">38202</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/66">66</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/176246">176246</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/71,9,4">71,9,4</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/umbria">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/71,9,4">71,9,4</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0341</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Umbria -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Umbria">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/35860">35860</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/16">16</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/30108">30108</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/69">69</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/marche">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/69">69</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0315</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Marche -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Marche">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/36687">36687</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/2">2</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/47067">47067</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/70">70</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/lazio">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/70">70</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0413</crawci:hasDensityofCulturalInstitution>
+       </rdf:Description>
+
+   <!-- Lazio -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Lazio">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/36636">36636</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/42">42</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/276255">276255</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/72,9">72,9</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/abruzzo">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/72,9">72,9</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0312</crawci:hasDensityofCulturalInstitution>
+       </rdf:Description>
+
+   <!-- Abruzzo -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Abruzzo">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/31712">31712</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/7">7</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/43136">43136</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/70">70</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/molise">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/70">70</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0224</crawci:hasDensityofCulturalInstitution>
+        <crawci:hasInternetDiffusionLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High</crawci:hasInternetDiffusionLevel>
+       </rdf:Description>
+
+   <!-- Molise -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Molise">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/28581">28581</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/1">1</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/8205">8205</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/63,2">63,2</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/campania">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/63,2">63,2</crawci:hasInternetDiffusion>
+       <crawci:hasCrimeLevel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</crawci:hasCrimeLevel>
+        <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0132</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Campania -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Campania">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/27778">27778</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/21">21</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/222685">222685</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/64,4">64,4</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/puglia">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/64,4">64,4</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0263</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Puglia -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Apulia">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/31726">31726</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/28">28</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/149334">149334</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/62,4">62,4</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/basilicata">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/62,4">62,4</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0129</crawci:hasDensityofCulturalInstitution>
+       </rdf:Description>
+
+   <!-- Basilicata -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Basilicata">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/28578">28578</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/6">6</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/13570">13570</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/62,7">62,7</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/calabria">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/62,7">62,7</crawci:hasInternetDiffusion>
+      <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0083</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Calabria -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Calabria">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/26852">26852</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/27">27</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/61137">61137</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/59,4">59,4</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/sicilia">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/59,4">59,4</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0132</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Sicilia -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Sicily">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/25936">25936</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/50">50</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/176318">176318</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/60,6">60,6</ds:internet_diffusion>
-   </rdf:Description>
-   <rdf:Description rdf:about="https://crawci.github.io/resource/region/sardegna">
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/60,6">60,6</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0121</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
+
+   <!-- Sardegna -->
+   <rdf:Description rdf:about="http://dbpedia.org/page/Sardinia">
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/30332">30332</ds:average_salary>
       <cis:hostsCulturalEvent rdf:resource="https://crawci.github.io/resource/theatres/21">21</cis:hostsCulturalEvent>
       <ds:total_crime_rate rdf:resource="https://crawci.github.io/resource/criminalreports/47465">47465</dcterms:crimerate>
-       <ds:internet_diffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/72,4">72,4</ds:internet_diffusion>
-   </rdf:Description>
-   
+       <crawci:hasInternetDiffusion rdf:resource="https://crawci.github.io/resource/difuseofinternet/72,4">72,4</crawci:hasInternetDiffusion>
+       <crawci:hasDensityofCulturalInstitution rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0.0125</crawci:hasDensityofCulturalInstitution>
+        </rdf:Description>
