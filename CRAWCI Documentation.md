@@ -305,13 +305,13 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 | |1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |/ |/|/|/|/|/|/|
 | **Intellectual Property Rights of the dataset** | | |
 | | 2.1 Do you have created and generated the dataset ? | yes| yes| yes |yes|yes| yes| yes|
-| | 2.2 Are you the owner of the dataset? Who is the owner? |/ |/|/|/|/|yes|yes|
+| | 2.2 Are you the owner of the dataset? Who is the owner? |no-ISTAT|no-ISTAT|no- MIBAC|no-ISTAT|no-DatiOpen|yes|yes|
 | | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? | yes |yes| yes| yes|yes|yes|yes|
 | | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with an open license? | yes |yes| yes| yes|yes|yes|yes|
 | **License** | | |
 | | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)?| yes |yes| yes| yes|yes|yes| yes|
 | | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ?| no|no|no|no|no|yes|yes|
- | | 3.3 Do you release the API (in case you have) with an open source license no |no |no |no |no |no |no|no|
+ | | 3.3 Do you release the API (in case you have) with an open source license no |no |no |no |no |yes |no|no|
 | **Limitations on public access** | | |
 | | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |/|/|/|/|/|yes|yes|
 | | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |/|/|/|/|/|yes|yes|
@@ -326,7 +326,7 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 | |5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”?|yes|yes|yes|yes|yes|yes|yes|
 | | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation?|/|/|/|/|/|/|/|
 | **Temporary aspects** | | |
-| |6.1 Do you have a temporary policy for updating the dataset ? |?/ non viene infranta |?/ non viene infranta |?/ non viene infranta |/|/|/|/|/|/|/|
+| |6.1 Do you have a temporary policy for updating the dataset ? |/|/|/|/|/|/|/|
 | | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ?|/|/|/|/|/|/|/|
 | | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ?|/|/|/|/|/|/|/|
 | |6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?|/|/|/|/|/|/|/|
