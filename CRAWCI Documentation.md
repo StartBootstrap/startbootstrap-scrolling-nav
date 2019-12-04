@@ -639,9 +639,12 @@ Obtaining the regional results via our final 5-star dataset, led us to analyse i
 By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pearson's correlation is calculated by taking the results from our dataset. X axis consists of the values of cultural institution density and Y axis is filled with the values of average salary, internet diffusion, the number of total criminal reports one by one. 
 
 - Pearson's correlation between the cultural institution density and average salary(the first values in parenthesis stand for the C.I. density while the second ones are for the annual average salary:
+
+
  ```bash
  (0.0246,34.290) (0,33.504) (0.0511,35.866) (0.0238,40.459) (0.33,39.674) (0.0131,39.521) (0.0261,37.483) (0.0265,40.187)(0.0341,38.202) (0.0315,35.860) (0.0413,36.687) (0.0312,36.636) (0.0224,31.712) (0.0132,28.581) (0.0263,27.778) (0.0129,31.726) (0.0083,28.578) (0.0132,26.852) (0.0121,25.936) (0.0125,30.332)
   ```
+  
   - Correlation between the density of cultural institutions and average salary: **0.35698**. Positive correlation is obtained which proves our hypothesis: when the presence of C.I. is dense, the average salary increases, too.
   
   
@@ -665,8 +668,6 @@ By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pears
  
   - Correlation between the density of cultural institutions and the number of total criminal reports: **0.69353**. So, there is a positive correlation between them which means that when there is a high density of cultural instiution, the criminality increases which also proves our hypothesis.  
 ![alt text](crime-ci.png)
-
-- Correlation between the density of cultural institutions and internet diffusion: 0.44787
 
 
 Therefore, our hypothesis the high level of cultural institution presence increases the internet diffusion level, the annual criminal reports and average salary is proved. 
