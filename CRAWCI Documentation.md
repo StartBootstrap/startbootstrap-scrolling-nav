@@ -301,7 +301,7 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 | | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out?  |/ |/|/|/|/|/|/|
 | | 1.7 Are you using geolocalization capabilities? Do you check that the geolocalization process can’t identify single individuals in some circumstances? | no|no|no|no|no|no|no|
 | |1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? | yes|yes|yes|yes|yes|yes|yes|
-| |1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?  |yes |yes |yes |yes |no |yes |no|
+| |1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?  |yes |yes |yes |yes |no |yes |yes|
 | |1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |/ |/|/|/|/|/|/|
 | **Intellectual Property Rights of the dataset** | | |
 | | 2.1 Do you have created and generated the dataset ? | yes| yes| yes |yes|yes| yes| yes|
@@ -311,7 +311,7 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 | **License** | | |
 | | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)?| yes |yes| yes| yes|yes|yes| yes|
 | | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ?| no|no|no|no|no|yes|yes|
- | | 3.3 Do you release the API (in case you have) with an open source license ? |? |?|?|?|?|no|no|
+ | | 3.3 Do you release the API (in case you have) with an open source license no |no |no |no |no |no |no|no|
 | **Limitations on public access** | | |
 | | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |/|/|/|/|/|yes|yes|
 | | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |/|/|/|/|/|yes|yes|
