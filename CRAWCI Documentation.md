@@ -362,18 +362,18 @@ Dataset D5 makes arbitrary use of uppercase and lowercase. Also, D5 has empty ro
 
 Ultimately, none of the datasets was published in RDF format which give us a reson to consider all the original datasets as 3-star Open Data. What is more, there is no indication about the encoding of the files (if it's ASCII, ISO-8859-1), despite this is encouraged by the ["Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2017/08/03/open-data-online-linee-guida-valorizzazione-del-patrimonio-informativo-pubblico). We consider this problem as an accute one since the wrong encoding can potentially lead to various problems in the automatic data processing for example,  incorrect data results since some cells may be skipped while processing data.
 
-## 7. Analysis Summary
+### 6.1 Analysis Summary
 
 | Id | Problem description | Severity (1-3) | Type (Syntax/Semantics) | Proposed solution |
 |-------------------------------|----------------------------|----------------|-------------------------|----------------------------|
-| D1, D2, D4.1, D4.2 / Column A | Ambiguous date format used | 1.5 | Syntax | Adopt ISO 8601 date format |
-| D1 | Indirect information about individuals | 3 | Semantics, Privacy | Remove information |
-| D3, D4.3 | Incorrect information about Sardinia's provinces | 2.5 | Outdated content | Combination of manual and automatic methods to redistribute data in the correct provinces |
-| D1 | Encoding of the dataset not specified | 2 | Technical | Include a note on the download page of the dataset stating its encoding |
-| D1 | Ambiguity between title and content (school/institutes ID)| 2 | Semantics | Disambiguation through alignment scripts with other datasets |
-| D2 | Ambiguity with the content of the cells (-, "Non richiesto") | 2 | Semantics | Our solution was to consider them both as "NO" | 
+| D1, D2, D4 | Encoding of the dataset not specified  | 1.5 | Tecnical | Include a note on the download page of the dataset stating its encoding |
+| D1 | Violations of the commen format for Comma-Separated Values (CSV) | 3 | Tecnical, Syntax | Follow the Common Format RFC 4180 (https://tools.ietf.org/html/rfc4180 |
+| D3 | Incorrect information about Sardinia's provinces | 2.5 | Outdated content | Combination of manual and automatic methods to redistribute data in the correct provinces |
+| D4 | The absence of the well-defined structure | 2 | Technical | List all all types of crime in order following a defined structure |
+| D5 | Empty rows| 2 | Semantics | Fill in the empty rows manually with names of the theatres  |
+| D1, D2, D3, D4, D5 | No RDF | 2 | Technical, Syntax | Creating RDF for datasets | 
 
-## 8. Creating the CRAWCI Ontology
+## 7. Creating the CRAWCI Ontology
 
 An ontology is a detailed model of a slice of reality which is based on the facts that we know about that reality. This model is a description of some of the things and some of the relationships between the things that are known about that reality.
 
@@ -384,12 +384,12 @@ The **CRWACI Ontology** modeling was based on the analysed and extracted data wh
 The full Ontology documentation and visualisation can be found here: https://github.com/simayguzel/OpenDataCRAWCI/tree/master/myDocumentation
 
 
-## 9. Mashup Data Curation.
+## 8. Mashup Data Curation.
 
 CRAWCI Mashup datasets **D6** and **D7** were produced as a 5 star Open Data, following the principles of 5-star deployment scheme for data to be published on the Web. Please find below the detailed expanations.
 
 
-### 9.1 csv2rdf
+### 8.1 CSV to RDF Conversion
 
 To convert our data we used csv2rdf which is a Java based application, which relies on Apache Jena to convert tabular data to RDF. https://github.com/anuzzolese/csv2rdf/blob/master/README.md
 
@@ -445,28 +445,18 @@ The character used as separator within the CSV file (e.g. , or ;).
  The execution of the tool with the arguments as provided produced the following RDF serialised by using the TURTLE syntax.
  
 
-### 9.2 Updating the dataset over time
+### 8.2 Updating the dataset over time
 
 We do not plan to update CRAWCI datasets as it considers the specific year, namely 2016. However, it would be interesting to analyse other years to see the results in dynamic.
 
-## 10. Analysis Summary
 
-| Id | Problem description | Severity (1-3) | Type (Syntax/Semantics) | Proposed solution |
-|-------------------------------|----------------------------|----------------|-------------------------|----------------------------|
-| D1, D2, D4 | Encoding of the dataset not specified  | 1.5 | Tecnical | Include a note on the download page of the dataset stating its encoding |
-| D1 | Violations of the commen format for Comma-Separated Values (CSV) | 3 | Tecnical, Syntax | Follow the Common Format RFC 4180 (https://tools.ietf.org/html/rfc4180 |
-| D3 | Incorrect information about Sardinia's provinces | 2.5 | Outdated content | Combination of manual and automatic methods to redistribute data in the correct provinces |
-| D4 | The absence of the well-defined structure | 2 | Technical | List all all types of crime in order following a defined structure |
-| D5 | Empty rows| 2 | Semantics | Fill in the empty rows manually with names of the theatres  |
-| D1, D2, D3, D4, D5 | No RDF | 2 | Technical, Syntax | Creating RDF for datasets | 
-
-## 11. Handling the visualization (technical description)
+## 9. Handling the visualization (technical description)
 
 In order to visualize the data the following libraries were used:
 
 * **Bootstrap**: Build responsive, mobile-first projects on the web with the world's most popular front-end component library.
 
-### 11.1 Cultural institutions
+### 9.1 Cultural institutions
 N. of cultural institutions divided by Km^2.
 
 For Italy, each region, each province we established the following threshold:
@@ -475,11 +465,11 @@ For Italy, each region, each province we established the following threshold:
 -two museum icons if >= 0.0224 and < 0.0448;
 -three museum icons if >= 0.0448.
 
-## 12. Summary
+## 10. Summary
 
 This part presents the results of the data analysis. We ordered the regions descendingly from the first region featuring the highest value to the last one with the lowest value.
 
-### 12.1 Average Salary
+### 10.1 Average Salary
 
 According to the obtained data, **Lombardia** is the region with the biggest salary, while **Sicilia** has the lowest one:
 
@@ -504,7 +494,7 @@ According to the obtained data, **Lombardia** is the region with the biggest sal
 19. Calabria
 20. Sicilia
 
-### 12.2 Total number of theatres
+### 10.2 Total number of theatres
 
 According to the obtained data, **Lombardia** is the region with the highest number of theatres, while **Molise** has the lowest one: 
 
@@ -529,7 +519,7 @@ According to the obtained data, **Lombardia** is the region with the highest num
 19. Valle d'Aosta
 20. Molise
 
-### 12.3 Diffusion of the Internet
+### 10.3 Diffusion of the Internet
 
 According to the obtained data, **Lombardia** is the region with the highest percentage of diffusion of the internet, while **Calabria** has the lowest one:
 
@@ -554,7 +544,7 @@ According to the obtained data, **Lombardia** is the region with the highest per
 19. Sicilia
 20. Calabria
 
-### 12.4 Total number of criminal reports
+### 10.4 Total number of criminal reports
 
 According to the obtained data, **Lombardia** is the region with the highest crime rate, while **Valle d'Aosta** has the lowest one:
 
@@ -580,7 +570,7 @@ According to the obtained data, **Lombardia** is the region with the highest cri
 20. Valle d'Aosta
 
 
-### 12.5 Cultural institutions
+### 10.5 Cultural institutions
 
 According to the obtained data, **Liguria** is the region with the highest density of cultural institutions, while **Valle d'Aosta** has the lowest one. The regions order descendingly according to the total number:
 
@@ -605,7 +595,7 @@ According to the obtained data, **Liguria** is the region with the highest densi
 19. Trentino Aldo Adige
 20. Valle d'Aosta
 
-### 12.6 Types of crimes
+### 10.6 Types of crimes
 
 Our final dataset features 56 types of crimes, after analysing all of them we ended up paying more attention to some crime types. For example, **theft of art objets** which obviously leads to the conclusion that **the presence of cultutal institutions** that have valuable instances in their collections is **directly connected to potential threat of crime**. Below are the top 7 regions featuring the highest number of **theft of art objets**:
 
@@ -645,7 +635,7 @@ Our final dataset features 56 types of crimes, after analysing all of them we en
 5. Piemonte
 6. Emilia-Romagna
 
-### 12.7 Correlation
+### 10.7 Correlation
 
 In order to answer our initial question **weather there is a strong relationship between the density of cultural institutions and(respectively) average salary, internet diffusion and the number of total criminal reports** 
 and hence to aprove o disaprove our hypothesis "**The presence of cultural institutions increases the average salary and dicreases the crime rate"** , we have calculated the correlation coefficients. The correlation is used in statistics to measure how strong a relationship is between two variables. The formulas return a value between **-1**(negative correlation) and **1**(positive correlation). 
