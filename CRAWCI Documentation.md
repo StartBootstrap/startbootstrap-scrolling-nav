@@ -376,9 +376,14 @@ Ultimately, none of the datasets was published in RDF format which give us a res
 ## 8. Creating the CRAWCI Ontology
 
 An ontology is a detailed model of a slice of reality which is based on the facts that we know about that reality. This model is a description of some of the things and some of the relationships between the things that are known about that reality.
-The CRWACI Ontology creation was based on the analysed and extracted data.
-Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data by providing a common and extensible semantic framework. In this way, it helps to mediate between different sources of information on the Semantic Web.</p>
-The full Ontology documentation and visualisation can be found here https://simayguzel.github.io/crawci/myDocumentation/index-en.html
+
+We faced the need to create our own ontology once we realized that there was a lack of vocabularies for the description of statistical and crime data that would suit the needs of our project. Even though we managed to reuse some namespaces as(**ds:total_crime_rate**; **ds:average_salary**; **cis:hostsCulturalEvent**), those vocabularies were not enough to record the nature of our data and sufficiently describe it on the Web. 
+
+The **CRWACI Ontology** modeling was based on the analysed and extracted data while creating our mashup datasets.
+
+Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data. We also paid special attention to modelling crime related namespaces in order to provide information on the crime situation in the italian regions observing practice of different crime types. In this way, it helps to mediate between different sources of information on the Semantic Web.
+
+The full Ontology documentation and visualisation can be found here https://github.com/simayguzel/OpenDataCRAWCI/tree/master/myDocumentation
 
 
 ## 9. Mashup Data Curation.
