@@ -301,7 +301,7 @@ The analysis pays particular attention to aspects related to privacy, licenses a
 | | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out?  |/ |/|/|/|/|/|/|
 | | 1.7 Are you using geolocalization capabilities ? Do you check that the geolocalization process can’t identify single individuals in some circumstances? | no|no|no|no|no|no|no|
 | |1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? | yes|yes|yes|yes|yes|yes|yes|
-| |1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?  |/ |/|/|/|/|/|/|
+| |1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?  |yes |yes |yes |yes |no |yes |no|
 | |1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |/ |/|/|/|/|/|/|
 | **Intellectual Property Rights of the dataset** | | |
 | | 2.1 Do you have created and generated the dataset ? | yes| yes| yes |yes|yes| yes| yes|
