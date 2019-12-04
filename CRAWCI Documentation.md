@@ -318,13 +318,13 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 | |4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ?|yes|yes|yes|yes|no|yes|yes|
 | |4.4 Do you check if there are some limitations concerning the public interest ?|yes|yes|yes|yes|yes|yes|yes|
 | |4.5 Do you check the international law limitations ?|yes|yes|yes|yes|no|yes|yes|
-| |4.6 Do you check the INSPIRE law limitations for the spatial data?|/|/|/|/|/|yes|yes|
+| |4.6 Do you check the INSPIRE law limitations for the spatial data?|/|/|/|/|/|/|/|
 | **Economical Conditions** | | |
 | | 5.1 Do you check that the dataset could be released for free ? |yes|yes|yes|yes|yes|yes|yes|
 | | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ? |yes |yes|yes|yes|yes|yes|yes|yes|
 | |5.3 Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ? |yes |yes |yes |yes |yes |yes |yes|
 | |5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”?|yes|yes|yes|yes|yes|yes|yes|
-| | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation?|/|/|/|/|/|yes|yes|
+| | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation?|yes|yes|yes|yes|yes|yes|yes|
 | **Temporary aspects** | | |
 | |6.1 Do you have a temporary policy for updating the dataset ? |yes|yes|yes|yes|yes|yes|yes|
 | | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ?|yes|yes|yes|yes|yes|yes|yes|
