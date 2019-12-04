@@ -6508,7 +6508,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-image: url("egovern1.png") !important;
+  background-image: url("egovern1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
