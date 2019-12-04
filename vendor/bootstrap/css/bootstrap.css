@@ -6508,7 +6508,9 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-image: url("egovern1.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
