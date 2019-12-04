@@ -301,7 +301,7 @@ The analysis pays particular attention to aspects related to privacy, licenses a
 | | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out?  |/ |/|/|/|/|/|/|
 | | 1.7 Are you using geolocalization capabilities ? Do you check that the geolocalization process can’t identify single individuals in some circumstances? | no|no|no|no|no|no|no|
 | |1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? | yes|yes|yes|yes|yes|yes|yes|
-| |1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?  |/ |/|/|/|/|/|/|
+| |1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?  |yes |yes |yes |yes |no |yes |no|
 | |1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |/ |/|/|/|/|/|/|
 | **Intellectual Property Rights of the dataset** | | |
 | | 2.1 Do you have created and generated the dataset ? | yes| yes| yes |yes|yes| yes| yes|
@@ -331,7 +331,10 @@ The analysis pays particular attention to aspects related to privacy, licenses a
 | | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ?|/|/|/|/|/|/|/|
 | |6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?|/|/|/|/|/|/|/|
 
-The Datasets do not include any personal information of individuals since no attributes about an individual are released. Hence, an identity cannot be inferred. What is more, date-sets are not cross-referenced and not connected between other databases and datasets. We have not identified threats related to how information can be identified and connected to specific individuals.
+The Datasets do not include any personal information of individuals since no attributes about individuals are present. Moreover, we did not detect any data that would fit the concept of personal data according to the Article 29 Working Party Opinion 4/2007 (https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf) “data relates to an individual if it refers to the identity, characteristics or behaviour of an individual or if such information is used to determine or influence the way in which that
+person is treated or evaluated” 
+ 
+Hence, an identity cannot be inferred. What is more, datasets are not cross-referenced and not connected between other databases and datasets. We have not determined threats related to how information can be identified and connected to specific individuals.
 
 ### 5.2 Licenses
 
@@ -387,7 +390,7 @@ The full Ontology documentation and visualisation can be found here: https://git
 ### 7.1 The CRAWCI Ontology Visualisation
 
 To visualize our ontology we used <a href="http://rhizomik.net/">Rizhomik tool.
-  
+
 The CRAWCI Ontology **visualisation** can be found <a href="https://github.com/simayguzel/crawci/blob/master/crawciont.svg">here.
 
 The CRAWCI Ontology **clsss hierarchy** can be found <a href="https://github.com/simayguzel/crawci/blob/master/classhierarchy.svg">here.
