@@ -373,12 +373,20 @@ Ultimately, none of the datasets was published in RDF format which give us a res
 | D1 | Ambiguity between title and content (school/institutes ID)| 2 | Semantics | Disambiguation through alignment scripts with other datasets |
 | D2 | Ambiguity with the content of the cells (-, "Non richiesto") | 2 | Semantics | Our solution was to consider them both as "NO" | 
 
-## 8. Mashup Data Curation.
+## 8. Creating the CRAWCI Ontology
+
+An ontology is a detailed model of a slice of reality which is based on the facts that we know about that reality. This model is a description of some of the things and some of the relationships between the things that are known about that reality.
+The CRWACI Ontology creation was based on the analysed and extracted data.
+Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data by providing a common and extensible semantic framework. In this way, it helps to mediate between different sources of information on the Semantic Web.</p>
+The full Ontology documentation and visualisation can be found here https://simayguzel.github.io/crawci/myDocumentation/index-en.html
+
+
+## 9. Mashup Data Curation.
 
 CRAWCI Mashup datasets **D6** and **D7** were produced as a 5 star Open Data, following the principles of 5-star deployment scheme for data to be published on the Web. Please find below the detailed expanations.
 
 
-### 8.1 csv2rdf
+### 9.1 csv2rdf
 
 To convert our data we used csv2rdf which is a Java based application, which relies on Apache Jena to convert tabular data to RDF. https://github.com/anuzzolese/csv2rdf/blob/master/README.md
 
@@ -434,11 +442,11 @@ The character used as separator within the CSV file (e.g. , or ;).
  The execution of the tool with the arguments as provided produced the following RDF serialised by using the TURTLE syntax.
  
 
-### 8.2 Updating the dataset over time
+### 9.2 Updating the dataset over time
 
 We do not plan to update CRAWCI datasets as it considers the specific year, namely 2016. However, it would be interesting to analyse other years to see the results in dynamic.
 
-## 9. Analysis Summary
+## 10. Analysis Summary
 
 | Id | Problem description | Severity (1-3) | Type (Syntax/Semantics) | Proposed solution |
 |-------------------------------|----------------------------|----------------|-------------------------|----------------------------|
@@ -449,13 +457,13 @@ We do not plan to update CRAWCI datasets as it considers the specific year, name
 | D1 | Ambiguity between title and content (school/institutes ID)| 2 | Semantics | Disambiguation through alignment scripts with other datasets |
 | D2 | Ambiguity with the content of the cells (-, "Non richiesto") | 2 | Semantics | Our solution was to consider them both as "NO" | 
 
-## 10. Handling the visualization (technical description)
+## 11. Handling the visualization (technical description)
 
 In order to visualize the data the following libraries were used:
 
 * **Bootstrap**: Build responsive, mobile-first projects on the web with the world's most popular front-end component library.
 
-### 10.1 Cultural institutions
+### 11.1 Cultural institutions
 N. of cultural institutions divided by Km^2.
 
 For Italy, each region, each province we established the following threshold:
@@ -464,9 +472,9 @@ For Italy, each region, each province we established the following threshold:
 -two museum icons if >= 0.0224 and < 0.0448;
 -three museum icons if >= 0.0448.
 
-## 11. Statistical Summary
+## 12. Statistical Summary
 
-### 11.1 Average Salary
+### 12.1 Average Salary
 
 According to the obtained data, **Lombardia** is the region with the biggest salary, while **Sicilia** has the lowest one. The regions are ordered descendingly according to the average salary:
 
@@ -491,7 +499,7 @@ According to the obtained data, **Lombardia** is the region with the biggest sal
 19. Calabria
 20. Sicilia
 
-### 11.2 Total number of theatres
+### 12.2 Total number of theatres
 
 According to the obtained data, **Lombardia** is the region with the highest number of theatres, while **Molise** has the lowest one. The regions are ordered descendingly according to the total number:
 
@@ -516,7 +524,7 @@ According to the obtained data, **Lombardia** is the region with the highest num
 19. Valle d'Aosta
 20. Molise
 
-### 11.3 Diffusion of the Internet
+### 12.3 Diffusion of the Internet
 
 According to the obtained data, **Lombardia** is the region with the highest percentage of diffusion of the internet, while **Calabria** has the lowest one. The regions are ordered descendingly according to the percentage:
 
@@ -541,7 +549,7 @@ According to the obtained data, **Lombardia** is the region with the highest per
 19. Sicilia
 20. Calabria
 
-### 11.4 Total number of criminal reports
+### 12.4 Total number of criminal reports
 
 According to the obtained data, **Lombardia** is the region with the highest crime rate, while **Valle d'Aosta** has the lowest one. The regions are ordered descendingly according to the total number of criminal reports:
 
@@ -567,7 +575,7 @@ According to the obtained data, **Lombardia** is the region with the highest cri
 20. Valle d'Aosta
 
 
-### 11.5 Cultural institutions
+### 12.5 Cultural institutions
 
 According to the obtained data, **Liguria** is the region with the highest density of cultural institutions, while **Valle d'Aosta** has the lowest one. The regions order descendingly according to the total number:
 
@@ -592,7 +600,7 @@ According to the obtained data, **Liguria** is the region with the highest densi
 19. Trentino Aldo Adige
 20. Valle d'Aosta
 
-### 11.6 Types of crimes
+### 12.6 Types of crimes
 
 Our final dataset features 56 types of crimes, after analysing all of them we ended up paying more attention to some crime types. For example, **theft of art objets** which obviously leads to the conclusion that **the presence of cultutal institutions** that have valuable instances in their collections is **directly connected to potential threat of crime**. Below are the top 7 regions featuring the highest number of **theft of art objets**:
 
@@ -632,7 +640,7 @@ Our final dataset features 56 types of crimes, after analysing all of them we en
 5. Piemonte
 6. Emilia-Romagna
 
-### 11.7 Correlation
+### 12.7 Correlation
 
 Obtaining the regional results via our final 5-star dataset, led us to analyse if there is a strong relationship between the density of cultural institutions and(respectively) average salary, internet diffusion, the number of total criminal reports. For this purpose, we have calculated the correlation coefficients which are used in statistics to measure how strong a relationship is between two variables. The formulas return a value between -1(negative correlation) and 1(positive correlation). 
 
@@ -673,7 +681,7 @@ By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pears
 Therefore, our hypothesis the high level of cultural institution presence increases the internet diffusion level, the annual criminal reports and average salary is proved. 
 
 
-### 6.4 What about our initial questions? 
+### 13. What about our initial questions? 
 
 
 
