@@ -453,12 +453,12 @@ We do not plan to update CRAWCI datasets as it considers the specific year, name
 
 | Id | Problem description | Severity (1-3) | Type (Syntax/Semantics) | Proposed solution |
 |-------------------------------|----------------------------|----------------|-------------------------|----------------------------|
-| D1, D2, D4.1, D4.2 / Column A | Ambiguous date format used | 1.5 | Syntax | Adopt ISO 8601 date format |
-| D1 | Indirect information about individuals | 3 | Semantics, Privacy | Remove information |
-| D3, D4.3 | Incorrect information about Sardinia's provinces | 2.5 | Outdated content | Combination of manual and automatic methods to redistribute data in the correct provinces |
-| D1 | Encoding of the dataset not specified | 2 | Technical | Include a note on the download page of the dataset stating its encoding |
-| D1 | Ambiguity between title and content (school/institutes ID)| 2 | Semantics | Disambiguation through alignment scripts with other datasets |
-| D2 | Ambiguity with the content of the cells (-, "Non richiesto") | 2 | Semantics | Our solution was to consider them both as "NO" | 
+| D1, D2, D4 | Encoding of the dataset not specified  | 1.5 | Tecnical | Include a note on the download page of the dataset stating its encoding |
+| D1 | Violations of the commen format for Comma-Separated Values (CSV) | 3 | Tecnical, Syntax | Follow the Common Format RFC 4180 (https://tools.ietf.org/html/rfc4180 |
+| D3 | Incorrect information about Sardinia's provinces | 2.5 | Outdated content | Combination of manual and automatic methods to redistribute data in the correct provinces |
+| D4 | The absence of the well-defined structure | 2 | Technical | List all all types of crime in order following a defined structure |
+| D5 | Empty rows| 2 | Semantics | Fill in the empty rows manually with names of the theatres  |
+| D1, D2, D3, D4, D5 | No RDF | 2 | Technical, Syntax | Creating RDF for datasets | 
 
 ## 11. Handling the visualization (technical description)
 
