@@ -345,7 +345,7 @@ Our final dataset has an open licence which allows others to republish the conte
 
 Datasets **D1, D2, D4** are available in English and Italian languages in multidimensional tables which users can export in **.xls, .csv** formats.  Default format: **Comma (,)** separated with codes and labels in separate columns.  The datasets can be can customised by choosing Text File format: **Comma ( , ); Pipe ( | ); Tabullator.**
 
-A CSV should normally follow RFC 4180(https://tools.ietf.org/html/rfc4180), however, it is not followed most of the time. While analysing the CSV files of D1, D2 and D4, we have realized that each row end with ",," which does not suit to the CSV format. 
+A CSV should normally follow RFC 4180(https://tools.ietf.org/html/rfc4180), however, it is not followed most of the time. While analysing the CSV files of D1, D2 and D4, we have realized that each row end with ",, which does not suit to the CSV format. 
 
 None of the datasets **D1, D2, D4**  was published in .RDF format which give us a reson to consider all the original  datasets as 3-star Open Data.
 
@@ -383,6 +383,16 @@ We faced the need to create our own ontology once we realized that there was a l
 The **CRWACI Ontology** modeling was based on the analysed and extracted data while creating our mashup datasets. Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data. We also paid special attention to modelling crime related namespaces in order to provide information on the crime situation in the italian regions observing practice of different crime types. In this way, it helps to mediate between different sources of information on the Semantic Web.
 
 The full Ontology documentation and visualisation can be found here: https://github.com/simayguzel/OpenDataCRAWCI/tree/master/myDocumentation
+
+### 7.1 The CRAWCI Ontology Visualisation
+
+To visualize our ontology we used <a href="http://rhizomik.net/">Rizhomik tool.
+  
+The CRAWCI Ontology **visualisation** can be found <a href="https://github.com/simayguzel/crawci/blob/master/crawciont.svg">here.
+
+The CRAWCI Ontology **clsss hierarchy** can be found <a href="https://github.com/simayguzel/crawci/blob/master/classhierarchy.svg">here.
+
+The CRAWCI Ontology **graph** can be found <a href="https://github.com/simayguzel/crawci/blob/master/crawcigraph.svg">here.s
 
 
 ## 8. Mashup Data Curation.
