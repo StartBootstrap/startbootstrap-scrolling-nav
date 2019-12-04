@@ -331,7 +331,10 @@ The analysis pays particular attention to aspects related to privacy, licenses a
 | | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ?|/|/|/|/|/|/|/|
 | |6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?|/|/|/|/|/|/|/|
 
-The Datasets do not include any personal information of individuals since no attributes about an individual are released. Hence, an identity cannot be inferred. What is more, date-sets are not cross-referenced and not connected between other databases and datasets. We have not identified threats related to how information can be identified and connected to specific individuals.
+The Datasets do not include any personal information of individuals since no attributes about individuals are present. Moreover, we did not detect any data that would fit the concept of personal data according to the Article 29 Working Party Opinion 4/2007 (https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf) “data relates to an individual if it refers to the identity, characteristics or behaviour of an individual or if such information is used to determine or influence the way in which that
+person is treated or evaluated” 
+ 
+Hence, an identity cannot be inferred. What is more, datasets are not cross-referenced and not connected between other databases and datasets. We have not determined threats related to how information can be identified and connected to specific individuals.
 
 ### 5.2 Licenses
 
@@ -387,7 +390,7 @@ The full Ontology documentation and visualisation can be found here: https://git
 ### 7.1 The CRAWCI Ontology Visualisation
 
 To visualize our ontology we used <a href="http://rhizomik.net/">Rizhomik tool.
-  
+
 The CRAWCI Ontology **visualisation** can be found <a href="https://github.com/simayguzel/crawci/blob/master/crawciont.svg">here.
 
 The CRAWCI Ontology **clsss hierarchy** can be found <a href="https://github.com/simayguzel/crawci/blob/master/classhierarchy.svg">here.
