@@ -275,9 +275,10 @@ This section considers the necessary requirements, established according to the 
 
 1. D1 makes arbitrary use of uppercase and lowercase.
 
-2. D2 makes arbitrary use of uppercase and lowercase; unclear semantic("CRIMEN", "TERRORHOM")
+2. D2 makes arbitrary use of uppercase and lowercase.
+
 3. D3 does not feature up-to-date information regarding Sardinia provinces, which changed in 2016 going from a total of 8 to a total of 4 (see Legge Regionale 4 Febbraio 2016 n.2). 
-4. D4 makes arbitrary use of uppercase and lowercase, unclear semantic FAM_INT_YES, FAM_NO_ELSE, FAM_NO_USE, FAM_NO_EQUI, FAM_NO_COST, FAM_NO_SKIL, FAM_NO_SEC, FAM_NO_BROAD, FAM_NO_OTH
+4. D4 makes arbitrary use of uppercase and lowercase.s
 
 5. D5 makes use of integer values for indicating Comune, Provincia, Regione without a complementary explanation. 
 
@@ -344,7 +345,7 @@ Our final dataset has an open licence which allows others to republish the conte
 
 Datasets **D1, D2, D4** are available in English and Italian languages in multidimensional tables which users can export in **.xls, .csv** formats.  Default format: **Comma (,)** separated with codes and labels in separate columns.  The datasets can be can customised by choosing Text File format: **Comma ( , ); Pipe ( | ); Tabullator.**
 
-A CSV should normally follow RFC 4180(https://tools.ietf.org/html/rfc4180), however, it is not followed most of the time. While analysing the CSV files of D1, D2 and D4, we have realized that each row end with ,, which does not suit to the CSV format. 
+A CSV should normally follow RFC 4180(https://tools.ietf.org/html/rfc4180), however, it is not followed most of the time. While analysing the CSV files of D1, D2 and D4, we have realized that each row end with ",," which does not suit to the CSV format. 
 
 None of the datasets **D1, D2, D4**  was published in .RDF format which give us a reson to consider all the original  datasets as 3-star Open Data.
 
@@ -366,7 +367,7 @@ Ultimately, none of the datasets was published in RDF format which give us a res
 
 | Id | Problem description | Severity (1-3) | Type (Syntax/Semantics) | Proposed solution |
 |-------------------------------|----------------------------|----------------|-------------------------|----------------------------|
-| D1, D2, D4 | Encoding of the dataset not specified  | 1.5 | Tecnical | Include a note on the download page of the dataset stating its encoding |
+| D1, D2, D4 | Encoding of the dataset not specified  | 1.5 | Technical | Include a note on the download page of the dataset stating its encoding |
 | D1 | Violations of the commen format for Comma-Separated Values (CSV) | 3 | Tecnical, Syntax | Follow the Common Format RFC 4180 (https://tools.ietf.org/html/rfc4180 |
 | D3 | Incorrect information about Sardinia's provinces | 2.5 | Outdated content | Combination of manual and automatic methods to redistribute data in the correct provinces |
 | D4 | The absence of the well-defined structure | 2 | Technical | List all all types of crime in order following a defined structure |
