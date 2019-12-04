@@ -436,7 +436,7 @@ The character used as separator within the CSV file (e.g. , or ;).
 
 ### 8.2 Updating the dataset over time
 
-We do not plan to update CRAWCI datasets as it consider the specific year, namely 2016. However, it would be interesting to analyse other years to see the results in dynamic.
+We do not plan to update CRAWCI datasets as it considers the specific year, namely 2016. However, it would be interesting to analyse other years to see the results in dynamic.
 
 ## 9. Analysis Summary
 
@@ -592,11 +592,7 @@ According to the obtained data, **Liguria** is the region with the highest densi
 19. Trentino Aldo Adige
 20. Valle d'Aosta
 
-### 11.6 Correlation
-
-Smoke weed every day 
-
-### 11.7 Types of crimes
+### 11.6 Types of crimes
 
 Our final dataset features 56 types of crimes, after analysing all of them we ended up paying more attention to some crime types. For example, **theft of art objets** which obviously leads to the conclusion that **the presence of cultutal institutions** that have valuable instances in their collections is **directly connected to potential threat of crime**. Below are the top 7 regions featuring the highest number of **theft of art objets**:
 
@@ -636,9 +632,48 @@ Our final dataset features 56 types of crimes, after analysing all of them we en
 5. Piemonte
 6. Emilia-Romagna
 
+### 11.7 Correlation
+
+Obtaining the regional results via our final 5-star dataset, led us to analyse if there is a strong relationship between the density of cultural institutions and(respectively) average salary, internet diffusion, the number of total criminal reports. For this purpose, we have calculated the correlation coefficients which are used in statistics to measure how strong a relationship is between two variables. The formulas return a value between -1(negative correlation) and 1(positive correlation). 
+
+By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pearson's correlation is calculated by taking the results from our dataset. X axis consists of the values of cultural institution density and Y axis is filled with the values of average salary, internet diffusion, the number of total criminal reports one by one. 
+
+- Pearson's correlation between the cultural institution density and average salary(the first values in parenthesis stand for the C.I. density while the second ones are for the annual average salary:
+
+
+ ```bash
+ (0.0246,34.290) (0,33.504) (0.0511,35.866) (0.0238,40.459) (0.33,39.674) (0.0131,39.521) (0.0261,37.483) (0.0265,40.187)(0.0341,38.202) (0.0315,35.860) (0.0413,36.687) (0.0312,36.636) (0.0224,31.712) (0.0132,28.581) (0.0263,27.778) (0.0129,31.726) (0.0083,28.578) (0.0132,26.852) (0.0121,25.936) (0.0125,30.332)
+  ```
+  
+  - Correlation between the density of cultural institutions and average salary: **0.35698**. Positive correlation is obtained which proves our hypothesis: when the presence of C.I. is dense, the average salary increases, too.
+  
+  
+![alt text](salary-ci.png)
+
+
+- Pearson's correlation between the cultural institution density and internet diffusion(the first values in parenthesis stand for the C.I. density while the second ones are for the internet diffusion:
+
+ ```bash
+(0.0246,69.1) (0,69.4) (0.0511,65.2) (0.0238,73,7) (0.33,72.5) (0.0131,72.6) (0.0261,73.1) (0.0265,71.9)(0.0341,71.9) (0.0315,69) (0.0413,70) (0.0312,72.9) (0.0224,70) (0.0132,63.2) (0.0263,64.4) (0.0129,62.4) (0.0083,62.7) (0.0132,59.4) (0.0121,60.6) (0.0125,72.4)
+ ```
+ 
+   - Correlation between the density of cultural institutions and internet diffusion : **0.25864**. Like average salary, there is a positive correlation between the C.I. density and internet diffusion and it can be deduced that the denser cultural instiution presence is, the wider internet spread is.  
+ ![alt text](internet-ci.png)
+
+- Pearson's correlation between the cultural institution density and criminal reports(the first values in parenthesis stand for the C.I. density while the second ones are for the number of criminal reports:
+
+ ```bash
+(0.0246,207.885) (0,4.085) (0.0511,79.898) (0.0238,475.194) (0.33,620) (0.0131,169.999) (0.0261,35.552) (0.0265,229.630)(0.0341,176.246) (0.0315,30.108) (0.0413,47.067) (0.0312,276.255) (0.0224,43.136) (0.0132,8.205) (0.0263,222.685) (0.0129,149.334) (0.0083,13.570) (0.0132,61.137) (0.0121,176.318) (0.0125,47.465)
+ ```
+ 
+  - Correlation between the density of cultural institutions and the number of total criminal reports: **0.69353**. So, there is a positive correlation between them which means that when there is a high density of cultural instiution, the criminality increases which also proves our hypothesis.  
+![alt text](crime-ci.png)
+
+
+Therefore, our hypothesis the high level of cultural institution presence increases the internet diffusion level, the annual criminal reports and average salary is proved. 
+
 
 ### 6.4 What about our initial questions? 
-
 
 
 
