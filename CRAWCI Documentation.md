@@ -313,23 +313,23 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 | | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ?| no|no|no|no|no|yes|yes|
  | | 3.3 Do you release the API (in case you have) with an open source license no |no |no |no |no |yes |no|no|
 | **Limitations on public access** | | |
-| | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |/|/|/|/|/|yes|yes|
-| | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |/|/|/|/|/|yes|yes|
-| |4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ?|/|/|/|/|/|yes|yes|
-| |4.4 Do you check if there are some limitations concerning the public interest ?|/|/|/|/|/|yes|yes|
-| |4.5 Do you check the international law limitations ?|/|/|/|/|/|yes|yes|
-| |4.6 Do you check the INSPIRE law limitations for the spatial data?|/|/|/|/|/|yes|yes|
+| | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |yes|yes|yes|yes|yes|yes|yes|
+| | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |yes|yes|yes|yes|yes|yes|yes|
+| |4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ?|yes|yes|yes|yes|no|yes|yes|
+| |4.4 Do you check if there are some limitations concerning the public interest ?|yes|yes|yes|yes|yes|yes|yes|
+| |4.5 Do you check the international law limitations ?|yes|yes|yes|yes|no|yes|yes|
+| |4.6 Do you check the INSPIRE law limitations for the spatial data?|/|/|/|/|/|/|/|
 | **Economical Conditions** | | |
 | | 5.1 Do you check that the dataset could be released for free ? |yes|yes|yes|yes|yes|yes|yes|
-| | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ? | |yes|yes|yes|yes|yes|yes|yes|
+| | 5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ? |yes |yes|yes|yes|yes|yes|yes|yes|
 | |5.3 Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ? |yes |yes |yes |yes |yes |yes |yes|
 | |5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ? Are you able to calculate the “marginal cost”? Are you able to justify the “reasonable return on investment” limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance? There is a national law that justify your public administration to apply the “reasonable return of investment”?|yes|yes|yes|yes|yes|yes|yes|
-| | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation?|/|/|/|/|/|/|/|
+| | 5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation?|yes|yes|yes|yes|yes|yes|yes|
 | **Temporary aspects** | | |
-| |6.1 Do you have a temporary policy for updating the dataset ? |/|/|/|/|/|/|/|
-| | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ?|/|/|/|/|/|/|/|
-| | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ?|/|/|/|/|/|/|/|
-| |6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?|/|/|/|/|/|/|/|
+| |6.1 Do you have a temporary policy for updating the dataset ? |yes|yes|yes|yes|yes|yes|yes|
+| | 6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ?|yes|yes|yes|yes|yes|yes|yes|
+| | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ?|yes|yes|no|yes|yes|yes|yes|
+| |6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?|yes|yes|yes|yes|yes|yes|yes|
 
 The Datasets do not include any personal information of individuals since no attributes about individuals are present. Moreover, we did not detect any data that would fit the concept of personal data according to the Article 29 Working Party Opinion 4/2007 (https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf) “data relates to an individual if it refers to the identity, characteristics or behavior of an individual or if such information is used to determine or influence the way in which that
 person is treated or evaluated” 
