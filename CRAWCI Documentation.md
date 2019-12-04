@@ -314,7 +314,7 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
  | | 3.3 Do you release the API (in case you have) with an open source license no |no |no |no |no |yes |no|no|
 | **Limitations on public access** | | |
 | | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |yes|yes|yes|yes|yes|yes|yes|
-| | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |/|/|/|/|/|yes|yes|
+| | 4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ? |yes|yes|yes|yes|yes|yes|yes|
 | |4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ?|/|/|/|/|/|yes|yes|
 | |4.4 Do you check if there are some limitations concerning the public interest ?|/|/|/|/|/|yes|yes|
 | |4.5 Do you check the international law limitations ?|/|/|/|/|/|yes|yes|
