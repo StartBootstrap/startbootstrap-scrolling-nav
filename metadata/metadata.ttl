@@ -87,39 +87,39 @@
 
 <http://crawci.github.io/resource/Distribution/crawci-RDFXML> 
   a dcatapit:Distribution , dcat:Distribution ;
-  dct:title "RDF XML distribution of the CRAWCI dataset."@en ;
+  dct:title "RDF XML distribution of the CRAWCI dataset / D-6."@en ;
   dct:description "RDF XML distribution of the CRAWCI project (Crime rate, Average wages and Cultural Institutions: what relationship?)"@en ;
   dct:format <http://publications.europa.eu/resource/authority/file-type/RDF> ;
   dct:license <http://creativecommons.org/licenses/by/4.0> ;
-  dcat:downloadURL <http://crawci.github.io/resource/Distribution/crawci-RDFXML-download> ;
-  dcat:accessURL <https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/crawciopendata.csv> .
+  dcat:downloadURL <https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/dataset.rdf-download> ;
+  dcat:accessURL <https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/dataset.rdf> .
 
 <http://crawci.github.io/resource/Distribution/crawci-CSV> 
   a dcatapit:Distribution , dcat:Distribution ;
-  dct:title "CSV distribution of the crawci dataset."@en ;
+  dct:title "CSV distribution of the crawci dataset / D-6."@en ;
   dct:description "CSV distribution of the crawci dataset(Crime rate, Average wages and Cultural Institutions: what relationship?). "@en ;
   dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
   dct:license <http://creativecommons.org/licenses/by/4.0> ;
-  dcat:downloadURL <http://crawci.github.io/resource/Distribution/crawci-CSV-download> ;
+  dcat:downloadURL <https://github.com/simayguzel/crawci/blob/master/dataset/crawciopendata.csv-download> ;
   dcat:accessURL <https://github.com/simayguzel/crawci/blob/master/dataset/crawciopendata.csv> .
   
 <http://crawci.github.io/resource/Distribution/crawci-RDFXML> 
   a dcatapit:Distribution , dcat:Distribution ;
-  dct:title "RDF XML distribution of the CRAWCI dataset."@en ;
+  dct:title "RDF XML distribution of the CRAWCI dataset / D-7."@en ;
   dct:description "RDF XML distribution of the CRAWCI project (Crime rate, Average wages and Cultural Institutions: what relationship?)"@en ;
   dct:format <http://publications.europa.eu/resource/authority/file-type/RDF> ;
   dct:license <https://www.dati.gov.it/content/italian-open-data-license-v20> ;
-  dcat:downloadURL <http://crawci.github.io/resource/Distribution/crawci-RDFXML-download> ;
-  dcat:accessURL <https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/typesofcrimes.csv> .
+  dcat:downloadURL <https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/crimedataset.rdf-download> ;
+  dcat:accessURL <https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/crimedataset.rdf> .
 
 <http://crawci.github.io/resource/Distribution/crawci-CSV> 
   a dcatapit:Distribution , dcat:Distribution ;
-  dct:title "CSV distribution of the crawci dataset."@en ;
+  dct:title "CSV distribution of the crawci dataset / D-7."@en ;
   dct:description "CSV distribution of the crawci dataset(Crime rate, Average wages and Cultural Institutions: what relationship?). "@en ;
   dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
   dct:license <https://www.dati.gov.it/content/italian-open-data-license-v20> ;
-  dcat:downloadURL <http://crawci.github.io/resource/Distribution/crawci-CSV-download> ;
-  dcat:accessURL <https://github.com/simayguzel/crawci/blob/master/dataset/crawciopendata.csv> .
+  dcat:downloadURL <https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/typesofcrimes.csv-download> ;
+  dcat:accessURL <https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/typesofcrimes.csv> .
 #Admin
 
 <http://crawci.github.io/resource/Administration/crawciGroup>
