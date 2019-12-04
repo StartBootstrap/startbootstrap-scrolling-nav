@@ -1,4 +1,4 @@
-# The CRAWCI project. Crime rate, Average wages and Cultural Institutions: what relationship?
+# The CRAWCI project. The crime rate, Average wages, and Cultural Institutions: what relationship?
 
 - Simay Guzel 
 - Elizaveta Siurina
@@ -6,36 +6,36 @@
 
 ## 1. Introduction
 
-In modern theoretical approaches, the culture is considered as a value, which is connected to the quality of human’s living.  The  cultural  forms  have  been  and  are  still  used  for accomplishment of wider and bigger aims in the education, building a democratic society of strong individuals, achieving progress in all sheares of life. The presence of cultural institutions enriches and raises the quality of life , provides economic  and spiritual  reproduction.
+In modern theoretical approaches, culture is considered as a value, which is connected to the quality of human living.  The cultural forms have been and are still used for the accomplishment of wider and bigger aims in the education, building a democratic society of strong individuals, achieving progress in all sphears of life. The presence of cultural institutions enriches and raises the quality of life, provides economic and spiritual reproduction.
 
-The culture as a resource for development refers to the way of life, the wealth,  the human relationship  with others, including, for example,  labour relationship and conditions.</p>
+The culture as a resource for development refers to the way of life, the wealth,  the human relationship  with others, including, for example, labor relationship and conditions.</p>
 
-If labour market conditions are related in an important way to crime, or individual’s intentions to commit criminal acts are altered by economic situation, then one may see the dependency of wages and crimes. At this point we are making an assumption that the level of cultural education is linked both to labour conditions of an individual as well as crime rates. Hence, our hypothesis is that the presence of cultural institutions influences crime rate and amount of salaries.</p>
+If labor market conditions are related in an important way to crime, or an individual’s intentions to commit criminal acts are altered by the economic situation, then one may see the dependency of wages and crimes. At this point, we are making an assumption that the level of cultural education is linked both to the labour conditions of an individual as well as crime rates. Hence, our hypothesis is that the presence of cultural institutions influences crime rate and amount of salaries.</p>
 
 ## 2. Application scenario
 
-CRAWCI aligns data from different sources in order to gain knowledge about the existence of the cultural institutions throughout italiab regions. The project looks at the relationship between the number of cultural institutions, digitalization, average salary and the number of crime reports by region in Italy.
+CRAWCI aligns data from different sources in order to gain knowledge about the existence of the cultural institutions throughout Italian regions. The project looks at the relationship between the number of cultural institutions, digitalization, average salary and the number of crime reports by region in Italy.
 The project aligns 1) the number of theaters; 2)the percentage of internet usage in families; 3) the number of crime reports; 4)the average salary; 5) The density of cultural institutions per square km. 
 
 **The aims of CRAWCI Project:**
 1. Creating a new mashup (final dataset) by aligning acquired datasets.
-2. Producing the final dataset as a 5 star Open Data, following the principles of suggested a 5-star deployment scheme:
+2. Producing the final dataset as a 5-star Open Data, following the principles of suggested a 5-star deployment scheme:
 
 - Make your data available on the Web under an open license.
-- Make it available as structured data (machine readable data) (e.g. Excel)
+- Make it available as structured data (machine-readable data) (e.g. Excel)
 - Make it available in a non-proprietary open format (CSV)
 - Use a single data model to publish data on the Web: RDF 
 - Link RDF to provide context
 
-3. Visualising the result by creating explorable and clickable map.
+3. Visualizing the result by creating an explorable and clickable map.
 
 ### 2.1 How CRAWCI can contribute to E-Governance
 
-Advertisements and promotions among citizens to make an awareness on the importance of the presence of cultural institutions such as theaters where there are not available that can be deduced from the crime rate can be interesting for the municipalities.
+Advertisements and promotions among citizens to make awareness of the importance of the presence of cultural institutions such as theaters where there are not available that can be deduced from the crime rate can be interesting for the municipalities.
 
   - Increase awareness
   - Opportunities for information sharing
-  - Inspire public participation and collaboration  in a way that enable people to both understand what their governments do and to influence its decisions
+  - Inspire public participation and collaboration  in a way that enables people to both understand what their governments do and to influence its decisions
   - Greater transparency and accountability
   - Support innovation  in processes of governance
   - Bring the delivery of public services to a new level
@@ -58,7 +58,7 @@ http://dati.istat.it/Index.aspx?DataSetCode=DCCV_DELITTIPS
 
 License: Creative Commons License – Attribution – 3.0 https://www.istat.it/it/note-legali
 
-Content description: The datasets provides information on number of  crimes reported by the police to the judicial authority.
+Content description: The datasets provide information on a number of crimes reported by the police to the judicial authority.
 
 ### D3
 
@@ -142,12 +142,12 @@ offset 0
 
 ### D4
   
-I.Stat,Internet: access and type of use, viewed 14 November 2019
+I.Stat, Internet: access and type of use, viewed 14 November 2019
 http://dati.istat.it/Index.aspx?QueryId=22994&lang=en
 
 License: Creative Commons License – Attribution – 3.0 https://www.istat.it/it/note-legali
 
-Content description: This dataset shows percentage of internet use in families by regions
+Content description: This dataset shows the percentage of internet use in families by regions
 
 ### D5
 
@@ -166,7 +166,7 @@ RDF: https://github.com/simayguzel/crawci/blob/master/dataset/dataset.rdf
 
 License: Open Data License v2.0 https://www.dati.gov.it/content/italian-open-data-license-v20">Italian
 
-Content description: This dataset includes1) the number of theaters; 2)the percentage of internet usage in families; 3) the number of crime reports; 4)the average salary; 5) The density of cultural institutions per square km.  The result will be a presented as an explorable map which allows users to visualize all the data about regions. 
+Content description: This dataset includes1) the number of theaters; 2)the percentage of internet usage in families; 3) the number of crime reports; 4)the average salary; 5) The density of cultural institutions per square km.  The result will be presented as an explorable map that allows users to visualize all the data about regions. 
 
 Methodology: The mashup of datasets D1, D2, D4, D5 was done semi-automatically using Python scripts and the library Pandas, which required a CSV version of the datasets as an input. The developed script firstly dropped the unnecessary columns and then the datasets are aligned through the properties "Theaters", "AvarageIncome", "DifuseofInternet", "CriminalReports" and "CulturalInstitutions".
 
@@ -207,18 +207,18 @@ CSV: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset%20and%20rd
 RDF: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset%20and%20rdf/crimedataset.rdf
 License: Open Data License v2.0 https://www.dati.gov.it/content/italian-open-data-license-v20">Italian 
 
-Content description: This dataset contains the total number of reports of all the types of crimes in italian regions. 
+Content description: This dataset contains the total number of reports of all the types of crimes in Italian regions. 
 
-Methodology: **D7** derives from **D2**,the cleaning of which was done semi-automatically using Python scripts and the library Pandas mentioned above. Hence, we managed to obtain the data of our interest, specifically about regions, not cities, for 2016.  However, since the original **D2** does not have a consistent order, there was a need for its manual curation. 
+Methodology: **D7** derives from **D2**, the cleaning of which was done semi-automatically using Python scripts and the library Pandas mentioned above. Hence, we managed to obtain the data of our interest, specifically about regions, not cities, for 2016.  However, since the original **D2** does not have a consistent order, there was a need for its manual curation. 
 
 ## 4. Quality analysis of the datasets 
 
 This section considers the necessary requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati). The four characteristics to control the level of information quality are:
 
 - **accuracy** (syntactic and semantic) - the data, and its attributes, correctly represent the real value of the concept or event to which it refers;
-- **coherence** - the data, and its attributes, is not contradictory to other data regarding the context of use of the owner administration;
+- **coherence** - the data, and its attributes is not contradictory to other data regarding the context of the use of the owner administration;
 - **completeness** - the data is exhaustive for all its expected values and with respect to the relative entities (sources) that contribute to the definition of the procedure;
-- **currentness** (or timeliness of updating) - the data, and its attributes, is of the "right time" (it is updated) with respect to the procedure to which it refers.
+- **currentness** (or timeliness of updating) - the data, and its attributes is of the "right time" (it is updated) with respect to the procedure to which it refers.
 
 <table>      
 <col width="20%" />      
@@ -286,7 +286,7 @@ This section considers the necessary requirements, established according to the 
 
 This analysis is designed to assess compliance with legal and ethical aspects in accordance with European, state and local regulations and compliance with good practices relating to publication in open data.
 
-The analysis pays particular attention to aspects related to privacy, licenses and interest for the purpose of creating a service that balances the public function, transparency and rights of individual citizens.
+The analysis pays particular attention to aspects related to privacy, licenses, and interest for the purpose of creating a service that balances the public function, transparency and rights of individual citizens.
 
 ### 5.1 Legal checklist
 
@@ -294,12 +294,12 @@ The analysis pays particular attention to aspects related to privacy, licenses a
 | | To check | D.1|  D.2 | D.3 | D4 | D5 | D6 | D7 | 
 | ----------- | --------| ------|--------|-------|---------|---------|---------|---------|
 | **Privacy issues** | 1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679? |yes |yes| yes | yes| yes| yes|yes|
-| | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorize the PA to release them? Or any other legal basis? Identify the legal basis. |yes |yes|yes  |yes | yes| yes|yes|
-| | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorize the PA to release them ? |yes |yes|yes  |yes | yes| yes|yes|
-| | 1.4 Is the dataset free of any information that combined with common data available in the web, could identify the person? If so, is there a law that authorize the PA to release them?  |yes |yes|yes  |yes | yes| yes|yes|
+| | 1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person? If so, is there a law that authorizes the PA to release them? Or any other legal basis? Identify the legal basis. |yes |yes|yes  |yes | yes| yes|yes|
+| | 1.3 Is the dataset free of any particular personal data (art. 9 GDPR)? If so is there a law that authorizes the PA to release them? |yes |yes|yes  |yes | yes| yes|yes|
+| | 1.4 Is the dataset free of any information that combined with common data available on the web, could identify the person? If so, is there a law that authorizes the PA to release them?  |yes |yes|yes  |yes | yes| yes|yes|
 | | 1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)? |yes |yes|yes  |yes | yes| yes|yes|
 | | 1.6 Do you use a tool for calculating the range of the risk of deanonymization? Do you anonymize the dataset? With which technique? Did you check the three mandatory parameters: singling out, linking out, inference out?  |/ |/|/|/|/|/|/|
-| | 1.7 Are you using geolocalization capabilities ? Do you check that the geolocalization process can’t identify single individuals in some circumstances? | no|no|no|no|no|no|no|
+| | 1.7 Are you using geolocalization capabilities? Do you check that the geolocalization process can’t identify single individuals in some circumstances? | no|no|no|no|no|no|no|
 | |1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)? | yes|yes|yes|yes|yes|yes|yes|
 | |1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?  |yes |yes |yes |yes |no |yes |no|
 | |1.10 Where the datasets are physically stored (country and jurisdiction)? Do you have a cloud computing platform? Do you have checked the privacy regulation of the country where the dataset are physically stored? (territoriality) |/ |/|/|/|/|/|/|
@@ -307,9 +307,9 @@ The analysis pays particular attention to aspects related to privacy, licenses a
 | | 2.1 Do you have created and generated the dataset ? | yes| yes| yes |yes|yes| yes| yes|
 | | 2.2 Are you the owner of the dataset? Who is the owner? |/ |/|/|/|/|yes|yes|
 | | 2.3 Are you sure to not use third party data without the proper authorization and license ? Are the dataset free from third party licenses or patents? | yes |yes| yes| yes|yes|yes|yes|
-| | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with open license? | yes |yes| yes| yes|yes|yes|yes|
+| | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with an open license? | yes |yes| yes| yes|yes|yes|yes|
 | **License** | | |
-| | 3.1 Do you release the dataset with an open data license ? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)?| yes |yes| yes| yes|yes|yes| yes|
+| | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)?| yes |yes| yes| yes|yes|yes| yes|
 | | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ?| no|no|no|no|no|yes|yes|
  | | 3.3 Do you release the API (in case you have) with an open source license ? |? |?|?|?|?|no|no|
 | **Limitations on public access** | | |
@@ -331,14 +331,14 @@ The analysis pays particular attention to aspects related to privacy, licenses a
 | | 6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ?|/|/|/|/|/|/|/|
 | |6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?|/|/|/|/|/|/|/|
 
-The Datasets do not include any personal information of individuals since no attributes about individuals are present. Moreover, we did not detect any data that would fit the concept of personal data according to the Article 29 Working Party Opinion 4/2007 (https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf) “data relates to an individual if it refers to the identity, characteristics or behaviour of an individual or if such information is used to determine or influence the way in which that
+The Datasets do not include any personal information of individuals since no attributes about individuals are present. Moreover, we did not detect any data that would fit the concept of personal data according to the Article 29 Working Party Opinion 4/2007 (https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf) “data relates to an individual if it refers to the identity, characteristics or behavior of an individual or if such information is used to determine or influence the way in which that
 person is treated or evaluated” 
  
-Hence, an identity cannot be inferred. What is more, datasets are not cross-referenced and not connected between other databases and datasets. We have not determined threats related to how information can be identified and connected to specific individuals.
+Hence, identity cannot be inferred. What is more, datasets are not cross-referenced and not connected between other databases and datasets. We have not determined threats related to how information can be identified and connected to specific individuals.
 
 ### 5.2 Licenses
 
-D1, D2, D3 and D4 are licensed under Creative Commons License(https://creativecommons.org/licenses/by/3.0/) – Attribution – 3.0 and D5 is licensed under the Open Data License (ODL) v2.0(https://opendatacommons.org/licenses/odbl/), which is very similar to a CC-BY 4.0. Each dataset is accompanied by a clear license declaration.The content of the website is covered by a "All rights reserved" copyright statement. 
+D1, D2, D3, and D4 are licensed under Creative Commons License(https://creativecommons.org/licenses/by/3.0/) – Attribution – 3.0 and D5 is licensed under the Open Data License (ODL) v2.0(https://opendatacommons.org/licenses/odbl/), which is very similar to a CC-BY 4.0. Each dataset is accompanied by a clear license declaration. The content of the website is covered by the "All rights reserved" copyright statement. 
 
 Our final dataset has an open licence which allows others to republish the content or data on their own website, to derive new content or data from yours, to make money by selling products that use your content or data, to republish the content or data while charging a fee for access as long as the reusers give attribution or share-alike). Our creative work has Open Data License v2.0(https://www.dati.gov.it/content/italian-open-data-license-v20">Italian). 
 
@@ -348,9 +348,9 @@ Our final dataset has an open licence which allows others to republish the conte
 
 Datasets **D1, D2, D4** are available in English and Italian languages in multidimensional tables which users can export in **.xls, .csv** formats.  Default format: **Comma (,)** separated with codes and labels in separate columns.  The datasets can be can customised by choosing Text File format: **Comma ( , ); Pipe ( | ); Tabullator.**
 
-A CSV should normally follow RFC 4180(https://tools.ietf.org/html/rfc4180), however, it is not followed most of the time. While analysing the CSV files of D1, D2 and D4, we have realized that each row end with ",, which does not suit to the CSV format. 
+A CSV should normally follow RFC 4180(https://tools.ietf.org/html/rfc4180), however, it is not followed most of the time. While analyzing the CSV files of D1, D2 and D4, we have realized that each row end with ",, which does not suit to the CSV format. 
 
-None of the datasets **D1, D2, D4**  was published in .RDF format which give us a reson to consider all the original  datasets as 3-star Open Data.
+None of the datasets **D1, D2, D4**  was published in. RDF format which gives us a reason to consider all the original datasets as 3-star Open Data.
 
 Finally, **D1, D2, D4** are consistent, all of the datasets follow a well-defined structure and include explanations for the abbreviations.  However, Datasets **D1, D2, D4** make arbitrary use of uppercase and lowercase. Moreover, **D2** list types of crimes in different order to different regions, which made it difficult to manipulate data while extracting necessary information. 
 
@@ -360,20 +360,20 @@ The **D3** Dataset сan be displayed in tabular format, accessed directly throug
 
 ### **D5** 
 
-The original D5 can be downloaded as **.xlsx, .xml, .json,**  or can be exported as **CSV** which can be customised by choosing necessary columns. The dataset is also available in .RDF format but the file is damaged and cannot be opened in a proper way. 
+The original D5 can be downloaded as **.xlsx, .xml, .json,**  or can be exported as **CSV** which can be customized by choosing necessary columns. The dataset is also available in .RDF format but the file is damaged and cannot be opened in a proper way. 
 
-Dataset D5 makes arbitrary use of uppercase and lowercase. Also, D5 has empty rows which lack information about theatres and makes harder data processing and data extraction.
+Dataset D5 makes arbitrary use of uppercase and lowercase. Also, D5 has empty rows that lack information about theatres and makes harder data processing and data extraction.
 
-Ultimately, none of the datasets was published in RDF format which give us a reson to consider all the original datasets as 3-star Open Data. What is more, there is no indication about the encoding of the files (if it's ASCII, ISO-8859-1), despite this is encouraged by the ["Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2017/08/03/open-data-online-linee-guida-valorizzazione-del-patrimonio-informativo-pubblico). We consider this problem as an accute one since the wrong encoding can potentially lead to various problems in the automatic data processing for example,  incorrect data results since some cells may be skipped while processing data.
+Ultimately, none of the datasets were published in RDF format which gives us a reason to consider all the original datasets as 3-star Open Data. What is more, there is no indication about the encoding of the files (if it's ASCII, ISO-8859-1), despite this is encouraged by the ["Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID](https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2017/08/03/open-data-online-linee-guida-valorizzazione-del-patrimonio-informativo-pubblico). We consider this problem as an acute one since the wrong encoding can potentially lead to various problems in the automatic data processing, for example,  incorrect data results since some cells may be skipped while processing data.
 
 ### 6.1 Analysis Summary
 
 | Id | Problem description | Severity (1-3) | Type (Syntax/Semantics) | Proposed solution |
 |-------------------------------|----------------------------|----------------|-------------------------|----------------------------|
 | D1, D2, D4 | Encoding of the dataset not specified  | 1.5 | Technical | Include a note on the download page of the dataset stating its encoding |
-| D1 | Violations of the commen format for Comma-Separated Values (CSV) | 3 | Tecnical, Syntax | Follow the Common Format RFC 4180 (https://tools.ietf.org/html/rfc4180 |
+| D1 | Violations of the common format for Comma-Separated Values (CSV) | 3 | Technical, Syntax | Follow the Common Format RFC 4180 (https://tools.ietf.org/html/rfc4180 |
 | D3 | Incorrect information about Sardinia's provinces | 2.5 | Outdated content | Combination of manual and automatic methods to redistribute data in the correct provinces |
-| D4 | The absence of the well-defined structure | 2 | Technical | List all all types of crime in order following a defined structure |
+| D4 | The absence of the well-defined structure | 2 | Technical | List all types of crime in order following a defined structure |
 | D5 | Empty rows| 2 | Semantics | Fill in the empty rows manually with names of the theatres  |
 | D1, D2, D3, D4, D5 | No RDF | 2 | Technical, Syntax | Creating RDF for datasets | 
 
@@ -383,9 +383,9 @@ An ontology is a detailed model of a slice of reality which is based on the fact
 
 We faced the need to create our own ontology once we realized that there was a lack of vocabularies for the description of statistical and crime data that would suit the needs of our project. Even though we managed to reuse some namespaces as(**ds:total_crime_rate**; **ds:average_salary**; **cis:hostsCulturalEvent**), those vocabularies were not enough to record the nature of our data and sufficiently describe it on the Web. 
 
-The **CRWACI Ontology** modeling was based on the analysed and extracted data while creating our mashup datasets. Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data. We also paid special attention to modelling crime related namespaces in order to provide information on the crime situation in the italian regions observing practice of different crime types. In this way, it helps to mediate between different sources of information on the Semantic Web.
+The **CRWACI Ontology** modeling was based on the analysed and extracted data while creating our mashup datasets. Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data. We also paid special attention to modelling crime-related namespaces in order to provide information on the crime situation in the Italian regions observing practice of different crime types. In this way, it helps to mediate between different sources of information on the Semantic Web.
 
-The full Ontology documentation and visualisation can be found here: https://github.com/simayguzel/OpenDataCRAWCI/tree/master/myDocumentation
+The full Ontology documentation and visualization can be found here: https://github.com/simayguzel/OpenDataCRAWCI/tree/master/myDocumentation
 
 ### 7.1 The CRAWCI Ontology Visualisation
 
@@ -400,14 +400,14 @@ The CRAWCI Ontology **graph** can be found <a href="https://github.com/simayguze
 
 ## 8. Mashup Data Curation.
 
-CRAWCI Mashup datasets **D6** and **D7** were produced as a 5 star Open Data, following the principles of 5-star deployment scheme for data to be published on the Web. Please find below the detailed expanations.
+CRAWCI Mashup datasets **D6** and **D7** were produced as a 5-star Open Data, following the principles of a 5-star deployment scheme for data to be published on the Web. Please find below the detailed explanations.
 
 
 ### 8.1 CSV to RDF Conversion
 
-To convert our data we used csv2rdf which is a Java based application, which relies on Apache Jena to convert tabular data to RDF. https://github.com/anuzzolese/csv2rdf/blob/master/README.md
+To convert our data we used csv2rdf which is a Java-based application, which relies on Apache Jena to convert tabular data to RDF. https://github.com/anuzzolese/csv2rdf/blob/master/README.md
 
-The binaries can be obtained by compiling the source code with MAVEN from command line, i.e.
+The binaries can be obtained by compiling the source code with MAVEN from the command line, i.e.
 
 ### Compiling
 
@@ -418,7 +418,7 @@ Once the source code have been compiled a JAR named stlab.csv2rdf-1.0.jar is ava
 
 ### Usage
 
-The JAR stlab.csv2rdf-1.0.jar can be used as a command line tool.
+The JAR stlab.csv2rdf-1.0.jar can be used as a command-line tool.
 The synopsis is the following
 
 ```bash
@@ -433,7 +433,7 @@ The character used as separator within the CSV file (e.g. , or ;).
 * -m,--mapping &lt;file&gt;   
  A file providing the mapping between CSV columns and the properties of our target CRAWCI ontology.
     
- The file contains a set of key=value lines, where each key represents a column position in the source CSV (the counting of positions starts from index 1) and each value is a pair property-datatype composed of property URI form a target ontology or vocabulary and a datatype URI. The property-datatype pairs are separated by the character '>'. The datatype is optional, hence it is possible to provide the property URI only without any datatype. We remark that if no datatype is provided, then the tool tries to infer the more appropriate datatype for the value to transform to RDF. 
+ The file contains a set of key=value lines, where each key represents a column position in the source CSV (the counting of positions starts from index 1) and each value is a pair property-datatype composed of property URI form a target ontology or vocabulary and a datatype URI. The property-datatype pairs are separated by the character '>'. The data type is optional, hence it is possible to provide the property URI only without any data type. We remark that if no data type is provided, then the tool tries to infer the more appropriate data type for the value to transform to RDF. 
 
  Additionally, the following file, named *mapping* and containing key=property>datatype pairs, define the mapping to be used in order to generate the properties.
  
@@ -451,13 +451,16 @@ The character used as separator within the CSV file (e.g. , or ;).
 
  ``` 
  
- Hence, the following line provides the example about how to use the tool from command line in order to obtain RDF from CSV and saving its content into a file named *musicians.ttl*. We suppose that the input CSV is actually a tab-separated file.
+ Hence, the following line provides the example about how to use the tool from the command line in order to obtain RDF from CSV and saving its content into a file named *musicians.ttl*. We suppose that the input CSV is actually a tab-separated file.
  ```bash
  java -jar stlab.csv2rdf-1.0.jar -s '\t' -m mapping -o crawci.ttl cleandata.csv
  ```
  
- The execution of the tool with the arguments as provided produced the following RDF serialised by using the TURTLE syntax.
- 
+ The execution of the tool with the arguments as provided produced the following RDF serialized by using the TURTLE syntax.
+
+**D6**: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/dataset.rdf
+**D7**: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/crimedataset.rdf
+
 
 ### 8.2 Updating the dataset over time
 
@@ -611,7 +614,7 @@ According to the obtained data, **Liguria** is the region with the highest densi
 
 ### 10.6 Types of crimes
 
-Our final dataset features 56 types of crimes, after analysing all of them we ended up paying more attention to some crime types. For example, **theft of art objets** which obviously leads to the conclusion that **the presence of cultutal institutions** that have valuable instances in their collections is **directly connected to potential threat of crime**. Below are the top 7 regions featuring the highest number of **theft of art objets**:
+Our final dataset features 56 types of crimes, after analyzing all of them we ended up paying more attention to some crime types. For example, **theft of art objects** which obviously leads to the conclusion that **the presence of cultural institutions** that have valuable instances in their collections is **directly connected to the potential threat of crime**. Below are the top 7 regions featuring the highest number of **theft of art objects**:
 
 1. Lombardia
 2. Toscana
@@ -620,7 +623,7 @@ Our final dataset features 56 types of crimes, after analysing all of them we en
 5. Emilia-Romagna
 6. Sicilia
 
-**intellectual property violations** are spread mostly in the regions, many of which represent the highest cultural value in our dataset, ex. **Lazio, Campania** have the highest density of cultural institutions. Also, **Sicilia, Lazio** and **Lombardia** feature the highest number of theatres, which lead us to the conclusion that regions with a **better presence of cultural organizations** can be connected to number of **Intellectual property violations** that include literary works, inventions and designs that can be considered as results of a more educated and cultural society. 
+**intellectual property violations** are spread mostly in the regions, many of which represent the highest cultural value in our dataset, ex. **Lazio, Campania** have the highest density of cultural institutions. Also, **Sicilia, Lazio** and **Lombardia** feature the highest number of theatres, which lead us to the conclusion that regions with a **better presence of cultural organizations** can be connected to number of **Intellectual property violations** that include literary works, inventions, and designs that can be considered as results of a more educated and cultural society. 
 
 1. Campania
 2. **Sicilia**
@@ -629,7 +632,7 @@ Our final dataset features 56 types of crimes, after analysing all of them we en
 5. **Lombardia**
 6. Calabria
 
-**swindles and cyber frauds** and **cybercrime** are present in the regions, 3 of which demonstarte the higher percentage of diffusion of the Internet (**Lombardia, Lazio, Veneto**).
+**swindles and cyber frauds** and **cybercrime** are present in the regions, 3 of which demonstrate the higher percentage of diffusion of the Internet (**Lombardia, Lazio, Veneto**).
 
 **swindles and cyber frauds**:
 
@@ -651,8 +654,8 @@ Our final dataset features 56 types of crimes, after analysing all of them we en
 
 ### 10.7 Correlation
 
-In order to answer our initial question **weather there is a strong relationship between the density of cultural institutions and(respectively) average salary, internet diffusion and the number of total criminal reports** 
-and hence to aprove o disaprove our hypothesis "**The presence of cultural institutions increases the average salary and dicreases the crime rate"** , we have calculated the correlation coefficients. The correlation is used in statistics to measure how strong a relationship is between two variables. The formulas return a value between **-1**(negative correlation) and **1**(positive correlation). 
+In order to answer our initial question **weather, there is a strong relationship between the density of cultural institutions and(respectively) average salary, internet diffusion and the number of total criminal reports** 
+and hence to approve o disapprove our hypothesis "**The presence of cultural institutions increases the average salary and dicreases the crime rate"** , we have calculated the correlation coefficients. The correlation is used in statistics to measure how strong a relationship is between two variables. The formulas return a value between **-1**(negative correlation) and **1**(positive correlation). 
 
 By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pearson's correlation is calculated by taking the results from our dataset. **X axis** - the values of **cultural institution density** and **Y axis** - the values of **average salary, internet diffusion, the number of total criminal reports** one by one. 
 
@@ -684,11 +687,8 @@ By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pears
 (0.0246,207.885) (0,4.085) (0.0511,79.898) (0.0238,475.194) (0.33,620) (0.0131,169.999) (0.0261,35.552) (0.0265,229.630)(0.0341,176.246) (0.0315,30.108) (0.0413,47.067) (0.0312,276.255) (0.0224,43.136) (0.0132,8.205) (0.0263,222.685) (0.0129,149.334) (0.0083,13.570) (0.0132,61.137) (0.0121,176.318) (0.0125,47.465)
  ```
  
-  - Correlation between the density of cultural institutions and the number of total criminal reports: **0.69353**. So, there is a positive correlation between them which means that when there is a high density of cultural instiution, the criminality increases which also proves our hypothesis.  
+  - Correlation between the density of cultural institutions and the number of total criminal reports: **0.69353**. So, there is a positive correlation between them which means that when there is a high density of cultural instiution, criminality increases which also proves our hypothesis.  
 ![alt text](crime-ci.png)
 
 
-Therefore, our hypothesis **The presence of cultural institutions increases the average salary and dicreases the crime rate** was not fully proved because according to the nature of our hypothesis we were supposed to have negative correlation between the density of cultural institutions and crime rate. Instead, the correlation turned out to be not only postive, but the strongest one among our data. 
-
-
-
+Therefore, our hypothesis **The presence of cultural institutions increases the average salary and dicreases the crime rate** was not fully proved because according to the nature of our hypothesis we were supposed to have negative correlation between the density of cultural institutions and crime rate. Instead, the correlation turned out to be not only postive but the strongest one among our data. 
