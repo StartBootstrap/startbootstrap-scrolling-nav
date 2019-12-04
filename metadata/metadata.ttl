@@ -1,0 +1,158 @@
+@prefix dcatapit <http://dati.gov.it/onto/dcatapit> . 
+@prefix dct <http://purl.org/dc/terms/> .
+@prefix dcat <http://www.w3.org/ns/dcat#> .
+@prefix foaf <http://xmlns.com/foaf/0.1/> .
+@prefix owl <http://www.w3.org/2002/07/owl#> .
+@prefix prov <http://www.w3.org/ns/prov#> .
+@prefix xsd <http://www.w3.org/2001/XMLSchema#> .
+
+#Catalogue
+
+<https://crawci.github.io/resource/catalogue/crawci>
+  a dcatapit:Catalog , dcat:Catalog ;
+  dct:title "Catalogue of the CRAWCI project"@en ;
+  dct:description "Catalogue of the CRAWCI project (Crime rate, Average wages and Cultural Institutions: what relationship?)"@en ;
+  dct:modified "2019-11-14"^^xsd:date ;
+  dct:issued "2019-11-14"^^xsd:date ;
+  dct:publisher <http://crawci.github.io/resource/Administration/crawci> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/EN> ;
+  dcat:dataset <http://crawci.github.io/resource/Dataset/crawci> ;
+  foaf:homepage <http://crawci.github.io/index.html> ;
+  dcat:themeTaxonomy <http://publications.europa.eu/resource/authority/data-theme> .
+
+
+#Dataset 
+
+<http://crawci.github.io/resource/Dataset/crawci>
+  a dcatapit:Dataset , dcat:Dataset ;
+  dct:identifier "CRAWCI:D.6" ;
+  dct:title "CRAWCI"@en ;
+  dct:description "Dataset of CRAWCI Project (Crime rate, Average wages and Cultural Institutions: what relationship?) It contains data about average annual income per family in euro per region"@en ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
+  dct:subject <http://publications.europa.eu/resource/authority/resource-type/REPORT_ANNUAL> , <http://eurovoc.europa.eu/637> , <http://eurovoc.europa.eu/3659>; #economy , annual income 
+  dct:issued "2019-03-29"^^xsd:date ;
+  dct:modified "2019-03-29"^^xsd:date ;
+  dcat:keyword "economy" , "education", "culture", "technology";
+  owl:versionInfo "0.1.0" ; 
+  dct:rightsHolder <http://crawci.github.io/resource/Administration/crawciGroup> ;
+  dct:publisher <http://crawci.github.io/resource/Administration/crawciGroup> ;
+  dct:creator <http://crawci.github.io/resource/Administration/crawciGroup> ;
+  dct:license <https://www.dati.gov.it/content/italian-open-data-license-v20> ;
+  prov:wasDerivedFrom <http://dati.istat.it/Index.aspx?QueryId=22919> ;
+  prov:wasDerivedFrom <http://dati.istat.it/Index.aspx?DataSetCode=DCCV_DELITTIPS> ;
+  prov:wasDerivedFrom <http://dati.istat.it/Index.aspx?QueryId=22994&lang=en> ;
+  prov:wasDerivedFrom <http://www.datiopen.it/it/opendata/Mappa_dei_teatri_in_Italia> ;
+  prov:wasDerivedFrom <http://dati.beniculturali.it/resource/datasetLuoghiDellaCultura> ;
+  dcat:distribution <http://crawci.github.io/resource/Distribution/crawci-RDFXML> ;
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+  dcat:contactPoint <http://crawci.github.io/resource/ContactPoint/contactPointcrawci> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/EN> ;
+  dct:temporal <http://crawci.github.io/resource/PeriodOfTime/periodTimecrawci> ;
+  dct:spatial <http://www.geonames.org/3170831/> , <http://www.geonames.org/3174618/> , <http://www.geonames.org/3164604/> ,  <http://www.geonames.org/3176525/> , <http://www.geonames.org/3174725/> , <http://www.geonames.org/3177401/> , <http://www.geonames.org/3165361/> , <http://www.geonames.org/3174004/> , <http://www.geonames.org/3165048/> , <http://www.geonames.org/3174976/> , <http://www.geonames.org/3183560/> , <http://www.geonames.org/3173222/> , <http://www.geonames.org/3181042/> , <http://www.geonames.org/3169778/> , <http://www.geonames.org/3182306/>, <http://www.geonames.org/2525468/> , <http://www.geonames.org/2523119/> , <http://www.geonames.org/2523228/s> .
+  
+<http://crawci.github.io/resource/Dataset/crawci>
+  a dcatapit:Dataset , dcat:Dataset ;
+  dct:identifier "CRAWCI:D.7" ;
+  dct:title "CRAWCI"@en ;
+  dct:description "Dataset of CRAWCI Project (Crime rate, Average wages and Cultural Institutions: what relationship?) It contains data about average annual income per family in euro per region"@en ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/JUST> ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
+  dct:subject <http://publications.europa.eu/resource/authority/resource-type/REPORT_ANNUAL> , <http://eurovoc.europa.eu/637> , <http://eurovoc.europa.eu/3659>; #economy , annual income 
+  dct:issued "2019-03-29"^^xsd:date ;
+  dct:modified "2019-03-29"^^xsd:date ;
+  dcat:keyword "justice" , "government and public sector";
+  owl:versionInfo "0.1.0" ; 
+  dct:rightsHolder <http://crawci.github.io/resource/Administration/crawciGroup> ;
+  dct:publisher <http://crawci.github.io/resource/Administration/crawciGroup> ;
+  dct:creator <http://crawci.github.io/resource/Administration/crawciGroup> ;
+  dct:license <https://www.dati.gov.it/content/italian-open-data-license-v20> ;
+  prov:wasDerivedFrom <http://dati.istat.it/Index.aspx?DataSetCode=DCCV_DELITTIPS> ;
+  dcat:distribution <http://crawci.github.io/resource/Distribution/crawci-RDFXML> ;
+  dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+  dcat:contactPoint <http://crawci.github.io/resource/ContactPoint/contactPointcrawci> ;
+  dct:language <http://publications.europa.eu/resource/authority/language/EN> ;
+  dct:temporal <http://crawci.github.io/resource/PeriodOfTime/periodTimecrawci> ;
+  dct:spatial <http://www.geonames.org/3170831/> , <http://www.geonames.org/3174618/> , <http://www.geonames.org/3164604/> ,  <http://www.geonames.org/3176525/> , <http://www.geonames.org/3174725/> , <http://www.geonames.org/3177401/> , <http://www.geonames.org/3165361/> , <http://www.geonames.org/3174004/> , <http://www.geonames.org/3165048/> , <http://www.geonames.org/3174976/> , <http://www.geonames.org/3183560/> , <http://www.geonames.org/3173222/> , <http://www.geonames.org/3181042/> , <http://www.geonames.org/3169778/> , <http://www.geonames.org/3182306/>, <http://www.geonames.org/2525468/> , <http://www.geonames.org/2523119/> , <http://www.geonames.org/2523228/s> .
+  
+#Period of time
+
+<http://crawci.github.io/resource/PeriodOfTime/periodTimecrawci>
+  a dct:PeriodOfTime ; 
+  dcatapit:startDate "2019-12-04"^^xsd:date ; 
+  dcatapit:endDate "2019-12-04"^^xsd:date .
+  
+#Distribution
+
+<http://crawci.github.io/resource/Distribution/crawci-RDFXML> 
+  a dcatapit:Distribution , dcat:Distribution ;
+  dct:title "RDF XML distribution of the CRAWCI dataset."@en ;
+  dct:description "RDF XML distribution of the CRAWCI project (Crime rate, Average wages and Cultural Institutions: what relationship?)"@en ;
+  dct:format <http://publications.europa.eu/resource/authority/file-type/RDF> ;
+  dct:license <http://creativecommons.org/licenses/by/4.0> ;
+  dcat:downloadURL <http://crawci.github.io/resource/Distribution/crawci-RDFXML-download> ;
+  dcat:accessURL <https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/crawciopendata.csv> .
+
+<http://crawci.github.io/resource/Distribution/crawci-CSV> 
+  a dcatapit:Distribution , dcat:Distribution ;
+  dct:title "CSV distribution of the crawci dataset."@en ;
+  dct:description "CSV distribution of the crawci dataset(Crime rate, Average wages and Cultural Institutions: what relationship?). "@en ;
+  dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+  dct:license <http://creativecommons.org/licenses/by/4.0> ;
+  dcat:downloadURL <http://crawci.github.io/resource/Distribution/crawci-CSV-download> ;
+  dcat:accessURL <https://github.com/simayguzel/crawci/blob/master/dataset/crawciopendata.csv> .
+  
+<http://crawci.github.io/resource/Distribution/crawci-RDFXML> 
+  a dcatapit:Distribution , dcat:Distribution ;
+  dct:title "RDF XML distribution of the CRAWCI dataset."@en ;
+  dct:description "RDF XML distribution of the CRAWCI project (Crime rate, Average wages and Cultural Institutions: what relationship?)"@en ;
+  dct:format <http://publications.europa.eu/resource/authority/file-type/RDF> ;
+  dct:license <https://www.dati.gov.it/content/italian-open-data-license-v20> ;
+  dcat:downloadURL <http://crawci.github.io/resource/Distribution/crawci-RDFXML-download> ;
+  dcat:accessURL <https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/typesofcrimes.csv> .
+
+<http://crawci.github.io/resource/Distribution/crawci-CSV> 
+  a dcatapit:Distribution , dcat:Distribution ;
+  dct:title "CSV distribution of the crawci dataset."@en ;
+  dct:description "CSV distribution of the crawci dataset(Crime rate, Average wages and Cultural Institutions: what relationship?). "@en ;
+  dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+  dct:license <https://www.dati.gov.it/content/italian-open-data-license-v20> ;
+  dcat:downloadURL <http://crawci.github.io/resource/Distribution/crawci-CSV-download> ;
+  dcat:accessURL <https://github.com/simayguzel/crawci/blob/master/dataset/crawciopendata.csv> .
+#Admin
+
+<http://crawci.github.io/resource/Administration/crawciGroup>
+  a dcatapit:Agent , foaf:Agent ;
+  dct:identifier "crawciGroup" ;
+  foaf:name "CRAWCI Project Group" .
+
+#ContactPoint
+
+<http://crawci.github.io/resource/ContactPoint/contactPointcrawci>
+  a dcatapit:Agent
+  vcard:hasEmail <mailto:crawci@gmail.com> ;
+  vcard:hasURL <http://crawci.github.io/contattaci.html> .
+
+#Original datasets
+
+<http://dati.istat.it/Index.aspx?QueryId=22919> 
+  a dcatapit:Dataset , dcat:Dataset ;
+  dct:rightsHolder <https://www.wikidata.org/wiki/Q214195> . 
+
+<http://dati.istat.it/Index.aspx?DataSetCode=DCCV_DELITTIPS>elements1/leaf/?datasetId=DS0280EDICONSICUREZZASTA>
+  a dcatapit:Dataset , dcat:Dataset ;
+  dct:rightsHolder <https://www.wikidata.org/wiki/Q214195> . 
+
+<http://dati.istat.it/Index.aspx?QueryId=22994&lang=en>
+  a dcatapit:Dataset , dcat:Dataset ;
+  dct:rightsHolder <https://www.wikidata.org/wiki/Q214195> . 
+
+<http://www.datiopen.it/it/opendata/Mappa_dei_teatri_in_Italia>
+  a dcatapit:Dataset , dcat:Dataset ;
+  dct:rightsHolder <http://www.datiopen.it/it/Copyright> . 
+
+<http://dati.beniculturali.it/resource/datasetLuoghiDellaCultura>
+  a dcatapit:Dataset, dcat:Dataset ;
+  dct:rightsHolder <http://dati.beniculturali.it/resource/Agent/mibact-dgo> .
+
