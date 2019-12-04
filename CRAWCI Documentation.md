@@ -376,9 +376,12 @@ Ultimately, none of the datasets was published in RDF format which give us a res
 ## 8. Creating the CRAWCI Ontology
 
 An ontology is a detailed model of a slice of reality which is based on the facts that we know about that reality. This model is a description of some of the things and some of the relationships between the things that are known about that reality.
-The CRWACI Ontology creation was based on the analysed and extracted data.
-Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data by providing a common and extensible semantic framework. In this way, it helps to mediate between different sources of information on the Semantic Web.</p>
-The full Ontology documentation and visualisation can be found here https://simayguzel.github.io/crawci/myDocumentation/index-en.html
+
+We faced the need to create our own ontology once we realized that there was a lack of vocabularies for the description of statistical and crime data that would suit the needs of our project. Even though we managed to reuse some namespaces as(**ds:total_crime_rate**; **ds:average_salary**; **cis:hostsCulturalEvent**), those vocabularies were not enough to record the nature of our data and sufficiently describe it on the Web. 
+
+The **CRWACI Ontology** modeling was based on the analysed and extracted data while creating our mashup datasets. Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data. We also paid special attention to modelling crime related namespaces in order to provide information on the crime situation in the italian regions observing practice of different crime types. In this way, it helps to mediate between different sources of information on the Semantic Web.
+
+The full Ontology documentation and visualisation can be found here: https://github.com/simayguzel/OpenDataCRAWCI/tree/master/myDocumentation
 
 
 ## 9. Mashup Data Curation.
@@ -472,11 +475,13 @@ For Italy, each region, each province we established the following threshold:
 -two museum icons if >= 0.0224 and < 0.0448;
 -three museum icons if >= 0.0448.
 
-## 12. Statistical Summary
+## 12. Summary
+
+This part presents the results of the data analysis. We ordered the regions descendingly from the first region featuring the highest value to the last one with the lowest value.
 
 ### 12.1 Average Salary
 
-According to the obtained data, **Lombardia** is the region with the biggest salary, while **Sicilia** has the lowest one. The regions are ordered descendingly according to the average salary:
+According to the obtained data, **Lombardia** is the region with the biggest salary, while **Sicilia** has the lowest one:
 
 1. Lombardia (**the biggest** average salary)
 2. Emilia-Romagna
@@ -501,7 +506,7 @@ According to the obtained data, **Lombardia** is the region with the biggest sal
 
 ### 12.2 Total number of theatres
 
-According to the obtained data, **Lombardia** is the region with the highest number of theatres, while **Molise** has the lowest one. The regions are ordered descendingly according to the total number:
+According to the obtained data, **Lombardia** is the region with the highest number of theatres, while **Molise** has the lowest one: 
 
 1. Lombardia
 2. Veneto
@@ -526,7 +531,7 @@ According to the obtained data, **Lombardia** is the region with the highest num
 
 ### 12.3 Diffusion of the Internet
 
-According to the obtained data, **Lombardia** is the region with the highest percentage of diffusion of the internet, while **Calabria** has the lowest one. The regions are ordered descendingly according to the percentage:
+According to the obtained data, **Lombardia** is the region with the highest percentage of diffusion of the internet, while **Calabria** has the lowest one:
 
 1. Lombardia
 2. Friuli-Venezia Giulia
@@ -551,7 +556,7 @@ According to the obtained data, **Lombardia** is the region with the highest per
 
 ### 12.4 Total number of criminal reports
 
-According to the obtained data, **Lombardia** is the region with the highest crime rate, while **Valle d'Aosta** has the lowest one. The regions are ordered descendingly according to the total number of criminal reports:
+According to the obtained data, **Lombardia** is the region with the highest crime rate, while **Valle d'Aosta** has the lowest one:
 
 1. Lombardia
 2. Lazio
@@ -642,9 +647,10 @@ Our final dataset features 56 types of crimes, after analysing all of them we en
 
 ### 12.7 Correlation
 
-Obtaining the regional results via our final 5-star dataset, led us to analyse if there is a strong relationship between the density of cultural institutions and(respectively) average salary, internet diffusion, the number of total criminal reports. For this purpose, we have calculated the correlation coefficients which are used in statistics to measure how strong a relationship is between two variables. The formulas return a value between -1(negative correlation) and 1(positive correlation). 
+In order to answer our initial question **weather there is a strong relationship between the density of cultural institutions and(respectively) average salary, internet diffusion and the number of total criminal reports** 
+and hence to aprove o disaprove our hypothesis "**The presence of cultural institutions increases the average salary and dicreases the crime rate"** , we have calculated the correlation coefficients. The correlation is used in statistics to measure how strong a relationship is between two variables. The formulas return a value between **-1**(negative correlation) and **1**(positive correlation). 
 
-By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pearson's correlation is calculated by taking the results from our dataset. X axis consists of the values of cultural institution density and Y axis is filled with the values of average salary, internet diffusion, the number of total criminal reports one by one. 
+By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pearson's correlation is calculated by taking the results from our dataset. **X axis** - the values of **cultural institution density** and **Y axis** - the values of **average salary, internet diffusion, the number of total criminal reports** one by one. 
 
 - Pearson's correlation between the cultural institution density and average salary(the first values in parenthesis stand for the C.I. density while the second ones are for the annual average salary:
 
@@ -678,11 +684,7 @@ By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pears
 ![alt text](crime-ci.png)
 
 
-Therefore, our hypothesis the high level of cultural institution presence increases the internet diffusion level, the annual criminal reports and average salary is proved. 
-
-
-### 13. What about our initial questions? 
-
+Therefore, our hypothesis **The presence of cultural institutions increases the average salary and dicreases the crime rate** was not fully proved because according to the nature of our hypothesis we were supposed to have negative correlation between the density of cultural institutions and crime rate. Instead, the correlation turned out to be not only postive, but the strongest one among our data. 
 
 
 
