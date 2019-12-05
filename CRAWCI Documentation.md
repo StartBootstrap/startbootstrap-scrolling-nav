@@ -489,16 +489,6 @@ The average of each column is calculated:
 
 - However; if a region has a **higher value** of criminal reports than the average value, **the red circle** appears; else **the green circle** appears.
 
-
-### 9.2 Cultural institutions
-N. of cultural institutions divided by Km^2.
-
-For Italy, each region, each province we established the following threshold:
-
--one museum icon if < 0.0224 (Italian average presence of cultural institutions/Km^2);
--two museum icons if >= 0.0224 and < 0.0448;
--three museum icons if >= 0.0448.
-
 ## 10. Summary
 
 This part presents the results of the data analysis. We ordered the regions descendingly from the first region featuring the highest value to the last one with the lowest value.
