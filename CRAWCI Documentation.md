@@ -6,15 +6,15 @@
 
 ## 1. Introduction
 
-In modern theoretical approaches, culture is considered as a value, which is connected to the quality of human living.  The cultural forms have been and are still used for the accomplishment of wider and bigger aims in the education, building a democratic society of strong individuals, achieving progress in all sphears of life. The presence of cultural institutions enriches and raises the quality of life, provides economic and spiritual reproduction.
+In modern theoretical approaches, culture is considered as a value, which is connected to the quality of human living.  The cultural forms have been and are still used for the accomplishment of wider and bigger aims in education, building a democratic society of strong individuals, achieving progress in all sphears of life. The presence of cultural institutions enriches and raises the quality of life, provides economic and spiritual reproduction.
 
-The culture as a resource for development refers to the way of life, the wealth,  the human relationship  with others, including, for example, labor relationship and conditions.</p>
+The culture as a resource for development refers to the way of life, the wealth,  the human relationship  with others, including, for example, labor relations and conditions.</p>
 
-If labor market conditions are related in an important way to crime, or an individual’s intentions to commit criminal acts are altered by the economic situation, then one may see the dependency of wages and crimes. At this point, we are making an assumption that the level of cultural education is linked both to the labour conditions of an individual as well as crime rates. Hence, our hypothesis is that the presence of cultural institutions influences crime rate and amount of salaries.</p>
+If labor market conditions are related in an important way to crime, or an individual’s intentions to commit criminal acts are altered by the economic situation, then one may see the dependency of wages and crimes. At this point, we are assuming that the level of cultural education is linked both to the labor conditions of an individual as well as crime rates. Hence, we hypothesize that the presence of cultural institutions influences crime rate and amount of salaries.</p>
 
 ## 2. Application scenario
 
-CRAWCI aligns data from different sources in order to gain knowledge about the existence of the cultural institutions throughout Italian regions. The project looks at the relationship between the number of cultural institutions, digitalization, average salary and the number of crime reports by region in Italy.
+CRAWCI aligns data from different sources to gain knowledge about the existence of the cultural institutions throughout Italian regions. The project looks at the relationship between the number of cultural institutions, digitalization, average salary and the number of crime reports by region in Italy.
 The project aligns 1) the number of theaters; 2)the percentage of internet usage in families; 3) the number of crime reports; 4)the average salary; 5) The density of cultural institutions per square km. 
 
 **The aims of CRAWCI Project:**
@@ -58,7 +58,7 @@ http://dati.istat.it/Index.aspx?DataSetCode=DCCV_DELITTIPS
 
 License: Creative Commons License – Attribution – 3.0 https://www.istat.it/it/note-legali
 
-Content description: The datasets provide information on a number of crimes reported by the police to the judicial authority.
+Content description: The datasets provide information on crimes reported by the police to the judicial authority.
 
 ### D3
 
@@ -66,9 +66,9 @@ MiBACT, Luoghi della cultura, electronic dataset, Gli Open Data, viewed 14 Novem
 
 License: https://creativecommons.org/licenses/by/3.0/
 
-Content description: This dataset lists cultural institutions in Italy providing information about their location, identification and services.
+Content description: This dataset lists cultural institutions in Italy providing information about their location, identification, and services.
 
-In order to extract the data we used the [SPARQL endpoint](http://dati.beniculturali.it/sparql) of dati.beniculturali.it by running the following query:
+To extract the data we used the [SPARQL endpoint](http://dati.beniculturali.it/sparql) of dati.beniculturali.it by running the following query:
 
 ```sparql
 select * where {
@@ -147,7 +147,7 @@ http://dati.istat.it/Index.aspx?QueryId=22994&lang=en
 
 License: Creative Commons License – Attribution – 3.0 https://www.istat.it/it/note-legali
 
-Content description: This dataset shows the percentage of internet use in families by regions
+Content description: This dataset shows the percentage of internet usage in families by regions
 
 ### D5
 
@@ -213,10 +213,10 @@ Methodology: **D7** derives from **D2**, the cleaning of which was done semi-aut
 
 ## 4. Quality analysis of the datasets 
 
-This section considers the necessary requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati). The four characteristics to control the level of information quality are:
+This section considers the requirements, established according to the "Linee guida per la valorizzazione del patrimonio informativo pubblico" by AGID https://docs.italia.it/italia/daf/lg-patrimonio-pubblico/it/bozza/aspettiorg.html#qualita-dei-dati). The four characteristics to control the level of information quality are:
 
 - **accuracy** (syntactic and semantic) - the data, and its attributes, correctly represent the real value of the concept or event to which it refers;
-- **coherence** - the data, and its attributes is not contradictory to other data regarding the context of the use of the owner administration;
+- **coherence** - the data, and its attributes are not contradictory to other data regarding the context of the use of the owner administration;
 - **completeness** - the data is exhaustive for all its expected values and with respect to the relative entities (sources) that contribute to the definition of the procedure;
 - **currentness** (or timeliness of updating) - the data, and its attributes is of the "right time" (it is updated) with respect to the procedure to which it refers.
 
@@ -332,7 +332,7 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 | |6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?|yes|yes|yes|yes|yes|yes|yes|
 
 The Datasets do not include any personal information of individuals since no attributes about individuals are present. Moreover, we did not detect any data that would fit the concept of personal data according to the Article 29 Working Party Opinion 4/2007 (https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf) “data relates to an individual if it refers to the identity, characteristics or behavior of an individual or if such information is used to determine or influence the way in which that
-person is treated or evaluated” 
+a person is treated or evaluated” 
  
 Hence, identity cannot be inferred. What is more, datasets are not cross-referenced and not connected between other databases and datasets. We have not determined threats related to how information can be identified and connected to specific individuals.
 
@@ -352,7 +352,7 @@ A CSV should normally follow RFC 4180(https://tools.ietf.org/html/rfc4180), howe
 
 None of the datasets **D1, D2, D4**  was published in. RDF format which gives us a reason to consider all the original datasets as 3-star Open Data.
 
-Finally, **D1, D2, D4** are consistent, all of the datasets follow a well-defined structure and include explanations for the abbreviations.  However, Datasets **D1, D2, D4** make arbitrary use of uppercase and lowercase. Moreover, **D2** list types of crimes in different order to different regions, which made it difficult to manipulate data while extracting necessary information. 
+Finally, **D1, D2, D4** are consistent, all of the datasets follow a well-defined structure and include explanations for the abbreviations.  However, Datasets **D1, D2, D4** make arbitrary use of uppercase and lowercase. Moreover, **D2** list types of crimes in a different order to different regions, which made it difficult to manipulate data while extracting necessary information. 
 
 ### **D3** 
 
@@ -383,7 +383,7 @@ An ontology is a detailed model of a slice of reality which is based on the fact
 
 We faced the need to create our own ontology once we realized that there was a lack of vocabularies for the description of statistical and crime data that would suit the needs of our project. Even though we managed to reuse some namespaces as(**ds:total_crime_rate**; **ds:average_salary**; **cis:hostsCulturalEvent**), those vocabularies were not enough to record the nature of our data and sufficiently describe it on the Web. 
 
-The **CRWACI Ontology** modeling was based on the analysed and extracted data while creating our mashup datasets. Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data. We also paid special attention to modelling crime-related namespaces in order to provide information on the crime situation in the Italian regions observing practice of different crime types. In this way, it helps to mediate between different sources of information on the Semantic Web.
+The **CRWACI Ontology** modeling was based on the analyzed and extracted data while creating our mashup datasets. Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data. We also paid special attention to modeling crime-related namespaces to provide information on the crime situation in the Italian regions observing the practice of different crime types. In this way, it helps to mediate between different sources of information on the Semantic Web.
 
 The full Ontology documentation and visualization can be found here: https://github.com/simayguzel/OpenDataCRAWCI/tree/master/myDocumentation
 
@@ -414,7 +414,7 @@ The binaries can be obtained by compiling the source code with MAVEN from the co
 ```bash 
 mvn clean install
 ```
-Once the source code have been compiled a JAR named stlab.csv2rdf-1.0.jar is available in the target folder.
+Once the source code has been compiled a JAR named stlab.csv2rdf-1.0.jar is available in the target folder.
 
 ### Usage
 
@@ -435,7 +435,7 @@ The character used as separator within the CSV file (e.g. , or ;).
     
  The file contains a set of key=value lines, where each key represents a column position in the source CSV (the counting of positions starts from index 1) and each value is a pair property-datatype composed of property URI form a target ontology or vocabulary and a datatype URI. The property-datatype pairs are separated by the character '>'. The data type is optional, hence it is possible to provide the property URI only without any data type. We remark that if no data type is provided, then the tool tries to infer the more appropriate data type for the value to transform to RDF. 
 
- Additionally, the following file, named *mapping* and containing key=property>datatype pairs, define the mapping to be used in order to generate the properties.
+ Additionally, the following file, named *mapping* and containing key=property>datatype pairs, define the mapping to be used to generate the properties.
  
  ```java
 1. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Region
@@ -451,7 +451,7 @@ The character used as separator within the CSV file (e.g. , or ;).
 
  ``` 
  
- Hence, the following line provides the example about how to use the tool from the command line in order to obtain RDF from CSV and saving its content into a file named *musicians.ttl*. We suppose that the input CSV is actually a tab-separated file.
+ Hence, the following line provides an example of how to use the tool from the command line in order to obtain RDF from CSV and saving its content into a file named *musicians.ttl*. We suppose that the input CSV is actually a tab-separated file.
  ```bash
  java -jar stlab.csv2rdf-1.0.jar -s '\t' -m mapping -o crawci.ttl cleandata.csv
  ```
@@ -464,7 +464,7 @@ The character used as separator within the CSV file (e.g. , or ;).
 
 ### 8.2 Updating the dataset over time
 
-We do not plan to update CRAWCI datasets as it considers the specific year, namely 2016. However, it would be interesting to analyse other years to see the results in dynamic.
+We do not plan to update CRAWCI datasets as it considers the specific year, namely 2016. However, it would be interesting to analyze other years to see the results in dynamic.
 
 
 ## 9. Handling the visualization (technical description)
@@ -655,7 +655,7 @@ Our final dataset features 56 types of crimes, after analyzing all of them we en
 ### 10.7 Correlation
 
 In order to answer our initial question **weather, there is a strong relationship between the density of cultural institutions and(respectively) average salary, internet diffusion and the number of total criminal reports** 
-and hence to approve o disapprove our hypothesis "**The presence of cultural institutions increases the average salary and dicreases the crime rate"** , we have calculated the correlation coefficients. The correlation is used in statistics to measure how strong a relationship is between two variables. The formulas return a value between **-1**(negative correlation) and **1**(positive correlation). 
+and hence to approve o disapprove our hypothesis "**The presence of cultural institutions increases the average salary and decreases the crime rate"** , we have calculated the correlation coefficients. The correlation is used in statistics to measure how strong a relationship is between two variables. The formulas return a value between **-1**(negative correlation) and **1**(positive correlation). 
 
 By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pearson's correlation is calculated by taking the results from our dataset. **X axis** - the values of **cultural institution density** and **Y axis** - the values of **average salary, internet diffusion, the number of total criminal reports** one by one. 
 
@@ -666,7 +666,7 @@ By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pears
  (0.0246,34.290) (0,33.504) (0.0511,35.866) (0.0238,40.459) (0.33,39.674) (0.0131,39.521) (0.0261,37.483) (0.0265,40.187)(0.0341,38.202) (0.0315,35.860) (0.0413,36.687) (0.0312,36.636) (0.0224,31.712) (0.0132,28.581) (0.0263,27.778) (0.0129,31.726) (0.0083,28.578) (0.0132,26.852) (0.0121,25.936) (0.0125,30.332)
   ```
   
-  - Correlation between the density of cultural institutions and average salary: **0.35698**. Positive correlation is obtained which proves our hypothesis: when the presence of C.I. is dense, the average salary increases, too.
+  - Correlation between the density of cultural institutions and average salary: **0.35698**. The positive correlation is obtained which proves our hypothesis: when the presence of C.I. is dense, the average salary increases, too.
   
   
 ![alt text](salary-ci.png)
@@ -678,7 +678,7 @@ By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pears
 (0.0246,69.1) (0,69.4) (0.0511,65.2) (0.0238,73,7) (0.33,72.5) (0.0131,72.6) (0.0261,73.1) (0.0265,71.9)(0.0341,71.9) (0.0315,69) (0.0413,70) (0.0312,72.9) (0.0224,70) (0.0132,63.2) (0.0263,64.4) (0.0129,62.4) (0.0083,62.7) (0.0132,59.4) (0.0121,60.6) (0.0125,72.4)
  ```
  
-   - Correlation between the density of cultural institutions and internet diffusion : **0.25864**. Like average salary, there is a positive correlation between the C.I. density and internet diffusion and it can be deduced that the denser cultural instiution presence is, the wider internet spread is.  
+   - Correlation between the density of cultural institutions and internet diffusion: **0.25864**. Like average salary, there is a positive correlation between the C.I. density and internet diffusion and it can be deduced that the denser cultural institution presence is, the wider internet spread is.  
  ![alt text](internet-ci.png)
 
 - Pearson's correlation between the cultural institution density and criminal reports(the first values in parenthesis stand for the C.I. density while the second ones are for the number of criminal reports:
@@ -687,8 +687,8 @@ By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pears
 (0.0246,207.885) (0,4.085) (0.0511,79.898) (0.0238,475.194) (0.33,620) (0.0131,169.999) (0.0261,35.552) (0.0265,229.630)(0.0341,176.246) (0.0315,30.108) (0.0413,47.067) (0.0312,276.255) (0.0224,43.136) (0.0132,8.205) (0.0263,222.685) (0.0129,149.334) (0.0083,13.570) (0.0132,61.137) (0.0121,176.318) (0.0125,47.465)
  ```
  
-  - Correlation between the density of cultural institutions and the number of total criminal reports: **0.69353**. So, there is a positive correlation between them which means that when there is a high density of cultural instiution, criminality increases which also proves our hypothesis.  
+  - Correlation between the density of cultural institutions and the number of total criminal reports: **0.69353**. So, there is a positive correlation between them which means that when there is a high density of cultural institutions, criminality increases which also proves our hypothesis.  
 ![alt text](crime-ci.png)
 
 
-Therefore, our hypothesis **The presence of cultural institutions increases the average salary and dicreases the crime rate** was not fully proved because according to the nature of our hypothesis we were supposed to have negative correlation between the density of cultural institutions and crime rate. Instead, the correlation turned out to be not only postive but the strongest one among our data. 
+Therefore, our hypothesis **The presence of cultural institutions increases the average salary and decreases the crime rate** was not fully proved because according to the nature of our hypothesis we were supposed to have a negative correlation between the density of cultural institutions and crime rate. Instead, the correlation turned out to be not only positive but the strongest one among our data. 
