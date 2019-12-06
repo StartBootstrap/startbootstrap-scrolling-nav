@@ -472,15 +472,22 @@ We do not plan to update CRAWCI datasets as it considers the specific year, name
 In order to visualize the data the following libraries were used:
 
 * **Bootstrap**: Build responsive, mobile-first projects on the web with the world's most popular front-end component library.
+* **Chart.js**: For the visualization of school self-evaluation a specific bar chart was chosen (MIT license).
+* **GEOJSON**: Leaflet makes it possible to draw polygons directly from geojson files:
+               Regions: To help us draw regions, data from Stefano Cudini's repository were used.
 
-### 9.1 Cultural institutions
-N. of cultural institutions divided by Km^2.
+### 9.1 The Icons(green circle / red circle)
 
-For Italy, each region, each province we established the following threshold:
+The average of each column is calculated:
+ - Avarage Salary: 29843
+ - Avarage Number of Theaters: 36
+ - Average Internet Diffusion: 68,32
+ - Average Criminal reports: 127087
+ - Average of Cultural Density: 0,021185
 
--one museum icon if < 0.0224 (Italian average presence of cultural institutions/Km^2);
--two museum icons if >= 0.0224 and < 0.0448;
--three museum icons if >= 0.0448.
+- If a region has a **higher value** of salary, number of theaters, internet diffusion and cultural density than the average value, **the green circle** appears; else **the red circle** appears.
+
+- However; if a region has a **higher value** of criminal reports than the average value, **the red circle** appears; else **the green circle** appears.
 
 ## 10. Summary
 
