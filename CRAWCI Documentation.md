@@ -438,17 +438,12 @@ The character used as separator within the CSV file (e.g. , or ;).
  Additionally, the following file, named *mapping* and containing key=property>datatype pairs, define the mapping to be used to generate the properties.
  
  ```java
-1. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Region
-2. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasTheater
-3. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasAverageSalary
-4. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasInternetDifusion
-5. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasCriminalReport
-6. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasDensity
-7. http://www.semanticweb.org/simayguzel/crawci#hasCrimeLevel
-9. http://www.semanticweb.org/simayguzel/crawci#hasInternetDiffusionLevel
-10.http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasNofTheater
-11.http://www.semanticweb.org/simayguzel/crawci#hasSalaryLevel
-
+1=http://xmlns.com/geonames/gn:name
+2=http://xmlns.com/cis/cis:hostsCulturalEvent
+3=http://xmlns.com/ds/ds:average_salary>
+4=http://simayguzel.github.io/crawci/hasInternetConnection
+5=http://xmlns.com/ds/ds:total_crime_rate
+6=http://simayguzel.github.io/crawci/hasDensityofCulturalInstitutions
  ``` 
  
  Hence, the following line provides an example of how to use the tool from the command line in order to obtain RDF from CSV and saving its content into a file named *musicians.ttl*. We suppose that the input CSV is actually a tab-separated file.
