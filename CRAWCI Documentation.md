@@ -231,7 +231,7 @@ This section considers the requirements, established according to the "Linee gui
 <td align="left"><p></p></td>      
 <td align="left"><p>Accuracy</p></td>      
 <td align="left"><p>Completeness</p></td>      
-<td align="left"><p>Coerenza</p></td>      
+<td align="left"><p>Coherence/p></td>      
 <td align="left"><p>Curentness</p></td>      
 </tr>      
 <tr class="even">      
