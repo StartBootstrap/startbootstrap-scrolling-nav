@@ -375,7 +375,7 @@ Ultimately, none of the datasets were published in RDF format which gives us a r
 | D3 | Incorrect information about Sardinia's provinces | 2.5 | Outdated content | Combination of manual and automatic methods to redistribute data in the correct provinces |
 | D4 | The absence of the well-defined structure | 2 | Technical | List all types of crime in order following a defined structure |
 | D5 | Empty rows| 2 | Semantics | Fill in the empty rows manually with names of the theatres  |
-| D1, D2, D3, D4, D5 | No RDF | 2 | Technical, Syntax | Creating RDF for datasets | 
+| D1, D2, D4, D5 | No RDF | 2 | Technical, Syntax | Creating RDF for datasets | 
 
 ## 7. Creating the CRAWCI Ontology
 
