@@ -459,7 +459,7 @@ The character used as separator within the CSV file (e.g. , or ;).
 
 ### 8.2 Updating the dataset over time
 
-We do not plan to update CRAWCI datasets as it considers the specific year, namely 2016. However, it would be interesting to analyze other years to see the results in dynamic.
+We do not plan to update CRAWCI datasets as it considers the specific year, namely 2016. However, it would be interesting to analyze other years to see the results in flow.
 
 
 ## 9. Handling the visualization (technical description)
