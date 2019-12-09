@@ -47,7 +47,7 @@ Advertisements and promotions among citizens to make awareness of the importance
 
 I.Stat, Reddito netto: Regioni e tipo di comune, viewed 14 November 2019, http://dati.istat.it/Index.aspx?QueryId=22919
 
-License: Creative Commons License – Attribution – 3.0 https://www.istat.it/it/note-legali
+License: Creative Commons License – Attribution – 3.0 (CC BY) https://www.istat.it/it/note-legali
 
 Content description: The dataset provides data about average annual income of families in eur per region.
 
@@ -56,7 +56,7 @@ Content description: The dataset provides data about average annual income of fa
 I.Stat, Delitti denunciati dalle forze di polizia all'autorità giudiziaria, viewed 14 November 2019,  
 http://dati.istat.it/Index.aspx?DataSetCode=DCCV_DELITTIPS
 
-License: Creative Commons License – Attribution – 3.0 https://www.istat.it/it/note-legali
+License: Creative Commons License – Attribution – 3.0 (CC BY) https://www.istat.it/it/note-legali
 
 Content description: The datasets provide information on crimes reported by the police to the judicial authority.
 
@@ -64,7 +64,7 @@ Content description: The datasets provide information on crimes reported by the 
 
 MiBACT, Luoghi della cultura, electronic dataset, Gli Open Data, viewed 14 November 2019, http://dati.beniculturali.it/lodview/resource/datasetLuoghiDellaCultura.html 
 
-License: https://creativecommons.org/licenses/by/3.0/
+License: CC BY-SA 3.0 - Creative Commons https://creativecommons.org/licenses/by-sa/3.0/it/
 
 Content description: This dataset lists cultural institutions in Italy providing information about their location, identification, and services.
 
@@ -145,7 +145,7 @@ offset 0
 I.Stat, Internet: access and type of use, viewed 14 November 2019
 http://dati.istat.it/Index.aspx?QueryId=22994&lang=en
 
-License: Creative Commons License – Attribution – 3.0 https://www.istat.it/it/note-legali
+License: Creative Commons License – Attribution – 3.0 (CC BY) https://www.istat.it/it/note-legali
 
 Content description: This dataset shows the percentage of internet usage in families by regions
 
@@ -164,7 +164,7 @@ CRAWCI Project, The final dataset, created 15 November 2019
 CSV: https://github.com/simayguzel/crawci/blob/master/dataset/crawciopendata.csv
 RDF: https://github.com/simayguzel/crawci/blob/master/dataset/dataset.rdf
 
-License: Open Data License v2.0 https://www.dati.gov.it/content/italian-open-data-license-v20">Italian
+License: CC BY-SA 3.0 - Creative Commons https://creativecommons.org/licenses/by-sa/3.0/it/
 
 Content description: This dataset includes1) the number of theaters; 2)the percentage of internet usage in families; 3) the number of crime reports; 4)the average salary; 5) The density of cultural institutions per square km.  The result will be presented as an explorable map that allows users to visualize all the data about regions. 
 
@@ -205,7 +205,7 @@ def Aligner(cleaned-data1,cleaned-data2,outputdata,area):
 CRAWCI Project, The final dataset, created 15 November 2019
 CSV: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset%20and%20rdf/typesofcrimes.csv
 RDF: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset%20and%20rdf/crimedataset.rdf
-License: Open Data License v2.0 https://www.dati.gov.it/content/italian-open-data-license-v20">Italian 
+License: CC BY-SA 3.0 - Creative Commons https://creativecommons.org/licenses/by-sa/3.0/it/
 
 Content description: This dataset contains the total number of reports of all the types of crimes in Italian regions. 
 
@@ -231,7 +231,7 @@ This section considers the requirements, established according to the "Linee gui
 <td align="left"><p></p></td>      
 <td align="left"><p>Accuracy</p></td>      
 <td align="left"><p>Completeness</p></td>      
-<td align="left"><p>Coerenza</p></td>      
+<td align="left"><p>Coherence/p></td>      
 <td align="left"><p>Curentness</p></td>      
 </tr>      
 <tr class="even">      
@@ -338,9 +338,13 @@ Hence, identity cannot be inferred. What is more, datasets are not cross-referen
 
 ### 5.2 Licenses
 
-D1, D2, D3, and D4 are licensed under Creative Commons License(https://creativecommons.org/licenses/by/3.0/) – Attribution – 3.0 and D5 is licensed under the Open Data License (ODL) v2.0(https://opendatacommons.org/licenses/odbl/), which is very similar to a CC-BY 4.0. Each dataset is accompanied by a clear license declaration. The content of the website is covered by the "All rights reserved" copyright statement. 
+D1, D2, D4 are licensed under Creative Commons License(https://creativecommons.org/licenses/by/3.0/) – Attribution CC BY– 3.0;
 
-Our final dataset has an open licence which allows others to republish the content or data on their own website, to derive new content or data from yours, to make money by selling products that use your content or data, to republish the content or data while charging a fee for access as long as the reusers give attribution or share-alike). Our creative work has Open Data License v2.0(https://www.dati.gov.it/content/italian-open-data-license-v20">Italian). 
+D3 is under CC BY-SA 3.0 - Creative Commons https://creativecommons.org/licenses/by-sa/3.0/it/
+
+D5 is licensed under the Open Data License (ODL) v2.0(https://opendatacommons.org/licenses/odbl/), which is very similar to a CC-BY 4.0. Each dataset is accompanied by a clear license declaration. The content of the website is covered by the "All rights reserved" copyright statement. 
+
+Our final dataset has CC BY-SA 3.0 - Creative Commons https://creativecommons.org/licenses/by-sa/3.0/it/. This license lets others reuse, adapt, and build upon their works even for commercial purposes, as long as they credit our source and license their new creations under the identical terms. Which means that all new works will carry the same license, so any derivatives will also allow commercial use. 
 
 ## 6. Technical analysis 
 
@@ -375,7 +379,7 @@ Ultimately, none of the datasets were published in RDF format which gives us a r
 | D3 | Incorrect information about Sardinia's provinces | 2.5 | Outdated content | Combination of manual and automatic methods to redistribute data in the correct provinces |
 | D4 | The absence of the well-defined structure | 2 | Technical | List all types of crime in order following a defined structure |
 | D5 | Empty rows| 2 | Semantics | Fill in the empty rows manually with names of the theatres  |
-| D1, D2, D3, D4, D5 | No RDF | 2 | Technical, Syntax | Creating RDF for datasets | 
+| D1, D2, D4, D5 | No RDF | 2 | Technical, Syntax | Creating RDF for datasets | 
 
 ## 7. Creating the CRAWCI Ontology
 
@@ -438,17 +442,12 @@ The character used as separator within the CSV file (e.g. , or ;).
  Additionally, the following file, named *mapping* and containing key=property>datatype pairs, define the mapping to be used to generate the properties.
  
  ```java
-1. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Region
-2. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasTheater
-3. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasAverageSalary
-4. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasInternetDifusion
-5. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasCriminalReport
-6. http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasDensity
-7. http://www.semanticweb.org/simayguzel/crawci#hasCrimeLevel
-9. http://www.semanticweb.org/simayguzel/crawci#hasInternetDiffusionLevel
-10.http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#hasNofTheater
-11.http://www.semanticweb.org/simayguzel/crawci#hasSalaryLevel
-
+1=http://xmlns.com/geonames/gn:name
+2=http://xmlns.com/cis/cis:hostsCulturalEvent
+3=http://xmlns.com/ds/ds:average_salary>
+4=http://simayguzel.github.io/crawci/hasInternetConnection
+5=http://xmlns.com/ds/ds:total_crime_rate
+6=http://simayguzel.github.io/crawci/hasDensityofCulturalInstitutions
  ``` 
  
  Hence, the following line provides an example of how to use the tool from the command line in order to obtain RDF from CSV and saving its content into a file named *musicians.ttl*. We suppose that the input CSV is actually a tab-separated file.
@@ -464,7 +463,7 @@ The character used as separator within the CSV file (e.g. , or ;).
 
 ### 8.2 Updating the dataset over time
 
-We do not plan to update CRAWCI datasets as it considers the specific year, namely 2016. However, it would be interesting to analyze other years to see the results in dynamic.
+We do not plan to update CRAWCI datasets as it considers the specific year, namely 2016. However, it would be interesting to analyze other years to see the results in flow.
 
 
 ## 9. Handling the visualization (technical description)
