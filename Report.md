@@ -1,6 +1,6 @@
 ## Report: Implementation of suggested changes
 
-This paper presents the changes that were made in the CRAWCI Project https://github.com/simayguzel/OpenDataCRAWCI/blob/master/CRAWCI%20Documentation.md to improve the quality of published datasets.
+This paper presents the changes that were have been made to the CRAWCI Project https://github.com/simayguzel/OpenDataCRAWCI/blob/master/CRAWCI%20Documentation.md to improve the quality of published datasets.
 
 ### Privacy violation 
 
