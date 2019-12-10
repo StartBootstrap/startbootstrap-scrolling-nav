@@ -20,6 +20,6 @@ Hence, it is necessary to distinguish between open data and public data which be
 
 ### RDF 
 
-Our .rdf has been updated with namespaces from **Geoname Ontology** (http://www.geonames.org/ontology#) on order to sufficiently describe the regions.  
+Our .rdf has been updated with namespaces from **Geonames Ontology** (http://www.geonames.org/ontology#) on order to sufficiently describe the regions.  
 
 ### Technical issue / User Experience
