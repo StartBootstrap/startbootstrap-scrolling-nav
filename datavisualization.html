@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +20,8 @@
   	<script type="text/javascript">
   		function data_append(name, c1,c2,c3,c4,c5,c6,sal,difu,dens,crim,theat){
 
+
+    var ctx = document.getElementById('myChart').getContext('2d');
         if(sal>29843){
               if(document.getElementById('icon')){
                        document.getElementById('icon').style.color='green';
@@ -198,7 +201,12 @@
                var x = document.getElementById('txt').innerHTML = name;
   
 
-  			
+  			         var can = document.getElementById('myChart');
+    can.remove();
+    var canv = document.createElement('canvas');
+    canv.id = 'myChart';
+
+    document.getElementById('graph-container').appendChild(canv); // adds the canvas to #someBox
   			var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
@@ -266,13 +274,7 @@ var myChart = new Chart(ctx, {
 		.Map :hover{
 			fill: #800080;
 		}
-		.container-fluid{
-			float: left;
-			position: absolute;
-    		top: 0px;
-    		left: 0px;
-        border: solid 1px #800080;
-		}
+
 	</style>
 </head>
 <body>
@@ -336,24 +338,9 @@ var myChart = new Chart(ctx, {
             </div>
           </div>
 
-          <!-- cardSchool -->
-          <div id="CardSchool" class="row" style="display: none">
-            <div class="col-md-12">
-              <div class="card">
-                <div class="card-body">
-
-                  <h6 id="school_title" class="card-title text-uppercase"> </h6>
-                  <p id="school_address" class="text-muted"></p>
-                  <p>
-                  </p>
-
-                  <button type="button" class="btn btn-primary" onclick="reset()">Reset map view</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-	<canvas id="myChart" width="400" height="400"></canvas>
+<div id="graph-container">
+    <canvas id="myChart" width="800" height="800"></canvas>
+</div>
 </div>
 </div>
 </div>
