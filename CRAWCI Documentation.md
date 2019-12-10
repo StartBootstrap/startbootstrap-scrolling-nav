@@ -310,7 +310,7 @@ The analysis pays particular attention to aspects related to privacy, licenses, 
 | | 2.4 Do you have checked if there are some limitations in your national legal system for releasing some kind of datasets with an open license? | yes |yes| yes| yes|yes|yes|yes|
 | **License** | | |
 | | 3.1 Do you release the dataset with an open data license? In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)?| yes |yes| yes| yes|yes|yes| yes|
-| | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ?| no|no|no|no|no|yes|yes|
+| | 3.2 Do you include the clause: "In any case the dataset can’t be used for re-identifying the person" ?| yes|yes|yes|yes|yes|yes|yes|
  | | 3.3 Do you release the API (in case you have) with an open source license no |no |no |no |no |no |no|no|
 | **Limitations on public access** | | |
 | | 4.1 Do you check that the dataset concerns your institutional competences, scope and finality? Do you check if the dataset concerns other public administration competences? |yes|yes|yes|yes|yes|yes|yes|
@@ -387,7 +387,7 @@ An ontology is a detailed model of a slice of reality which is based on the fact
 
 We faced the need to create our own ontology once we realized that there was a lack of vocabularies for the description of statistical and crime data that would suit the needs of our project. Even though we managed to reuse some namespaces as(**ds:total_crime_rate**; **ds:average_salary**; **cis:hostsCulturalEvent**), those vocabularies were not enough to record the nature of our data and sufficiently describe it on the Web. 
 
-The **CRWACI Ontology** modeling was based on the analyzed and extracted data while creating our mashup datasets. Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data. We also paid special attention to modeling crime-related namespaces to provide information on the crime situation in the Italian regions observing the practice of different crime types. In this way, it helps to mediate between different sources of information on the Semantic Web.
+The **CRAWCI Ontology** modeling was based on the analyzed and extracted data while creating our mashup datasets. Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data. We also paid special attention to modeling crime-related namespaces to provide information on the crime situation in the Italian regions observing the practice of different crime types. In this way, it helps to mediate between different sources of information on the Semantic Web.
 
 The full Ontology documentation and visualization can be found here: https://github.com/simayguzel/OpenDataCRAWCI/tree/master/myDocumentation
 
