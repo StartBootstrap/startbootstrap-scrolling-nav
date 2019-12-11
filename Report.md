@@ -1,6 +1,6 @@
 ## Report: Implementation of suggested changes
 
-This paper presents the changes that were made in the CRAWCI Project https://github.com/simayguzel/OpenDataCRAWCI/blob/master/CRAWCI%20Documentation.md to improve the quality of published datasets.
+This paper presents the changes that were have been made to the CRAWCI Project https://github.com/simayguzel/OpenDataCRAWCI/blob/master/CRAWCI%20Documentation.md to improve the quality of published datasets.
 
 ### Privacy violation 
 
@@ -11,12 +11,15 @@ Even though the dataset is anonymized there is a risk of identification if other
 For this reason, when releasing data on the Web it is of crucial importance to ensure that the risk of a privacy violation is as low as possible unless there was some other reason why privacy was not a priority (for example, there may be a public interest in the publication of some personal information,
 such as the identities of suspected criminals) (Analytical Report 3: Open Data and Privacy) https://www.europeandataportal.eu/sites/default/files/open_data_and_privacy_v1_final_clean.pdf. 
 
-Hence, the dataset published by I.Stat poses a potential risk of privacy violation and a possible solution could be not publishing the data at all, specifically data presents too small values and as a result, bears risks of being identified.
+Hence, it is necessary to distinguish between open data and public data which bears risks for personally identifiable information to be disclosed while achieving a particular policy. The dataset published by I.Stat presents a risk of privacy violation. Consequently, a possible solution could be not publishing the data that presents too small values and as a result, bears risks of being identified. If the data is to be published, there are two paramount aspects to consider. Firstly, evaluate the final goal and do not produce open data that could result in privacy violations. Secondly, include the impact assessment to analyze the likelihood of privacy violations.
+
 
 ### Data Normalization
 
 ### The Ontology
 
 ### RDF 
+
+Our .rdf has been updated with namespaces from **Geonames Ontology** (http://www.geonames.org/ontology#) in order to sufficiently describe the regions without bearing the risk of referencing those resources that are not reliable enough.
 
 ### Technical issue / User Experience

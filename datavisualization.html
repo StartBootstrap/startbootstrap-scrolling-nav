@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,8 +20,6 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   	<script type="text/javascript">
   		function data_append(name, c1,c2,c3,c4,c5,c6,sal,difu,dens,crim,theat){
-
-
     var ctx = document.getElementById('myChart').getContext('2d');
         if(sal>29843){
               if(document.getElementById('icon')){
@@ -33,7 +32,6 @@
                   icon.setAttribute("id", "icon");
                   document.getElementById('txtSchoolNum').appendChild(icon);
                   document.getElementById('icon').style.color='green';
-
                   }
           }else{
              if(document.getElementById('icon')){
@@ -51,12 +49,8 @@
                 para.setAttribute("id", "paraph");
                 document.getElementById('txtSchoolNum').appendChild(para);
                 document.getElementById('paraph').innerHTML = sal;
-
-
            
-
   			       var x = document.getElementById('txt').innerHTML = name;
-
        if(difu>68.2){
           if(document.getElementById('icono')){
                        document.getElementById('icono').style.color='green';
@@ -68,7 +62,6 @@
                   icono.setAttribute("id", "icono");
                   document.getElementById('inumber').appendChild(icono);
                   document.getElementById('icono').style.color='green';
-
                   }
           }else{
              if(document.getElementById('icono')){
@@ -86,13 +79,9 @@
                 parao.setAttribute("id", "parapho");
                 document.getElementById('inumber').appendChild(parao);
                 document.getElementById('parapho').innerHTML = difu;
-
-
            
-
                var x = document.getElementById('txt').innerHTML = name;
   
-
       if(dens>0.021185){
           if(document.getElementById('iconop')){
                        document.getElementById('iconop').style.color='green';
@@ -104,7 +93,6 @@
                   iconop.setAttribute("id", "iconop");
                   document.getElementById('cinumber').appendChild(iconop);
                   document.getElementById('iconop').style.color='green';
-
                   }
           }else{
              if(document.getElementById('iconop')){
@@ -123,10 +111,8 @@
                 document.getElementById('cinumber').appendChild(paraop);
                 document.getElementById('paraphop').innerHTML = dens;
            
-
                var x = document.getElementById('txt').innerHTML = name;
   
-
       if(crim<127087){
           if(document.getElementById('iconopo')){
                        document.getElementById('iconopo').style.color='green';
@@ -138,7 +124,6 @@
                   iconopo.setAttribute("id", "iconopo");
                   document.getElementById('crnumber').appendChild(iconopo);
                   document.getElementById('iconopo').style.color='green';
-
                   }
           }else{
              if(document.getElementById('iconopo')){
@@ -157,10 +142,8 @@
                 document.getElementById('crnumber').appendChild(paraopo);
                 document.getElementById('paraphopo').innerHTML = crim;
            
-
                var x = document.getElementById('txt').innerHTML = name;
   
-
  if(theat>36){
           if(document.getElementById('iconopor')){
                        document.getElementById('iconopor').style.color='green';
@@ -172,7 +155,6 @@
                   iconopor.setAttribute("id", "iconopor");
                   document.getElementById('tnumber').appendChild(iconopor);
                   document.getElementById('iconopor').style.color='green';
-
                   }
           }else{
              if(document.getElementById('iconopor')){
@@ -190,22 +172,15 @@
                 paraopor.setAttribute("id", "paraphopor");
                 document.getElementById('tnumber').appendChild(paraopor);
                 document.getElementById('paraphopor').innerHTML = theat;
-
-
            
-
                var x = document.getElementById('txt').innerHTML = name;
   
-
-
                var x = document.getElementById('txt').innerHTML = name;
   
-
   			         var can = document.getElementById('myChart');
     can.remove();
     var canv = document.createElement('canvas');
     canv.id = 'myChart';
-
     document.getElementById('graph-container').appendChild(canv); // adds the canvas to #someBox
   			var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
@@ -244,20 +219,15 @@ var myChart = new Chart(ctx, {
         }
     }
 });
-
 			return 1;
-
   		}
   	</script>
 
 	<title>Data-Visualization</title>
 
 	<style type="text/css">
-
-
 		.Map{
 			margin-left: -1000000px;
-
 			position: absolute;
     		top: 0px;
     		right: 0px;
@@ -274,7 +244,6 @@ var myChart = new Chart(ctx, {
 		.Map :hover{
 			fill: #800080;
 		}
-
 	</style>
 </head>
 <body>
