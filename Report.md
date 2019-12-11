@@ -28,7 +28,7 @@ As a result, we referenced Geonames links to the regions, (ex. Veneto: http://sw
       - <gn:population>
 The rdf example for Veneto region is presented below:
 
-  <rdf:Description rdf:about="http://sws.geonames.org/3164604/">
+'''<rdf:Description rdf:about="http://sws.geonames.org/3164604/">
       <rdfs:seeAlso "http://dbpedia.org/resource/Veneto">
       <gn:alternateName "Regione del Veneto" , "Veneto" , "Venetia">
       <gn:countryCode "IT">
@@ -39,5 +39,6 @@ The rdf example for Veneto region is presented below:
       <ds:total_crime_rate>47465</dcterms:crimerate>
       <ds:internet_diffusion>72,4</ds:internet_diffusion>
   </rdf:Description>
+  '''
 
 ### Technical issue / User Experience
