@@ -22,13 +22,15 @@ Hence, it is necessary to distinguish between open data and public data which be
 
 Our .rdf has been updated with namespaces from **Geonames Ontology** (http://www.geonames.org/ontology#) in order to sufficiently describe the regions without bearing the risk of referencing primarly those resources that are not reliable enough. 
 As a result, we referenced Geonames links to the regions, (ex. Veneto: http://sws.geonames.org/3164604). Moreover, we used the following namespaces:
-      - <gn:alternateName>
-      - <gn:countryCode>
-      - <gn:locationMap>
-      - <gn:population>
+
+- <gn:alternateName>
+- <gn:countryCode>
+- <gn:locationMap>
+- <gn:population>
+
 The rdf example for Veneto region is presented below:
 
-'''<rdf:Description rdf:about="http://sws.geonames.org/3164604/">
+```<rdf:Description rdf:about="http://sws.geonames.org/3164604/">
       <rdfs:seeAlso "http://dbpedia.org/resource/Veneto">
       <gn:alternateName "Regione del Veneto" , "Veneto" , "Venetia">
       <gn:countryCode "IT">
@@ -39,6 +41,6 @@ The rdf example for Veneto region is presented below:
       <ds:total_crime_rate>47465</dcterms:crimerate>
       <ds:internet_diffusion>72,4</ds:internet_diffusion>
   </rdf:Description>
-  '''
+  ```
 
 ### Technical issue / User Experience
