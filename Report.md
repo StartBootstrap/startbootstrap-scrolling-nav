@@ -44,4 +44,6 @@ The rdf example for Veneto region is presented below:
   </rdf:Description>
   ```
 
+  The updated .rdf can be found here https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/dataset.rdf.
+
 ### Technical issue / User Experience

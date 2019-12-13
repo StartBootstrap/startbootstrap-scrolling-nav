@@ -15,10 +15,10 @@
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3170831/regione-piemonte.html">
       <gn:name "Regione Piemonte">
-      <gn:population>"4393"</gn:population>
+      <gn:population>"4393000"</gn:population>
       <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/34290">34290</ds:average_salary>
       <cis:hostsCulturalEvent>44</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>207885</dcterms:crimerate>
+      <ds:total_crime_rate>4732</dcterms:crimerate>
        <ds:internet_diffusion>69,1</ds:internet_diffusion>
    </rdf:Description>
 
@@ -28,11 +28,11 @@
       <gn:alternateName "Regione Autonoma Val d'Aosta"@fr , "Région Autonome Vallée d'Aoste"@fr , "Valle di Aosta" , "Vallée d'Aoste"@it , "Regione Autonoma Valle d’Aosta"@it>
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3164857/regione-autonoma-valle-d-aosta.html">
-      <gn:population> "127"</gn:population>
+      <gn:population> "127000"</gn:population>
       <ds:average_salary>33504</ds:average_salary>
       <gn:locationMap "http://www.geonames.org/3164857/regione-autonoma-valle-d-aosta.html">
       <cis:hostsCulturalEvent>2</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>4085</dcterms:crimerate>
+      <ds:total_crime_rate>3217</dcterms:crimerate>
       <ds:internet_diffusion>69,4</ds:internet_diffusion>
    </rdf:Description>
 
@@ -43,10 +43,10 @@
       <gn:alternateName "Regione Liguria" , "Liguria" , "Ligurien"@de , "Ligurien"@sv , "Ligurië"@nl>
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3174725/regione-liguria.html">
-      <gn:population> "1565"</gn:population>
+      <gn:population> "1565000"</gn:population>
       <ds:average_salary>35866</ds:average_salary>
       <cis:hostsCulturalEvent>23</cis:hostsCulturalEvent>
-      <ds:total_crime_rate >79898</dcterms:crimerate>
+      <ds:total_crime_rate >5105</dcterms:crimerate>
        <ds:internet_diffusion>65,2</ds:internet_diffusion>
    </rdf:Description>
 
@@ -57,10 +57,10 @@
       <gn:alternateName "Etelä-Tiroli"@fi , "Sidtiroul"@bar , "Venetia Tridentina" , "Tirol del Sud"@ca , "Tirol Meridional"@pt , "Syd-Tirol"@no , "Sydtyrolen"@sv , "South Tyrol" , "Sydtyrolen (Trentino - Alto Adige)"@sv , "Autonomní provincie Bolzano"@cs , "Sudtirolo"@eo , "Autonome Region Trentino-Südtirol" , "Больцано"@ru , "Tirolo" , "Południowy Tyrol"@pl , "Južné Tirolsko"@sk , "Tirolul de Sud"@ro , "Južna Tirolska"@sl , "Su Tirol"@br , "Sudtirol"@it , "Bozen-Zuid-Tirol"@nl , "Venezia Tridentina" , "Trentin-Tyrol-du-Sud"@fr , "Südtirol"@de , "ボルツァーノ自治県"@ja , "Trentin"@it , "Tirolum Meridionale"@la , "Tirol del Sur"@es>
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3165244/regione-autonoma-trentino-alto-adige.html">
-      <gn:population>"1063" </gn:population>
+      <gn:population>"1063000" </gn:population>
       <ds:average_salary>396740</ds:average_salary>
       <cis:hostsCulturalEvent>43</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>33620</dcterms:crimerate>
+      <ds:total_crime_rate>3163</dcterms:crimerate>
       <ds:internet_diffusion>72,5</ds:internet_diffusion>
   </rdf:Description>
 
@@ -71,10 +71,10 @@
      <gn:alternateName "Emilia" , "Emilia-Romaña"@es , "Emilia-Romagna"@en , "Regione Emilia-Romagna" , "Romagna">
      <gn:locationMap "http://www.geonames.org/3177401/regione-emilia-romagna.html">
      <gn:countryCode "IT">
-     <gn:population>"4449"</gn:population>
+     <gn:population>"4449000"</gn:population>
      <ds:average_salary >40187</ds:average_salary>
      <cis:hostsCulturalEvent>67</cis:hostsCulturalEvent>
-     <ds:total_crime_rate>229630</dcterms:crimerate>
+     <ds:total_crime_rate>5161</dcterms:crimerate>
      <ds:internet_diffusion>71,9</ds:internet_diffusion>
     
    </rdf:Description>
@@ -86,10 +86,10 @@
      <gn:alternateName "FVG"@it , "Friuli-Julisch Venetië"@nl>
      <gn:countryCode "IT">
      <gn:locationMap "http://www.geonames.org/3176525/regione-autonoma-friuli-venezia-giulia.html">
-     <gn:population>"1219"</gn:population>
+     <gn:population>"1219000"</gn:population>
      <ds:average_salary>374830</ds:average_salary>
      <cis:hostsCulturalEvent>27</cis:hostsCulturalEvent>
-     <ds:total_crime_rate>47465</dcterms:crimerate>
+     <ds:total_crime_rate>2916</dcterms:crimerate>
      <ds:internet_diffusion>73,1</ds:internet_diffusion>
    </rdf:Description>
 
@@ -100,10 +100,10 @@
     <gn:alternateName "Toskana"@hr , "Toskana"@is , "Toskana"@lt , "Toskana"@sh , "Toskana"@tr , "Toskana"@bs , "Toskana"@lad , "Toskana"@sl , "Toscan-a"@pms , "Toskánsko"@cs , "Toskánsko"@sk , "Toskania"@pl , "Toskania"@io , "Toscana"@ia , "Toscana"@da , "Toscana"@ca , "Toscana"@eu , "Toscana"@no , "Toscana"@frp , "Toscana"@fi , "Toscana"@pt , "Toscana"@ro , "Toscana"@co , "Toscana"@et , "Toscana"@oc , "Toscana"@es , "Toscana"@gl , "Toscana"@id , "Toscana"@sv , "Toscana"@sw , "Toscana"@kw , "Toszkána"@hu , "Tuscia"@la , "Toscane"@nl , "Tuschèna"@eml , "Toskanio"@eo , "Toscann-a"@lij>
     <gn:countryCode "IT">
     <gn:locationMap "http://www.geonames.org/3165361/regione-toscana.html">
-    <gn:population>"3742"</gn:population>
+    <gn:population>"3742000"</gn:population>
     <ds:average_salary>38202</ds:average_salary>
     <cis:hostsCulturalEvent>66</cis:hostsCulturalEvent>
-    <ds:total_crime_rate >176246</dcterms:crimerate>
+    <ds:total_crime_rate >4710</dcterms:crimerate>
     <ds:internet_diffusion>71,9,4</ds:internet_diffusion>
    
    </rdf:Description>
@@ -115,10 +115,10 @@
     <gn:alternateName "Umbria" , "Regione Umbria" , "Umbrien"@sv , "Umbrië"@nl>
     <gn:countryCode "IT">
     <gn:locationMap "http://www.geonames.org/3165048/regione-umbria.html">
-    <gn:population>"889"</gn:population>
+    <gn:population>"889000"</gn:population>
     <ds:average_salary>35860</ds:average_salary>
     <cis:hostsCulturalEvent>16</cis:hostsCulturalEvent>
-    <ds:total_crime_rate >30108</dcterms:crimerate>
+    <ds:total_crime_rate >3387</dcterms:crimerate>
     <ds:internet_diffusion>69</ds:internet_diffusion>
    </rdf:Description>
 
@@ -130,7 +130,7 @@
     <gn:alternateName "Regione Marche" , "Marche"@en , "Marche" , "The Marches" , "Le Marche">
     <gn:countryCode "IT">
     <gn:locationMap "http://www.geonames.org/3174004/regione-marche.html">
-    <gn:population>"1538"</gn:population>
+    <gn:population>"1538000"</gn:population>
     <ds:average_salary>36687</ds:average_salary>
     <cis:hostsCulturalEvent>2</cis:hostsCulturalEvent>
     <ds:total_crime_rate>47067</dcterms:crimerate>
@@ -143,10 +143,10 @@
       <gn:alternateName "Latium" , "Latium"@la , "Regione Lazio" , "Lacio"@es>
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3174976/regione-lazio.html">
-      <gn:population>"5898"</gn:population>
+      <gn:population>"5898000"</gn:population>
       <ds:average_salary>36636</ds:average_salary>
       <cis:hostsCulturalEvent>42</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>276255</dcterms:crimerate>
+      <ds:total_crime_rate>4684</dcterms:crimerate>
       <ds:internet_diffusion>72,9</ds:internet_diffusion>
    </rdf:Description>
 
@@ -157,10 +157,10 @@
       <gn:alternateName "Lazio"@es , "Lazio"@it , "Lazio" , "Latium"@de , "Latium"@fr , "Latium"@en , "Latium"@nl , "Lazi"@ca>
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3174976/regione-lazio.html">
-      <gn:population>"1332"</gn:population>
+      <gn:population>"1332000"</gn:population>
       <ds:average_salary>31712</ds:average_salary>
       <cis:hostsCulturalEvent>7</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>43136</dcterms:crimerate>
+      <ds:total_crime_rate>3263</dcterms:crimerate>
       <ds:internet_diffusion>70</ds:internet_diffusion>
    </rdf:Description>
 
@@ -170,10 +170,10 @@
       <gn:alternateName "Lombardiet"@sv , "Regione Lombardia">
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3174618/regione-lombardia.html">
-      <gn:population>"10019"</gn:population>
+      <gn:population>"10019000"</gn:population>
       <ds:average_salary>30332</ds:average_salary>
       <cis:hostsCulturalEvent>21</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>47465</dcterms:crimerate>
+      <ds:total_crime_rate>4743</dcterms:crimerate>
        <ds:internet_diffusion>72,4</ds:internet_diffusion>
    </rdf:Description>
    
@@ -185,10 +185,10 @@
       <gn:alternateName "Lazio"@es , "Lazio"@it , "Lazio" , "Latium"@de , "Latium"@fr , "Latium"@en , "Latium"@nl , "Lazi"@ca>
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3173222/regione-molise.html">
-      <gn:population>"310"</gn:population>
+      <gn:population>"310000"</gn:population>
       <ds:average_salary >28581</ds:average_salary>
       <cis:hostsCulturalEvent >1</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>8205</dcterms:crimerate>
+      <ds:total_crime_rate>2647</dcterms:crimerate>
        <ds:internet_diffusion >63,2</ds:internet_diffusion>
    </rdf:Description>
 
@@ -199,10 +199,10 @@
       <gn:alternateName "Campania" , "Regione Campania" , "Kampanien"@sv>
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3181042/regione-campania.html">
-      <gn:population>"5839"</gn:population>
+      <gn:population>"5839000"</gn:population>
       <ds:average_salary>27778</ds:average_salary>
       <cis:hostsCulturalEvent>21</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>222685</dcterms:crimerate>
+      <ds:total_crime_rate>3814</dcterms:crimerate>
        <ds:internet_diffusion>64,4</ds:internet_diffusion>
    </rdf:Description>
 
@@ -213,10 +213,10 @@
       <gn:alternateName "Le Puglie" , "Puglie" , "Puglia" , "Apulia" , "Apulië"@nl , "Regione Puglia">
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3169778/regione-puglia.html">
-      <gn:population>"4064"</gn:population>
+      <gn:population>"4064000"</gn:population>
       <ds:average_salary>31726</ds:average_salary>
       <cis:hostsCulturalEvent >28</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>149334</dcterms:crimerate>
+      <ds:total_crime_rate>3675</dcterms:crimerate>
       <ds:internet_diffusion >62,4</ds:internet_diffusion>
    </rdf:Description>
 
@@ -228,10 +228,10 @@
       gn:childrenFeatures "http://sws.geonames.org/3182306/contains.rdf">
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3169778/regione-puglia.html">
-      <gn:population>"570"</gn:population>
+      <gn:population>"570000"</gn:population>
       <ds:average_salary>28578</ds:average_salary>
       <cis:hostsCulturalEvent>6</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>13570</dcterms:crimerate>
+      <ds:total_crime_rate>2381</dcterms:crimerate>
       <ds:internet_diffusion>62,7</ds:internet_diffusion>
    </rdf:Description>
 
@@ -242,10 +242,10 @@
       <gn:alternateName "Калабрија"@sr , "Kalabría"@is , "Categoria:Calàbria"@oc , "Kalábria"@sk , "แคว้นกาลาเบรีย"@th , "Калабри"@os , "Calavria"@nap , "कालाब्रिया"@mr , "Regione Calabria" , "Kalábrie"@cs , "卡拉布里亚"@zh , "カラブリア州"@ja , "کلابریا"@ur , "Kalabrija"@sl , "Kalabrija"@lt , "Kalabrija"@sh , "Kalabrija"@bs , "Kalabrija"@lv , "Kalabrija"@hr , "Calabbria"@lij , "Calabbria"@scn , "קלבריה"@he , "Calàbria"@oc , "Calàbria"@ca , "کالابریا"@fa , "Kalabrien"@sv , "Kalabrien"@de , "Καλαβρία"@el , "Calabrië"@nl , "Calabrie"@frp , "Calabrie" , "Calabria"@no , "Calabria" , "Calabria"@id , "Calabria"@co , "Calabria"@fi , "Calabria"@an , "Calabria"@ro , "Calabria"@hu , "Calabria"@pms , "Calabria"@eu , "Calabria"@et , "Calabria"@tr , "Bruttium"@la , "Kalaabrje"@fy , "Kalabri"@kw , "Calábria"@pt , "Całabria"@vec , "Calabre"@fr , "კალაბრია"@ka , "قلورية"@ar , "칼라브리아 주"@ko , "Калабрия"@bg , "Калабрия"@ru , "Калабрия"@tg , "Kalabria"@io , "Kalabria"@sq , "Kalabriya"@tr , "Kalabria"@lad , "Kalabria"@pl , "Calabrien"@da , "Калабрія"@uk , "Калабрыя"@be , "Kalabrio"@eo>
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/2525468/regione-calabria.html">
-      <gn:population>"1965"</gn:population>
+      <gn:population>"1965000"</gn:population>
       <ds:average_salary>26852</ds:average_salary>
       <cis:hostsCulturalEvent >27</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>61137</dcterms:crimerate>
+      <ds:total_crime_rate>3111</dcterms:crimerate>
        <ds:internet_diffusion>59,4</ds:internet_diffusion>
    </rdf:Description>
 
@@ -256,10 +256,10 @@
       <gn:alternateName "シチリア"@ja , "Σικελία"@el , "Sicilio"@eo , "Sisilia"@lad , "Sisilia"@fi , "Sisilia"@id , "Sicilya"@tr , "Sizilia"@eu , "Sycylia"@pl , "სიცილია"@ka , "Sitsiilia"@et , "صقلیہ"@ur , "Regione Siciliana" , "Сицилія"@uk , "Sicile" , "Sicile"@nrm , "Sícilia"@ang , "Sikiley"@is , "סיציליה"@he , "シチリア島"@ja , "Sicilien"@sv , "Sicilien"@da , "سیسیل"@fa , "Sicílie"@cs , "Sicily" , "Sicilija"@hr , "Sicilija"@sl , "Sicilija"@bs , "Sicilija"@lt , "Siciłia"@vec , "Сицилија"@sr , "Sicilië"@nl , "Sisili"@kw , "西西里岛"@zh , "An tSicil"@ga , "Сицилия"@ru , "Сицилия"@bg , "시칠리아"@ko , "Szicília"@hu , "صقلية"@ar , "Сыцылія"@be , "Sicília"@oc , "Sicília"@pt , "Sicília"@sk , "Regione Autonoma Siciliana" , "Sizilien" , "Sizilien"@lb , "Sicilia"@no , "Sicilia" , "Sicilia"@la , "Sicilia"@io , "Sicilia"@cy , "Sicilia"@ast , "Sicilia"@ro , "Sicilia"@nn , "Sicilia"@pms , "Sicilia"@scn , "Sicilia"@nap , "Sicilia"@es , "Sicilia"@gl , "Sicilia"@lij>
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/2523119/regione-autonoma-siciliana.html">
-      <gn:population>"5057"</gn:population>
+      <gn:population>"5057000"</gn:population>
       <ds:average_salary>25936</ds:average_salary>
       <cis:hostsCulturalEvent>50</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>176318</dcterms:crimerate>
+      <ds:total_crime_rate>3487</dcterms:crimerate>
       <ds:internet_diffusion>60,6</ds:internet_diffusion>
    </rdf:Description>
 
@@ -269,10 +269,10 @@
       <gn:alternateName "Sardinien" , "Sardinia" , "Sardegne" , "Sardénya" , "Sardegna" , "Sardaigne" , "Regione Autonoma della Sardegna" ;>
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/2523228/regione-autonoma-della-sardegna.html">
-      <gn:population>"1653"</gn:population>
+      <gn:population>"1653000"</gn:population>
       <ds:average_salary>30332</ds:average_salary>
       <cis:hostsCulturalEvent>21</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>47465</dcterms:crimerate>
+      <ds:total_crime_rate>2871</dcterms:crimerate>
        <ds:internet_diffusion>72,4</ds:internet_diffusion>
    </rdf:Description>
 
@@ -282,10 +282,10 @@
       <gn:alternateName "Regione del Veneto" , "Veneto" , "Venetia">
       <gn:countryCode "IT">
       <gn:locationMap "http://www.geonames.org/3164604/regione-veneto.html">
-      <gn:population>"1234079"</gn:population>
+      <gn:population>"1234079000"</gn:population>
       <ds:average_salary>30332</ds:average_salary>
       <cis:hostsCulturalEvent>21</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>47465</dcterms:crimerate>
+      <ds:total_crime_rate>3465</dcterms:crimerate>
        <ds:internet_diffusion>72,4</ds:internet_diffusion>
    </rdf:Description>
 
