@@ -1,80 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema"
          xmlns:gn="http://www.geonames.org/ontology#"
          xmlns:foaf="http://xmlns.com/foaf/spec/"
          xmlns:cis="http://dati.beniculturali.it/cis/"
          xmlns:bot="https://w3id.org/bot#"
-         xmlns:dc="http://purl.org/dc/elements/1.1/">
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
 
 <!--Piemonte-->
 
    <rdf:Description rdf:about="http://sws.geonames.org/3170831/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Piedmont">
-      <gn:alternateName "Pedemons" , "Regione Piemonte"@it , "Pedemontium" , "Piemont"@it>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3170831/regione-piemonte.html">
-      <gn:name "Regione Piemonte">
+      <rdfs:seeAlso>"http://dbpedia.org/resource/Piedmont"</rdfs:seeAlso>
+      <gn:alternateName>"Pedemons" , "Regione Piemonte"@it , "Pedemontium" , "Piemont"@it</gn:alternateName>
+      <gn:countryCode>"IT"</gn:countryCode>
+      <gn:locationMap>"http://www.geonames.org/3170831/regione-piemonte.html"</gn:locationMap>
+      <gn:name>"Regione Piemonte"</gn:name>
       <gn:population>"4393000"</gn:population>
-      <ds:average_salary rdf:resource="https://crawci.github.io/resource/averagesalary/34290">34290</ds:average_salary>
+      <ds:average_salary>34290</ds:average_salary>
       <cis:hostsCulturalEvent>44</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>4732</dcterms:crimerate>
+      <ds:total_crime_rate>4732</ds:total_crime_rate>
        <ds:internet_diffusion>69,1</ds:internet_diffusion>
    </rdf:Description>
 
 <!-- Valle D'Aosta-->
    <rdf:Description rdf:about="http://sws.geonames.org/3164857/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Aosta_Valley">
-      <gn:alternateName "Regione Autonoma Val d'Aosta"@fr , "Région Autonome Vallée d'Aoste"@fr , "Valle di Aosta" , "Vallée d'Aoste"@it , "Regione Autonoma Valle d’Aosta"@it>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3164857/regione-autonoma-valle-d-aosta.html">
-      <gn:population> "127000"</gn:population>
+      <rdfs:seeAlso>"http://dbpedia.org/resource/Aosta_Valley"</rdfs:seeAlso>
+      <gn:alternateName>"Regione Autonoma Val d'Aosta"@fr , "Région Autonome Vallée d'Aoste"@fr , "Valle di Aosta" , "Vallée d'Aoste"@it , "Regione Autonoma Valle d’Aosta"@it</gn:alternateName>
+      <gn:countryCode>"IT"</gn:countryCode>
+      <gn:locationMap>"http://www.geonames.org/3164857/regione-autonoma-valle-d-aosta.html"</gn:locationMap>
+      <gn:population>"127000"</gn:population>
       <ds:average_salary>33504</ds:average_salary>
-      <gn:locationMap "http://www.geonames.org/3164857/regione-autonoma-valle-d-aosta.html">
+      <gn:locationMap>"http://www.geonames.org/3164857/regione-autonoma-valle-d-aosta.html"</gn:locationMap>
       <cis:hostsCulturalEvent>2</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>3217</dcterms:crimerate>
+      <ds:total_crime_rate>3217</ds:total_crime_rate>
       <ds:internet_diffusion>69,4</ds:internet_diffusion>
    </rdf:Description>
 
 <!-- Liguria-->
 
    <rdf:Description rdf:about="http://sws.geonames.org/3174725/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Liguria">
-      <gn:alternateName "Regione Liguria" , "Liguria" , "Ligurien"@de , "Ligurien"@sv , "Ligurië"@nl>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3174725/regione-liguria.html">
+      <rdfs:seeAlso>"http://dbpedia.org/resource/Liguria"</rdfs:seeAlso>
+      <gn:alternateName>"Regione Liguria" , "Liguria" , "Ligurien"@de , "Ligurien"@sv , "Ligurië"@nl</gn:alternateName>
+      <gn:countryCode>"IT"</gn:countryCode>
+      <gn:locationMap>"http://www.geonames.org/3174725/regione-liguria.html"</gn:locationMap>
       <gn:population> "1565000"</gn:population>
       <ds:average_salary>35866</ds:average_salary>
       <cis:hostsCulturalEvent>23</cis:hostsCulturalEvent>
-      <ds:total_crime_rate >5105</dcterms:crimerate>
+      <ds:total_crime_rate >5105</ds:total_crime_rate>
        <ds:internet_diffusion>65,2</ds:internet_diffusion>
    </rdf:Description>
 
 <!-- Trentinoo-->
 
    <rdf:Description rdf:about="http://dbpedia.org/resource/Trentino-Alto_Adige%2FS%C3%BCdtirol">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Trentino-Alto_Adige%2FS%C3%BCdtirol">
-      <gn:alternateName "Etelä-Tiroli"@fi , "Sidtiroul"@bar , "Venetia Tridentina" , "Tirol del Sud"@ca , "Tirol Meridional"@pt , "Syd-Tirol"@no , "Sydtyrolen"@sv , "South Tyrol" , "Sydtyrolen (Trentino - Alto Adige)"@sv , "Autonomní provincie Bolzano"@cs , "Sudtirolo"@eo , "Autonome Region Trentino-Südtirol" , "Больцано"@ru , "Tirolo" , "Południowy Tyrol"@pl , "Južné Tirolsko"@sk , "Tirolul de Sud"@ro , "Južna Tirolska"@sl , "Su Tirol"@br , "Sudtirol"@it , "Bozen-Zuid-Tirol"@nl , "Venezia Tridentina" , "Trentin-Tyrol-du-Sud"@fr , "Südtirol"@de , "ボルツァーノ自治県"@ja , "Trentin"@it , "Tirolum Meridionale"@la , "Tirol del Sur"@es>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3165244/regione-autonoma-trentino-alto-adige.html">
+      <rdfs:seeAlso>"http://dbpedia.org/resource/Trentino-Alto_Adige%2FS%C3%BCdtirol"</rdfs:seeAlso>
+      <gn:alternateName> "Etelä-Tiroli"@fi , "Sidtiroul"@bar , "Venetia Tridentina" , "Tirol del Sud"@ca , "Tirol Meridional"@pt , "Syd-Tirol"@no , "Sydtyrolen"@sv , "South Tyrol" , "Sydtyrolen (Trentino - Alto Adige)"@sv , "Autonomní provincie Bolzano"@cs , "Sudtirolo"@eo , "Autonome Region Trentino-Südtirol" , "Больцано"@ru , "Tirolo" , "Południowy Tyrol"@pl , "Južné Tirolsko"@sk , "Tirolul de Sud"@ro , "Južna Tirolska"@sl , "Su Tirol"@br , "Sudtirol"@it , "Bozen-Zuid-Tirol"@nl , "Venezia Tridentina" , "Trentin-Tyrol-du-Sud"@fr , "Südtirol"@de , "ボルツァーノ自治県"@ja , "Trentin"@it , "Tirolum Meridionale"@la , "Tirol del Sur"@es</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/3165244/regione-autonoma-trentino-alto-adige.html"</gn:locationMap>
       <gn:population>"1063000" </gn:population>
       <ds:average_salary>396740</ds:average_salary>
       <cis:hostsCulturalEvent>43</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>3163</dcterms:crimerate>
+      <ds:total_crime_rate>3163</ds:total_crime_rate>
       <ds:internet_diffusion>72,5</ds:internet_diffusion>
   </rdf:Description>
 
 <!--Emilia Romagna-->
 
    <rdf:Description rdf:about="http://sws.geonames.org/3177401/">
-     <rdfs:seeAlso "http://dbpedia.org/resource/Emilia_%28region_of_Italy%29", "http://dbpedia.org/resource/Romagna">
-     <gn:alternateName "Emilia" , "Emilia-Romaña"@es , "Emilia-Romagna"@en , "Regione Emilia-Romagna" , "Romagna">
-     <gn:locationMap "http://www.geonames.org/3177401/regione-emilia-romagna.html">
-     <gn:countryCode "IT">
+     <rdfs:seeAlso>"http://dbpedia.org/resource/Emilia_%28region_of_Italy%29", "http://dbpedia.org/resource/Romagna"</rdfs:seeAlso>
+     <gn:alternateName> "Emilia" , "Emilia-Romaña"@es , "Emilia-Romagna"@en , "Regione Emilia-Romagna" , "Romagna"</gn:alternateName>
+     <gn:locationMap> "http://www.geonames.org/3177401/regione-emilia-romagna.html"</gn:locationMap>
+     <gn:countryCode>"IT"</gn:countryCode>
      <gn:population>"4449000"</gn:population>
      <ds:average_salary >40187</ds:average_salary>
      <cis:hostsCulturalEvent>67</cis:hostsCulturalEvent>
-     <ds:total_crime_rate>5161</dcterms:crimerate>
+     <ds:total_crime_rate>5161</ds:total_crime_rate>
      <ds:internet_diffusion>71,9</ds:internet_diffusion>
     
    </rdf:Description>
@@ -82,28 +84,28 @@
 <!--Venezia_Giulia-->
 
    <rdf:Description rdf:about="http://sws.geonames.org/3176525/">
-     <rdfs:seeAlso "http://dbpedia.org/resource/Friuli%E2%80%93Venezia_Giulia">
-     <gn:alternateName "FVG"@it , "Friuli-Julisch Venetië"@nl>
-     <gn:countryCode "IT">
-     <gn:locationMap "http://www.geonames.org/3176525/regione-autonoma-friuli-venezia-giulia.html">
+     <rdfs:seeAlso> "http://dbpedia.org/resource/Friuli%E2%80%93Venezia_Giulia"</rdfs:seeAlso>
+     <gn:alternateName> "FVG"@it , "Friuli-Julisch Venetië"@nl</gn:alternateName>
+     <gn:countryCode> "IT"</gn:countryCode>
+     <gn:locationMap> "http://www.geonames.org/3176525/regione-autonoma-friuli-venezia-giulia.html"</gn:locationMap>
      <gn:population>"1219000"</gn:population>
      <ds:average_salary>374830</ds:average_salary>
      <cis:hostsCulturalEvent>27</cis:hostsCulturalEvent>
-     <ds:total_crime_rate>2916</dcterms:crimerate>
+     <ds:total_crime_rate>2916</ds:total_crime_rate>
      <ds:internet_diffusion>73,1</ds:internet_diffusion>
    </rdf:Description>
 
 <!--Toscana-->
 
-   <rdf:Description rdf:about="http://sws.geonames.org/3165361/>">
-    <rdfs:seeAlso "http://dbpedia.org/resource/Tuscany">
-    <gn:alternateName "Toskana"@hr , "Toskana"@is , "Toskana"@lt , "Toskana"@sh , "Toskana"@tr , "Toskana"@bs , "Toskana"@lad , "Toskana"@sl , "Toscan-a"@pms , "Toskánsko"@cs , "Toskánsko"@sk , "Toskania"@pl , "Toskania"@io , "Toscana"@ia , "Toscana"@da , "Toscana"@ca , "Toscana"@eu , "Toscana"@no , "Toscana"@frp , "Toscana"@fi , "Toscana"@pt , "Toscana"@ro , "Toscana"@co , "Toscana"@et , "Toscana"@oc , "Toscana"@es , "Toscana"@gl , "Toscana"@id , "Toscana"@sv , "Toscana"@sw , "Toscana"@kw , "Toszkána"@hu , "Tuscia"@la , "Toscane"@nl , "Tuschèna"@eml , "Toskanio"@eo , "Toscann-a"@lij>
-    <gn:countryCode "IT">
-    <gn:locationMap "http://www.geonames.org/3165361/regione-toscana.html">
+   <rdf:Description rdf:about="http://sws.geonames.org/3165361/">
+    <rdfs:seeAlso> "http://dbpedia.org/resource/Tuscany"</rdfs:seeAlso>
+    <gn:alternateName> "Toskana"@hr , "Toskana"@is , "Toskana"@lt , "Toskana"@sh , "Toskana"@tr , "Toskana"@bs , "Toskana"@lad , "Toskana"@sl , "Toscan-a"@pms , "Toskánsko"@cs , "Toskánsko"@sk , "Toskania"@pl , "Toskania"@io , "Toscana"@ia , "Toscana"@da , "Toscana"@ca , "Toscana"@eu , "Toscana"@no , "Toscana"@frp , "Toscana"@fi , "Toscana"@pt , "Toscana"@ro , "Toscana"@co , "Toscana"@et , "Toscana"@oc , "Toscana"@es , "Toscana"@gl , "Toscana"@id , "Toscana"@sv , "Toscana"@sw , "Toscana"@kw , "Toszkána"@hu , "Tuscia"@la , "Toscane"@nl , "Tuschèna"@eml , "Toskanio"@eo , "Toscann-a"@lij</gn:alternateName>
+    <gn:countryCode>"IT"</gn:countryCode>
+    <gn:locationMap> "http://www.geonames.org/3165361/regione-toscana.html"</gn:locationMap>
     <gn:population>"3742000"</gn:population>
     <ds:average_salary>38202</ds:average_salary>
     <cis:hostsCulturalEvent>66</cis:hostsCulturalEvent>
-    <ds:total_crime_rate >4710</dcterms:crimerate>
+    <ds:total_crime_rate >4710</ds:total_crime_rate>
     <ds:internet_diffusion>71,9,4</ds:internet_diffusion>
    
    </rdf:Description>
@@ -111,14 +113,14 @@
 <!--Umbria-->
 
   <rdf:Description rdf:about="http://sws.geonames.org/3165048/">
-    <rdfs:seeAlso "http://dbpedia.org/resource/Umbria">
-    <gn:alternateName "Umbria" , "Regione Umbria" , "Umbrien"@sv , "Umbrië"@nl>
-    <gn:countryCode "IT">
-    <gn:locationMap "http://www.geonames.org/3165048/regione-umbria.html">
+    <rdfs:seeAlso> "http://dbpedia.org/resource/Umbria"</rdfs:seeAlso>
+    <gn:alternateName> "Umbria" , "Regione Umbria" , "Umbrien"@sv , "Umbrië"@nl</gn:alternateName>
+    <gn:countryCode> "IT"</gn:countryCode>
+    <gn:locationMap> "http://www.geonames.org/3165048/regione-umbria.html"</gn:locationMap>
     <gn:population>"889000"</gn:population>
     <ds:average_salary>35860</ds:average_salary>
     <cis:hostsCulturalEvent>16</cis:hostsCulturalEvent>
-    <ds:total_crime_rate >3387</dcterms:crimerate>
+    <ds:total_crime_rate >3387</ds:total_crime_rate>
     <ds:internet_diffusion>69</ds:internet_diffusion>
    </rdf:Description>
 
@@ -126,54 +128,54 @@
 <!--Marche-->
 
    <rdf:Description rdf:about="http://sws.geonames.org/3174004/">
-    <rdfs:seeAlso "http://dbpedia.org/resource/Umbria">
-    <gn:alternateName "Regione Marche" , "Marche"@en , "Marche" , "The Marches" , "Le Marche">
-    <gn:countryCode "IT">
-    <gn:locationMap "http://www.geonames.org/3174004/regione-marche.html">
+    <rdfs:seeAlso> "http://dbpedia.org/resource/Umbria"</rdfs:seeAlso>
+    <gn:alternateName> "Regione Marche" , "Marche"@en , "Marche" , "The Marches" , "Le Marche"</gn:alternateName>
+    <gn:countryCode> "IT"</gn:countryCode>
+    <gn:locationMap> "http://www.geonames.org/3174004/regione-marche.html"</gn:locationMap>
     <gn:population>"1538000"</gn:population>
     <ds:average_salary>36687</ds:average_salary>
     <cis:hostsCulturalEvent>2</cis:hostsCulturalEvent>
-    <ds:total_crime_rate>47067</dcterms:crimerate>
+    <ds:total_crime_rate>47067</ds:total_crime_rate>
     <ds:internet_diffusion>70</ds:internet_diffusion>
    </rdf:Description>
 
 <!--Lazio-->
    <rdf:Description rdf:about="http://sws.geonames.org/3174976/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Lazio">
-      <gn:alternateName "Latium" , "Latium"@la , "Regione Lazio" , "Lacio"@es>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3174976/regione-lazio.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Lazio"</rdfs:seeAlso>
+      <gn:alternateName> "Latium" , "Latium"@la , "Regione Lazio" , "Lacio"@es</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/3174976/regione-lazio.html"</gn:locationMap>
       <gn:population>"5898000"</gn:population>
       <ds:average_salary>36636</ds:average_salary>
       <cis:hostsCulturalEvent>42</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>4684</dcterms:crimerate>
+      <ds:total_crime_rate>4684</ds:total_crime_rate>
       <ds:internet_diffusion>72,9</ds:internet_diffusion>
    </rdf:Description>
 
 <!--Abruzzo-->
 
    <rdf:Description rdf:about="https://crawci.github.io/resource/region/abruzzo">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Lazio">
-      <gn:alternateName "Lazio"@es , "Lazio"@it , "Lazio" , "Latium"@de , "Latium"@fr , "Latium"@en , "Latium"@nl , "Lazi"@ca>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3174976/regione-lazio.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Lazio"</rdfs:seeAlso>
+      <gn:alternateName> "Lazio"@es , "Lazio"@it , "Lazio" , "Latium"@de , "Latium"@fr , "Latium"@en , "Latium"@nl , "Lazi"@ca</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/3174976/regione-lazio.html"</gn:locationMap>
       <gn:population>"1332000"</gn:population>
       <ds:average_salary>31712</ds:average_salary>
       <cis:hostsCulturalEvent>7</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>3263</dcterms:crimerate>
+      <ds:total_crime_rate>3263</ds:total_crime_rate>
       <ds:internet_diffusion>70</ds:internet_diffusion>
    </rdf:Description>
 
    <!--Lombardia-->    
    <rdf:Description rdf:about="http://sws.geonames.org/3174618/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Lombardy">
-      <gn:alternateName "Lombardiet"@sv , "Regione Lombardia">
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3174618/regione-lombardia.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Lombardy"</rdfs:seeAlso>
+      <gn:alternateName> "Lombardiet"@sv , "Regione Lombardia"</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/3174618/regione-lombardia.html"</gn:locationMap>
       <gn:population>"10019000"</gn:population>
       <ds:average_salary>30332</ds:average_salary>
       <cis:hostsCulturalEvent>21</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>4743</dcterms:crimerate>
+      <ds:total_crime_rate>4743</ds:total_crime_rate>
        <ds:internet_diffusion>72,4</ds:internet_diffusion>
    </rdf:Description>
    
@@ -181,113 +183,113 @@
 <!--Molise-->
 
    <rdf:Description rdf:about="http://sws.geonames.org/3173222/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Lazio">
-      <gn:alternateName "Lazio"@es , "Lazio"@it , "Lazio" , "Latium"@de , "Latium"@fr , "Latium"@en , "Latium"@nl , "Lazi"@ca>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3173222/regione-molise.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Lazio"</rdfs:seeAlso>
+      <gn:alternateName> "Lazio"@es , "Lazio"@it , "Lazio" , "Latium"@de , "Latium"@fr , "Latium"@en , "Latium"@nl , "Lazi"@ca</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/3173222/regione-molise.html"</gn:locationMap>
       <gn:population>"310000"</gn:population>
       <ds:average_salary >28581</ds:average_salary>
       <cis:hostsCulturalEvent >1</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>2647</dcterms:crimerate>
+      <ds:total_crime_rate>2647</ds:total_crime_rate>
        <ds:internet_diffusion >63,2</ds:internet_diffusion>
    </rdf:Description>
 
 <!--Campania-->
 
    <rdf:Description rdf:about="https://crawci.github.io/resource/region/campania">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Campania">
-      <gn:alternateName "Campania" , "Regione Campania" , "Kampanien"@sv>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3181042/regione-campania.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Campania"</rdfs:seeAlso>
+      <gn:alternateName> "Campania" , "Regione Campania" , "Kampanien"@sv</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/3181042/regione-campania.html"</gn:locationMap>
       <gn:population>"5839000"</gn:population>
       <ds:average_salary>27778</ds:average_salary>
       <cis:hostsCulturalEvent>21</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>3814</dcterms:crimerate>
+      <ds:total_crime_rate>3814</ds:total_crime_rate>
        <ds:internet_diffusion>64,4</ds:internet_diffusion>
    </rdf:Description>
 
 <!--Puglia-->
 
    <rdf:Description rdf:about="http://sws.geonames.org/3169778/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Apulia">
-      <gn:alternateName "Le Puglie" , "Puglie" , "Puglia" , "Apulia" , "Apulië"@nl , "Regione Puglia">
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3169778/regione-puglia.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Apulia"</rdfs:seeAlso>
+      <gn:alternateName> "Le Puglie" , "Puglie" , "Puglia" , "Apulia" , "Apulië"@nl , "Regione Puglia"</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/3169778/regione-puglia.html"</gn:locationMap>
       <gn:population>"4064000"</gn:population>
       <ds:average_salary>31726</ds:average_salary>
       <cis:hostsCulturalEvent >28</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>3675</dcterms:crimerate>
+      <ds:total_crime_rate>3675</ds:total_crime_rate>
       <ds:internet_diffusion >62,4</ds:internet_diffusion>
    </rdf:Description>
 
 <!--Basilicataa-->   
 
    <rdf:Description rdf:about="http://sws.geonames.org/3182306/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Basilicata">
-      <gn:alternateName "Bazilikata"@lv , "Bazilikata"@sq , "Bazilikata"@lt , "Bazilikata"@sl , "Lucanie"@fur , "Базиликата"@sr , "Базиликата"@bg , "Базиликата"@ru , "Basilicà"@pms , "Baselecata"@nap , "バジリカータ州"@ja , "Базіліката"@be , "باسیلیکاتا"@fa , "Basilikato"@eo , "Basilíkata"@is , "แคว้นบาซีลีกาตา"@th , "巴斯利卡塔"@zh , "바실리카타 주"@ko , "Базиліката"@uk , "بازیلیکاتا"@ur , "बाझिलिकाता"@mr , "பசிளிகாதா"@ta , "Regione Basilicata" , "بازيليكاتا"@ar , "ბაზილიკატა"@ka , "בזיליקטה"@he , "Basilicata" , "Базиликатæ"@os , "Lucania" , "Basilikata"@de , "Basilikata"@io , "Basilikata"@fy , "Basilikata"@lad ;
-      gn:childrenFeatures "http://sws.geonames.org/3182306/contains.rdf">
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3169778/regione-puglia.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Basilicata"</rdfs:seeAlso>
+      <gn:alternateName> "Bazilikata"@lv , "Bazilikata"@sq , "Bazilikata"@lt , "Bazilikata"@sl , "Lucanie"@fur , "Базиликата"@sr , "Базиликата"@bg , "Базиликата"@ru , "Basilicà"@pms , "Baselecata"@nap , "バジリカータ州"@ja , "Базіліката"@be , "باسیلیکاتا"@fa , "Basilikato"@eo , "Basilíkata"@is , "แคว้นบาซีลีกาตา"@th , "巴斯利卡塔"@zh , "바실리카타 주"@ko , "Базиліката"@uk , "بازیلیکاتا"@ur , "बाझिलिकाता"@mr , "பசிளிகாதா"@ta , "Regione Basilicata" , "بازيليكاتا"@ar , "ბაზილიკატა"@ka , "בזיליקטה"@he , "Basilicata" , "Базиликатæ"@os , "Lucania" , "Basilikata"@de , "Basilikata"@io , "Basilikata"@fy , "Basilikata"@lad ;
+      gn:childrenFeatures "http://sws.geonames.org/3182306/contains.rdf"</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/3169778/regione-puglia.html"</gn:locationMap>
       <gn:population>"570000"</gn:population>
       <ds:average_salary>28578</ds:average_salary>
       <cis:hostsCulturalEvent>6</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>2381</dcterms:crimerate>
+      <ds:total_crime_rate>2381</ds:total_crime_rate>
       <ds:internet_diffusion>62,7</ds:internet_diffusion>
    </rdf:Description>
 
 <!--Calabria-->  
 
    <rdf:Description rdf:about="http://sws.geonames.org/2525468/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Calabria">
-      <gn:alternateName "Калабрија"@sr , "Kalabría"@is , "Categoria:Calàbria"@oc , "Kalábria"@sk , "แคว้นกาลาเบรีย"@th , "Калабри"@os , "Calavria"@nap , "कालाब्रिया"@mr , "Regione Calabria" , "Kalábrie"@cs , "卡拉布里亚"@zh , "カラブリア州"@ja , "کلابریا"@ur , "Kalabrija"@sl , "Kalabrija"@lt , "Kalabrija"@sh , "Kalabrija"@bs , "Kalabrija"@lv , "Kalabrija"@hr , "Calabbria"@lij , "Calabbria"@scn , "קלבריה"@he , "Calàbria"@oc , "Calàbria"@ca , "کالابریا"@fa , "Kalabrien"@sv , "Kalabrien"@de , "Καλαβρία"@el , "Calabrië"@nl , "Calabrie"@frp , "Calabrie" , "Calabria"@no , "Calabria" , "Calabria"@id , "Calabria"@co , "Calabria"@fi , "Calabria"@an , "Calabria"@ro , "Calabria"@hu , "Calabria"@pms , "Calabria"@eu , "Calabria"@et , "Calabria"@tr , "Bruttium"@la , "Kalaabrje"@fy , "Kalabri"@kw , "Calábria"@pt , "Całabria"@vec , "Calabre"@fr , "კალაბრია"@ka , "قلورية"@ar , "칼라브리아 주"@ko , "Калабрия"@bg , "Калабрия"@ru , "Калабрия"@tg , "Kalabria"@io , "Kalabria"@sq , "Kalabriya"@tr , "Kalabria"@lad , "Kalabria"@pl , "Calabrien"@da , "Калабрія"@uk , "Калабрыя"@be , "Kalabrio"@eo>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/2525468/regione-calabria.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Calabria"</rdfs:seeAlso>
+      <gn:alternateName> "Калабрија"@sr , "Kalabría"@is , "Categoria:Calàbria"@oc , "Kalábria"@sk , "แคว้นกาลาเบรีย"@th , "Калабри"@os , "Calavria"@nap , "कालाब्रिया"@mr , "Regione Calabria" , "Kalábrie"@cs , "卡拉布里亚"@zh , "カラブリア州"@ja , "کلابریا"@ur , "Kalabrija"@sl , "Kalabrija"@lt , "Kalabrija"@sh , "Kalabrija"@bs , "Kalabrija"@lv , "Kalabrija"@hr , "Calabbria"@lij , "Calabbria"@scn , "קלבריה"@he , "Calàbria"@oc , "Calàbria"@ca , "کالابریا"@fa , "Kalabrien"@sv , "Kalabrien"@de , "Καλαβρία"@el , "Calabrië"@nl , "Calabrie"@frp , "Calabrie" , "Calabria"@no , "Calabria" , "Calabria"@id , "Calabria"@co , "Calabria"@fi , "Calabria"@an , "Calabria"@ro , "Calabria"@hu , "Calabria"@pms , "Calabria"@eu , "Calabria"@et , "Calabria"@tr , "Bruttium"@la , "Kalaabrje"@fy , "Kalabri"@kw , "Calábria"@pt , "Całabria"@vec , "Calabre"@fr , "კალაბრია"@ka , "قلورية"@ar , "칼라브리아 주"@ko , "Калабрия"@bg , "Калабрия"@ru , "Калабрия"@tg , "Kalabria"@io , "Kalabria"@sq , "Kalabriya"@tr , "Kalabria"@lad , "Kalabria"@pl , "Calabrien"@da , "Калабрія"@uk , "Калабрыя"@be , "Kalabrio"@eo</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/2525468/regione-calabria.html"</gn:locationMap>
       <gn:population>"1965000"</gn:population>
       <ds:average_salary>26852</ds:average_salary>
       <cis:hostsCulturalEvent >27</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>3111</dcterms:crimerate>
+      <ds:total_crime_rate>3111</ds:total_crime_rate>
        <ds:internet_diffusion>59,4</ds:internet_diffusion>
    </rdf:Description>
 
 <!--Sicilia-->   
 
    <rdf:Description rdf:about="http://sws.geonames.org/2523119/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Calabria">
-      <gn:alternateName "シチリア"@ja , "Σικελία"@el , "Sicilio"@eo , "Sisilia"@lad , "Sisilia"@fi , "Sisilia"@id , "Sicilya"@tr , "Sizilia"@eu , "Sycylia"@pl , "სიცილია"@ka , "Sitsiilia"@et , "صقلیہ"@ur , "Regione Siciliana" , "Сицилія"@uk , "Sicile" , "Sicile"@nrm , "Sícilia"@ang , "Sikiley"@is , "סיציליה"@he , "シチリア島"@ja , "Sicilien"@sv , "Sicilien"@da , "سیسیل"@fa , "Sicílie"@cs , "Sicily" , "Sicilija"@hr , "Sicilija"@sl , "Sicilija"@bs , "Sicilija"@lt , "Siciłia"@vec , "Сицилија"@sr , "Sicilië"@nl , "Sisili"@kw , "西西里岛"@zh , "An tSicil"@ga , "Сицилия"@ru , "Сицилия"@bg , "시칠리아"@ko , "Szicília"@hu , "صقلية"@ar , "Сыцылія"@be , "Sicília"@oc , "Sicília"@pt , "Sicília"@sk , "Regione Autonoma Siciliana" , "Sizilien" , "Sizilien"@lb , "Sicilia"@no , "Sicilia" , "Sicilia"@la , "Sicilia"@io , "Sicilia"@cy , "Sicilia"@ast , "Sicilia"@ro , "Sicilia"@nn , "Sicilia"@pms , "Sicilia"@scn , "Sicilia"@nap , "Sicilia"@es , "Sicilia"@gl , "Sicilia"@lij>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/2523119/regione-autonoma-siciliana.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Calabria"</rdfs:seeAlso>
+      <gn:alternateName> "シチリア"@ja , "Σικελία"@el , "Sicilio"@eo , "Sisilia"@lad , "Sisilia"@fi , "Sisilia"@id , "Sicilya"@tr , "Sizilia"@eu , "Sycylia"@pl , "სიცილია"@ka , "Sitsiilia"@et , "صقلیہ"@ur , "Regione Siciliana" , "Сицилія"@uk , "Sicile" , "Sicile"@nrm , "Sícilia"@ang , "Sikiley"@is , "סיציליה"@he , "シチリア島"@ja , "Sicilien"@sv , "Sicilien"@da , "سیسیل"@fa , "Sicílie"@cs , "Sicily" , "Sicilija"@hr , "Sicilija"@sl , "Sicilija"@bs , "Sicilija"@lt , "Siciłia"@vec , "Сицилија"@sr , "Sicilië"@nl , "Sisili"@kw , "西西里岛"@zh , "An tSicil"@ga , "Сицилия"@ru , "Сицилия"@bg , "시칠리아"@ko , "Szicília"@hu , "صقلية"@ar , "Сыцылія"@be , "Sicília"@oc , "Sicília"@pt , "Sicília"@sk , "Regione Autonoma Siciliana" , "Sizilien" , "Sizilien"@lb , "Sicilia"@no , "Sicilia" , "Sicilia"@la , "Sicilia"@io , "Sicilia"@cy , "Sicilia"@ast , "Sicilia"@ro , "Sicilia"@nn , "Sicilia"@pms , "Sicilia"@scn , "Sicilia"@nap , "Sicilia"@es , "Sicilia"@gl , "Sicilia"@lij</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/2523119/regione-autonoma-siciliana.html"</gn:locationMap>
       <gn:population>"5057000"</gn:population>
       <ds:average_salary>25936</ds:average_salary>
       <cis:hostsCulturalEvent>50</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>3487</dcterms:crimerate>
+      <ds:total_crime_rate>3487</ds:total_crime_rate>
       <ds:internet_diffusion>60,6</ds:internet_diffusion>
    </rdf:Description>
 
 <!--Sardegna-->    
    <rdf:Description rdf:about="http://sws.geonames.org/2523228/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Sardegna">
-      <gn:alternateName "Sardinien" , "Sardinia" , "Sardegne" , "Sardénya" , "Sardegna" , "Sardaigne" , "Regione Autonoma della Sardegna" ;>
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/2523228/regione-autonoma-della-sardegna.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Sardegna"</rdfs:seeAlso>
+      <gn:alternateName> "Sardinien" , "Sardinia" , "Sardegne" , "Sardénya" , "Sardegna" , "Sardaigne" , "Regione Autonoma della Sardegna"</gn:alternateName>
+      <gn:countryCode>"IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/2523228/regione-autonoma-della-sardegna.html"</gn:locationMap>
       <gn:population>"1653000"</gn:population>
       <ds:average_salary>30332</ds:average_salary>
       <cis:hostsCulturalEvent>21</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>2871</dcterms:crimerate>
+      <ds:total_crime_rate>2871</ds:total_crime_rate>
        <ds:internet_diffusion>72,4</ds:internet_diffusion>
    </rdf:Description>
 
 <!--Veneto-->    
    <rdf:Description rdf:about="http://sws.geonames.org/3164604/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Veneto">
-      <gn:alternateName "Regione del Veneto" , "Veneto" , "Venetia">
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3164604/regione-veneto.html">
+      <rdfs:seeAlso> "http://dbpedia.org/resource/Veneto"</rdfs:seeAlso>
+      <gn:alternateName> "Regione del Veneto" , "Veneto" , "Venetia"</gn:alternateName>
+      <gn:countryCode> "IT"</gn:countryCode>
+      <gn:locationMap> "http://www.geonames.org/3164604/regione-veneto.html"</gn:locationMap>
       <gn:population>"1234079000"</gn:population>
       <ds:average_salary>30332</ds:average_salary>
       <cis:hostsCulturalEvent>21</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>3465</dcterms:crimerate>
+      <ds:total_crime_rate>3465</ds:total_crime_rate>
        <ds:internet_diffusion>72,4</ds:internet_diffusion>
    </rdf:Description>
-
+</rdf:RDF>
 
    
