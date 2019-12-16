@@ -571,7 +571,7 @@ According to the obtained data, **Lombardia** is the region with the highest per
 20. Calabria
 
 ### 10.4 Crime Rate
-Crime rate is calculated by dividing number of crime report by number of population. Then multiplying the result by 100,000 to get the distribution of internet per 100,000 people. 
+Crime rate is calculated by dividing number of crime report by number of population of each rgion. Then multiplying the result by 100,000 to get the distribution of internet per 100,000 people. 
 According to the obtained data, **Lombardia** is the region with the highest crime rate, while **Valle d'Aosta** has the lowest one:
 
 1. Lombardia
