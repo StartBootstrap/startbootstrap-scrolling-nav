@@ -1,0 +1,1799 @@
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.434052404026191"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.045958489838067"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Toscana" ;
+  <http://w3c/future-csv-vocab/row>
+          16 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.032341159515677"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.640581913915777"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.032341159515677"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.493060835423215"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "9.90263608819491"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "1.16598390885467"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.022695550537317"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.003404332580598"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.227522894136604"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.581573482518752"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.334759370425428"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.013049941558957"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.03290854827911"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0.001134777526866"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.097023478547031"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.35409597948322"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.010780386505226"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0.010490977759127"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          5.67388763433E-4 ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.174188350373909"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.80398987778446"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.80398987778446"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.434052404026191"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "7.62683975806543"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.010780386505226"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.040851990967171"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.153194966126891"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.018723829193287"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.938461014718065"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "4.60265764896792"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.022128161773884"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "1.01165416520091"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.482847837681423"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "5.43104524358"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.032341159515677"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "56.3592932605563"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.020993384247018"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.050989729898742"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.034634533516127"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Piemonte" ;
+  <http://w3c/future-csv-vocab/row>
+          12 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.038482815017919"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0.003368818218569"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.759554561416168"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.020203477884407"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.525290424994588"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "9.89729898742093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "3.21379608918392"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.017798301945787"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.001924140750896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.125550183995959"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.411285085504005"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.310748731269692"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.012506914880824"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.027419005700267"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          9.62070375448E-4 ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.10871395242562"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.246434326671"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.005291387064964"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0.006737636437138"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0.001443105563172"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.048103518772398"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.196743391779109"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.333357385092719"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.517112826803281"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "9.21567212641605"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.0120258796931"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.050027659523294"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.132284676624095"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.012987950068548"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "1.1713206821079"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "3.91562642807321"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.184717512086009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0.734540731654521"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.653726820116892"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "6.08701926545927"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.015393126007168"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "51.7680448324795"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.037520744642471"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.082365703724537"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.053571189414333"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Puglia" ;
+  <http://w3c/future-csv-vocab/row>
+          13 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.060267588091125"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0.003985810514568"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.855799750893969"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.020758835898054"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.526336935995821"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "7.48523444091767"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "11.6303052218517"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.009374958147508"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.002678559470717"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.583925964616229"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.241070352364498"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.501560260891692"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.025446314971808"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.068303266503275"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0.004017839206075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0.001339279735358"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.109820938299383"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.92699586162562"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.076338944915425"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0.011957431543705"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.102454899754912"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.561827848982817"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.996424123106593"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "1.1377181351869"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "2.21516868228267"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.014732077088942"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.027455234574846"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.141963651947982"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.022767755501092"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "1.40289552278784"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "2.48972102803112"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.350891290663881"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "1.13704849531922"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.527006575863501"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "5.29551207360681"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.014732077088942"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "53.6990906290597"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.072990745577029"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.104072907290729"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.084383438343834"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Friuli-Venezia Giulia" ;
+  <http://w3c/future-csv-vocab/row>
+          6 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.056255625562556"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.255963096309631"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.601935193519352"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "9.33280828082808"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "0.928217821782178"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.019689468946895"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.005625562556256"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.208145814581458"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.495049504950495"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.374099909990999"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.019689468946895"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.036566156615662"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0.002812781278128"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.09000900090009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.80434293429343"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.042191719171917"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.309405940594059"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.615999099909991"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.458483348334833"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "5.89840234023402"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.016876687668767"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.02531503150315"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.278465346534653"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.030940594059406"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.621624662466247"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "5.35834833483348"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.171579657965797"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0.860711071107111"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.210958595859586"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "9.94880738073807"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.02531503150315"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "49.3896264626463"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.002812781278128"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.046499269297197"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.02657101102697"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Umbria" ;
+  <http://w3c/future-csv-vocab/row>
+          18 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.05646339843231"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.481599574863824"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.016606881891856"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.753952437890262"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "10.23648199814"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "1.25880164740268"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.029892387405341"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.006642752756742"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.099641291351136"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.763916567025375"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.564633984323103"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.013285505513485"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.039856516540454"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.08303440945928"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "3.0556662681015"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.019928258270227"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0.003321376378371"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.003321376378371"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.461671316593596"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.212568088215757"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.993091537132988"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "5.04849209512422"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.006642752756742"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.036535140162083"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.146140560648333"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.013285505513485"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.77720207253886"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "3.84283246977547"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.126212302378105"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0.846950976484655"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.355387272485718"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "6.73575129533679"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.053142022053939"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "47.5621097382755"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.063106151189053"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.116132620180905"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.060519816150613"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Calabria" ;
+  <http://w3c/future-csv-vocab/row>
+          3 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.062155486857386"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.397467981745915"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.017992377774507"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.888169193777908"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "5.332286504081"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "5.99146179891064"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.016356707067733"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.006542682827093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.26170731308373"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.278064020151463"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.641182917055138"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.03434908484224"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.106318595940265"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0.011449694947413"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.109589937353812"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "3.13558074488444"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.053977133323519"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0.007490075649764"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.065426828270933"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.363118896903675"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.672260660483831"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "1.43121186842665"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "1.32162193107284"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.03434908484224"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.053977133323519"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.140667680782505"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.02944207272192"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.714788098859938"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "1.99878960367699"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.112861278767359"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "1.00266614325204"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.253528959549863"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "7.16096635425356"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.006542682827093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "39.5079902514026"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.053977133323519"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.081138724035608"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.055637982195846"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Abruzzo" ;
+  <http://w3c/future-csv-vocab/row>
+          1 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.039410237388724"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.363965133531157"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.013909495548962"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.598108308605341"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "9.09912833827893"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "3.75092729970326"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.013909495548962"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.00231824925816"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.29441765578635"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.649109792284866"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.431194362017804"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.013909495548962"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.030137240356083"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0.00463649851632"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.120548961424332"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "3.09718100890208"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.020864243323442"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.037091988130564"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.574925816023739"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.512333086053412"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "1.04553041543027"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "2.74712537091988"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.032455489614243"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.055637982195846"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.157640949554896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.018545994065282"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.771977002967359"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "4.66199925816024"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.180823442136499"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0.78356824925816"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.257325667655786"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "7.16570845697329"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.034773738872404"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "49.320752967359"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.09968471810089"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.086471096888805"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.075882799310584"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Veneto" ;
+  <http://w3c/future-csv-vocab/row>
+          20 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.026470743945553"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.308237107277102"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.017647162630369"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.611180065765093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "11.1330066647451"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "1.19000700004118"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.025294266436861"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.004705910034765"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.256472096894688"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.382355190324649"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.274119259525056"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.015294207612986"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.025882505191207"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0.001176477508691"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.084706380625768"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.50001470596886"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.004117671280419"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.06176506920629"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.260589768175107"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.177648103812375"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.467061570950417"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "6.79945176148095"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.001176477508691"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.029411937717281"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.151177359866823"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.019411878893405"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.732945487914635"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "4.61120359531527"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.140589062288602"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0.767651574421026"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.338825522503074"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "6.17415396561156"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.020588356402097"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "56.6050388531697"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.032353131489009"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.1468788249694"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.0734394124847"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Valle d'Aosta" ;
+  <http://w3c/future-csv-vocab/row>
+          19 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.1468788249694"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.930232558139535"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "8.27417380660955"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "0.758873929008568"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.024479804161567"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.097919216646267"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "1.93390452876377"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.465116279069767"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.0734394124847"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.024479804161567"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "3.59853121175031"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.048959608323134"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.171358629130967"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.171358629130967"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.465116279069767"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "2.00734394124847"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.024479804161567"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.1468788249694"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.465116279069767"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "3.32925336597307"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.122399020807834"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0.807833537331701"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.195838433292534"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "9.47368421052632"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "39.8776009791922"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.064795207326564"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.044886065410581"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Lazio" ;
+  <http://w3c/future-csv-vocab/row>
+          7 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.038370346238077"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.718901015366238"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.018823188720566"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.358364554487702"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "6.05780890843605"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.022081048306818"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.004705797180142"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.449584622902753"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.401802682304393"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.331939693399214"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.012307469548063"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.04922987819225"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          3.61984398472E-4 ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.103527537963114"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.17118242203761"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.049953846989195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          3.61984398472E-4 ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.619717290184793"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "2.31633816582505"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.494108703914861"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "9.46589202005394"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.01339342274348"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.029682720674739"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.154567338147726"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.020271126314456"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "1.3364463991602"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "3.50690485240086"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.260990751298619"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.67003312157246"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "5.1644314130061"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.016289297931259"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "58.6501601780963"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.028234783080849"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.08427262193195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.06741809754556"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Sardegna" ;
+  <http://w3c/future-csv-vocab/row>
+          14 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.046349942062573"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.292847361213526"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.004213631096598"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.851153481512693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "5.76846097124197"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "2.50711050247551"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.03370904877278"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.008427262193195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.275992836827136"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.322342778889708"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.499315284946803"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.031602233224481"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.075845359738755"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.107447592963236"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "3.15179606025492"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.037922679869378"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0.020981955518254"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0.002106815548299"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.054777204255767"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.549878858105973"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.737385441904561"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "1.04287369640788"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "1.35678921310439"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.004213631096598"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.031602233224481"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.204361108184978"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.025281786579585"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.745812704097756"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "3.30770041082903"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.153797535025808"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "1.14400084272622"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.322342778889708"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "8.01643316127673"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.010534077741494"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "39.9557568734857"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.021068155482988"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.109689213893967"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.060938452163315"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Molise" ;
+  <http://w3c/future-csv-vocab/row>
+          11 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.060938452163315"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.329067641681901"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.036563071297989"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.76782449725777"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "7.02010968921389"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "5.6672760511883"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.012187690432663"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.024375380865326"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.414381474710542"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "1.06032906764168"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.731261425959781"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.012187690432663"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.048750761730652"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.073126142595978"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "3.41255332114564"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.048750761730652"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.60938452163315"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.329067641681901"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "1.25533211456429"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "1.99878123095673"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.048750761730652"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.073126142595978"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.304692260816575"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.012187690432663"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.524070688604509"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "3.10786106032907"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.073126142595978"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0.816575258988422"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.170627666057282"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "11.0054844606947"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.073126142595978"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "42.315661182206"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.036563071297989"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.043771596442716"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.034512220272142"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Lombardia" ;
+  <http://w3c/future-csv-vocab/row>
+          9 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.027778128511724"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.597019322634545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.021464917486332"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.572818680370543"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "10.209935310631"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "3.38977343990034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.018308311973636"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.007365412862957"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.141626367336288"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.332285340303118"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.284725817245167"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.007786293597983"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.029672091819341"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          4.20880735026E-4 ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.100169614936216"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.19615567536627"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.009048935803061"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0.001386193512614"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          4.20880735026E-4 ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.042929834972664"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.441503891042395"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.926779378527507"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.482118881972415"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "7.64319414807426"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.010942899110679"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.027778128511724"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.184135321573926"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.017045669768558"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "1.24959490229254"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "4.47459353443015"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.185397963779004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0.613012790565537"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.671094331999141"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "5.34813149997685"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.013678623888349"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "57.8014453044441"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.030092972554367"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.062869075150998"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.03592518580057"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Campania" ;
+  <http://w3c/future-csv-vocab/row>
+          4 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.055234973168377"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0.0023355754858"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "1.32069964299347"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.020207917012821"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.593663695354424"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "4.7555964703505"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "10.3240002694389"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.016166333610257"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.003592518580057"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.669106585535622"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.286503356759548"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.586927723016817"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.036823315445585"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.067808788198577"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0.01571726878775"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          4.49064822507E-4 ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.114062464916811"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "3.03118755192312"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.127983474414532"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0.009342301943199"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0.001796259290029"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.10642836293419"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.944832386554999"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "3.04196510766329"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.902171228416822"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "4.03305117093653"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.022453241125357"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.038170509913106"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.137862900509689"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.021106046657835"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "3.55524619978894"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "2.65262590654961"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.207467947998294"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "1.18193861283876"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "2.56775265509576"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "8.17567415856479"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.019758852190314"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "50.1955677302019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.057031232458405"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.073515897812902"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.06738957299516"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Trentino Aldo Adige" ;
+  <http://w3c/future-csv-vocab/row>
+          17 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.055136923359677"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.202168718985481"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.012252649635484"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.637137781045151"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "9.44679286895791"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "0.477853335783863"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.018378974453226"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.030631624088709"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.042884273724193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.441095386877412"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.361453164246768"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.042884273724193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.049010598541935"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.86099368988544"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.024505299270967"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.110273846719353"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.189916069349997"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.128652821172579"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.330821540158059"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "3.6022789928322"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.030631624088709"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.269558291980641"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.030631624088709"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.820927525577406"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "3.95760583226123"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.128652821172579"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0.827053850395148"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.502358635054831"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "6.99626294186118"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.006126324817742"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "50.2052318813944"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.012252649635484"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.10410691142414"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.080735972124843"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Marche" ;
+  <http://w3c/future-csv-vocab/row>
+          10 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.044617247753203"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.233709392992967"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.027620200990078"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.556653281492341"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "11.1139439522383"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "1.75706970913804"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.023370939299297"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.388807444706482"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.62464146854484"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.420676907387341"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.004249261690781"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.012747785072344"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.106231542269531"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.75989546816241"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.021246308453906"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0.035314891112419"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.101982280578749"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.548154758110778"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.229460131302186"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.594896636709372"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "3.52901183419381"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.027620200990078"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.065863556207109"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.155098051713515"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.023370939299297"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.611893683472497"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "4.19402128880107"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.082860602970234"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "1.10480803960312"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.201839930312108"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "6.84556058384856"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.029744831835469"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "52.8629400641639"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.061614294516328"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.23581429624171"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.132645541635962"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Basilicata" ;
+  <http://w3c/future-csv-vocab/row>
+          2 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.073691967575534"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.154753131908622"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.007369196757553"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "1.12011790714812"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "5.44583640383198"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "2.91820191599116"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.029476787030214"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.250552689756816"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.361090641120118"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.75165806927045"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.007369196757553"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.058953574060428"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.088430361090641"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "4.22991893883567"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.198968312453943"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.081061164333088"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.154753131908622"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.132645541635962"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "1.38540899042004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "1.62859248341931"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.073691967575534"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.228445099484156"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.014738393515107"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.49373618275608"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "1.82756079587325"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.073691967575534"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "1.00957995578482"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.169491525423729"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "8.99778924097273"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.007369196757553"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "31.584377302874"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.110537951363301"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.043805852461889"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.03003829883101"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Liguria" ;
+  <http://w3c/future-csv-vocab/row>
+          8 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.033793086184886"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.520663846404165"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.015019149415505"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.436806928834264"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "7.87378908107837"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "1.05885003379309"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.027535107261759"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.005006383138502"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.779744173821623"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "1.91494155047686"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.381736714310746"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.008761170492378"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.035044681969511"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.087611704923778"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.34799369195725"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.031289894615635"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.131417557385667"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.550702145235175"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "2.40056071491151"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.367969160679867"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "4.32426343588075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.002503191569251"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.041302660892638"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.172720218278305"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.01627074520013"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.961225562592305"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "4.32426343588075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.158952664647425"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "1.2716213171794"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.548198953665924"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "7.29179704122757"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.018773936769381"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "47.5306015169341"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.006257978923127"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.074864733039168"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.035730895314148"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Sicilia" ;
+  <http://w3c/future-csv-vocab/row>
+          15 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.078267675450039"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.921063079209156"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.053312764436983"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.62330561825792"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "7.89652786442677"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "7.34751982213954"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.021551968602185"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.0079401989587"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.328951099717556"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.365816309168661"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.4440839846187"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.022119125670663"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.079969146655475"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          "0.001701471205436"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.14405789539355"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "3.04109620118196"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.154833879694643"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0.006004202942059"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          5.67157068479E-4 ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.066924534080468"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "1.53132408489207"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "2.73369707006658"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.871153257183044"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "2.58056466157738"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.028357853423927"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.049342664957633"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.151430937283771"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.019850497396749"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "1.55457752469969"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "2.36220919021314"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.289250104924058"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "1.04640479134291"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.681155639242732"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "5.78330062727572"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.020984811533706"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "51.6714118808063"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.059551492190247"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
+
+[ <http://purl.bioontology.org/ontology/MEDDRA/homicide%20anintentioanl>
+          "0.059661194094848"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.bioontology.org/ontology/MEDDRA/homicide%20road>
+          "0.046161215869007"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://purl.org/ontology/places>
+          "Emilia-Romagna" ;
+  <http://w3c/future-csv-vocab/row>
+          5 ;
+  <http://wordnet-rdf.princeton.edu/json/lemma/kidnapping>
+          "0.035274136654618"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/abortion>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/bag%20sniching>
+          "0.580063580542612"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/barobbery>
+          "0.023951574271654"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/blow>
+          "0.511257239907678"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/burglary>
+          "10.5325959151679"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cartheft>
+          "1.24504637895745"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/child%20pornography>
+          "0.017419326743021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/corruption>
+          "0.009580629708662"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/counteraction>
+          "0.168096503070156"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/cyber-terrorism>
+          "0.337499455646039"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/extortion>
+          "0.353176849714759"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide>
+          "0.012193528720115"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20attempt>
+          "0.021774158428777"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20mafia>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20teriorist>
+          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/homicide%20thef>
+          4.35483168576E-4 ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/housrobbery>
+          "0.089274049557985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/ingury>
+          "2.27104472412141"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/intellectual%20property>
+          "0.007403213865784"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/manslaughter>
+          "0.005506607929515"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mass%20murder>
+          4.35483168576E-4 ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/money20laundering>
+          "0.037016069328921"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mopedthef>
+          "0.441144449767017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/mottortheft>
+          "0.421983190349693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/offence>
+          "0.409354178461002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/pick%20pocketting>
+          "9.09027566084571"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/porobbery>
+          "0.013499978225842"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/prostitution>
+          "0.049209598049035"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape>
+          "0.172886817924487"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/rape2>
+          "0.01175804555154"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/robbery>
+          "0.938466228280277"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shoplifting>
+          "4.91834690589209"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/shorobbery>
+          "0.142838479292775"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/stolenproperty>
+          "0.75382136480425"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/streetrobbery>
+          "0.493837913164656"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/swindle>
+          "5.23233027043505"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/thefart>
+          "0.016983843574446"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <http://wordnet-rdf.princeton.edu/ttl/lemma/theft>
+          "60.2865479249227"^^<http://www.w3.org/2001/XMLSchema#double> ;
+  <thttp://wordnet-rdf.princeton.edu/ttl/lemma/cargothef>
+          "0.028741889125985"^^<http://www.w3.org/2001/XMLSchema#double>
+] .
