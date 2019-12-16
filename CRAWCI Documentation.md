@@ -457,6 +457,9 @@ The character used as separator within the CSV file (e.g. , or ;).
  
  The execution of the tool with the arguments as provided produced the following RDF serialized by using the TURTLE syntax.
 
+  https://github.com/simayguzel/OpenDataCRAWCI/blob/master/crime.ttl
+
+
 **D6**: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/dataset.rdf
 **D7**: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/crimedataset.rdf
 
@@ -517,8 +520,8 @@ According to the obtained data, **Lombardia** is the region with the biggest sal
 19. Calabria
 20. Sicilia
 
-### 10.2 Total number of theatres
-
+### 10.2 Diffusion of theaters
+This is calculated by deviding total number of theaters in each region by its area. 
 According to the obtained data, **Lombardia** is the region with the highest number of theatres, while **Molise** has the lowest one: 
 
 1. Lombardia
@@ -567,8 +570,8 @@ According to the obtained data, **Lombardia** is the region with the highest per
 19. Sicilia
 20. Calabria
 
-### 10.4 Total number of criminal reports
-
+### 10.4 Crime Rate
+Crime rate is calculated by dividing number of crime report by number of population. Then multiplying the result by 100,000 to get the distribution of internet per 100,000 people. 
 According to the obtained data, **Lombardia** is the region with the highest crime rate, while **Valle d'Aosta** has the lowest one:
 
 1. Lombardia
@@ -593,7 +596,9 @@ According to the obtained data, **Lombardia** is the region with the highest cri
 20. Valle d'Aosta
 
 
-### 10.5 Cultural institutions
+### 10.5 Cultural institution Density
+
+Crime rate is calculated by dividing number of cultural institute in each region by number of population. 
 
 According to the obtained data, **Liguria** is the region with the highest density of cultural institutions, while **Valle d'Aosta** has the lowest one. The regions order descendingly according to the total number:
 
