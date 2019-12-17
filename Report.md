@@ -16,6 +16,16 @@ Hence, it is necessary to distinguish between open data and public data which be
 
 ### Data Normalization
 
+The normalization of data was done in order to adjust values measured on different scales to a notionally common scale.
+
+A **crime rate** was calculated by dividing the number of reported crimes by the total population of the region, of 2016 respectively; the result was multiplied by 100,000 which means the distribution of crime reports per 100, 000 population. The **types of crime** were calculated following the same scheme.
+
+The total number of theatres was presented in our data as **the distribution of theatres** divided by the total population of the region, of 2016 respectively. 
+
+The results in % are presented in the visualization part on the website with the accompanying explanations.
+
+Updated csv documents can be found in dataset/rdf folder here: https://github.com/simayguzel/OpenDataCRAWCI/tree/master/dataset-rdf
+
 ### The Ontology
 
 ### RDF 
