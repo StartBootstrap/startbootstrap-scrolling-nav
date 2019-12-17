@@ -56,4 +56,6 @@ The rdf example for Veneto region is presented below:
 
   The updated .rdf can be found here https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/dataset.rdf.
 
+  The updated .rdf of types of crimes dataset can be found here: 
+
 ### Technical issue / User Experience
