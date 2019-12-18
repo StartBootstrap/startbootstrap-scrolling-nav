@@ -30,6 +30,9 @@ https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/crawciopend
 https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/typesofcrimes.csv
 
 ### The Ontology
+
+The data properties in the ontology are updated with the ones that are normalized.
+
 As seen below, the changes we have made are underlined. The names of classes and some data properties of our ontology have been changed.
 
 ![alt text](onto1.png)
