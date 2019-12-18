@@ -429,7 +429,22 @@ var myChart = new Chart(ctx, {
   position: absolute;
   z-index: 1;
 }
+1000px) {
+  .Map {
+    width: 100px;
+    height: 100px;
+  }
+  svg{
+  	display: none;
+  }
+  .Map p{
+  	display: block;
+  }
+  .graph-container{
+  	display: none;
+  }
 
+}
 
   </style>
 </head>
@@ -511,7 +526,7 @@ var myChart = new Chart(ctx, {
 </div>
 </div>
   <div class="Map">
-
+	<p>Please maximize the width of the screen to see the map clearly</p>
   <svg
    xmlns:mapsvg="http://mapsvg.com"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
