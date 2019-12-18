@@ -703,3 +703,5 @@ By using an online tool (mathsisfun.com/data/correlation-calculator.html), Pears
 
 
 Therefore, our hypothesis **The presence of cultural institutions increases the average salary and decreases the crime rate** was not fully proved because according to the nature of our hypothesis we were supposed to have a negative correlation between the density of cultural institutions and crime rate. Instead, the correlation turned out to be not only positive but the strongest one among our data. 
+
+The report about the implementation of suggested changes can be found here: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/Report.md
