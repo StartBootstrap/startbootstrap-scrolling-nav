@@ -35,7 +35,7 @@ As seen below, the changes we have made are underlined. The names of classes and
 ![alt text](onto1.png)
 ![alt text](onto2.png)
 
-The updated ontology can be found here:
+The updated ontology can be found here: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/finalcrawcii.owl
 
 ### RDF 
 
