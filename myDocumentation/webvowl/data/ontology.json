@@ -7,6 +7,12 @@
     "version" : "1.0.0",
     "author" : [ "Lisa Siurina", "Simay Güzel" ],
     "other" : {
+      "Rights" : [ {
+        "identifier" : "Rights",
+        "language" : "undefined",
+        "value" : "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).",
+        "type" : "label"
+      } ],
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
@@ -16,12 +22,6 @@
         "identifier" : "creator",
         "language" : "undefined",
         "value" : "Simay Güzel",
-        "type" : "label"
-      } ],
-      "Rights" : [ {
-        "identifier" : "Rights",
-        "language" : "undefined",
-        "value" : "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).",
         "type" : "label"
       } ],
       "versionInfo" : [ {
@@ -121,7 +121,7 @@
     "id" : "59",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "44",
+    "id" : "46",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "60",
@@ -214,7 +214,7 @@
     "id" : "13",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "46",
+    "id" : "44",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "107",
@@ -429,16 +429,16 @@
         "IRI-based" : "TeatroRoma"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroFrancescoTorti",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroFrancescoTorti"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDelParcoTrotter",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroDelParcoTrotter"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroFrancescoTorti",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroFrancescoTorti"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Teatrodell'AccademiaDeiRozzi",
@@ -477,16 +477,16 @@
         "IRI-based" : "TeatroGolden"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroF.Garelli",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroF.Garelli"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#AulaMagnaDelSeminario",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "AulaMagnaDelSeminario"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroF.Garelli",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroF.Garelli"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroComunaleAliceZeppilli",
@@ -525,16 +525,16 @@
         "IRI-based" : "TeatroGreco"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Teatroall'apertoLicinium",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "Teatroall'apertoLicinium"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroFellini",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroFellini"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Teatroall'apertoLicinium",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "Teatroall'apertoLicinium"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroRex",
@@ -573,22 +573,16 @@
         "IRI-based" : "GruppoTeatraleIComelianti"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaTeatroPolivalenteEmiliaNauredaCaldon",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "SalaTeatroPolivalenteEmiliaNauredaCaldon"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroOratorio",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroOratorio"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroVerga",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaTeatroPolivalenteEmiliaNauredaCaldon",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "TeatroVerga"
+        "IRI-based" : "SalaTeatroPolivalenteEmiliaNauredaCaldon"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMediterraneo",
@@ -597,10 +591,10 @@
         "IRI-based" : "TeatroMediterraneo"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#NuovoPalladio",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroVerga",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "NuovoPalladio"
+        "IRI-based" : "TeatroVerga"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroBrancati",
@@ -609,22 +603,28 @@
         "IRI-based" : "TeatroBrancati"
       }
     }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#NuovoPalladio",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "NuovoPalladio"
+      }
+    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroAlbatros",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroAlbatros"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#ArenaMontecroci",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "ArenaMontecroci"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroComunaleVittorioEmanueleII",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroComunaleVittorioEmanueleII"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#ArenaMontecroci",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "ArenaMontecroci"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#teatroNuovoSentiero",
@@ -675,12 +675,6 @@
         "IRI-based" : "TeatroLiricoDiMilano"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroAriston",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroAriston"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroLeLaudi",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
@@ -691,6 +685,12 @@
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "AuditoriumSanFedele"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroAriston",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroAriston"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroFabbricone",
@@ -807,16 +807,16 @@
         "IRI-based" : "TeatroGaribaldi"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#LaFilarmonica",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "LaFilarmonica"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroComunaleDiAielloCalabro",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroComunaleDiAielloCalabro"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#LaFilarmonica",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "LaFilarmonica"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#CaffèTeatro",
@@ -879,16 +879,16 @@
         "IRI-based" : "TeatroDelPopolo"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPirandello",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroPirandello"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroComunaleDozza",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroComunaleDozza"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPirandello",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroPirandello"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroBramante",
@@ -903,16 +903,16 @@
         "IRI-based" : "TeatroFilarmonicoComunale"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDiAsparetto",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroDiAsparetto"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Jolly",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "Jolly"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDiAsparetto",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroDiAsparetto"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroGuidoLeontini",
@@ -921,16 +921,16 @@
         "IRI-based" : "TeatroGuidoLeontini"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#ParcoDellaGrancia",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "ParcoDellaGrancia"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaPolivalenteDiCavino",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "SalaPolivalenteDiCavino"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#ParcoDellaGrancia",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "ParcoDellaGrancia"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroS.O.C",
@@ -975,16 +975,16 @@
         "IRI-based" : "TeatroFilarmonici"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroGabrieleD'Annunzio",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroGabrieleD'Annunzio"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDiTerra",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroDiTerra"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroGabrieleD'Annunzio",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroGabrieleD'Annunzio"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroSalesiani",
@@ -993,16 +993,16 @@
         "IRI-based" : "TeatroSalesiani"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroE.Zuccato",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroE.Zuccato"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroFraschini",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroFraschini"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroE.Zuccato",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroE.Zuccato"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroValle",
@@ -1023,16 +1023,16 @@
         "IRI-based" : "AuditoriumGiovanniTestori"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPoliteama",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroPoliteama"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#alMassimo",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "alMassimo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPoliteama",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroPoliteama"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroParrocchialeRicci",
@@ -1059,22 +1059,16 @@
         "IRI-based" : "Astra"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#CineTeatroBaretti",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "CineTeatroBaretti"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatrinoDeiMilleAlessiaBerardi",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatrinoDeiMilleAlessiaBerardi"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Accademiad'ArteDrammaticaDellaCalabria",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#CineTeatroBaretti",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "Accademiad'ArteDrammaticaDellaCalabria"
+        "IRI-based" : "CineTeatroBaretti"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDegliIndustri",
@@ -1083,22 +1077,28 @@
         "IRI-based" : "TeatroDegliIndustri"
       }
     }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Accademiad'ArteDrammaticaDellaCalabria",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "Accademiad'ArteDrammaticaDellaCalabria"
+      }
+    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#AiaTaumastica-Torredell?Acquedotto",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "AiaTaumastica-Torredell?Acquedotto"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Cinema-TeatroPadriBarnabiti",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "Cinema-TeatroPadriBarnabiti"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#AnfiteatroDellaPace",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "AnfiteatroDellaPace"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Cinema-TeatroPadriBarnabiti",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "Cinema-TeatroPadriBarnabiti"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMetastasio",
@@ -1239,22 +1239,16 @@
         "IRI-based" : "Teatrinod'Arco"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#ArenaForlivese",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "ArenaForlivese"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMarrucino",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroMarrucino"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalettaGramsci",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#ArenaForlivese",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "SalettaGramsci"
+        "IRI-based" : "ArenaForlivese"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroCentrale",
@@ -1263,16 +1257,22 @@
         "IRI-based" : "TeatroCentrale"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroGiuseppeVerdi",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalettaGramsci",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "TeatroGiuseppeVerdi"
+        "IRI-based" : "SalettaGramsci"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#PiccoloTeatroGrassi",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "PiccoloTeatroGrassi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroGiuseppeVerdi",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroGiuseppeVerdi"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/untitled-ontology-26#TeatroGregotti(Ingresso)",
@@ -1359,16 +1359,16 @@
         "IRI-based" : "TeatroPetrarca"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMecenate",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroMecenate"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Moderno",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "Moderno"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMecenate",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroMecenate"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaCentofiori",
@@ -1413,16 +1413,16 @@
         "IRI-based" : "TeatroCanossa"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroGrande",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroGrande"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPietraRosa",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroPietraRosa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroGrande",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroGrande"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TerrazzaSulMare",
@@ -1449,16 +1449,16 @@
         "IRI-based" : "TeatroGiudittaPasta"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Teatrodell'Orologio",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "Teatrodell'Orologio"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroGiovanniVerga",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroGiovanniVerga"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Teatrodell'Orologio",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "Teatrodell'Orologio"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#AuditoriumDelleClarisse",
@@ -1485,16 +1485,16 @@
         "IRI-based" : "AlfaTeatro"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaTeatroParrochiale",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "SalaTeatroParrochiale"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Binario7",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "Binario7"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaTeatroParrochiale",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "SalaTeatroParrochiale"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroLyrick",
@@ -1503,16 +1503,16 @@
         "IRI-based" : "TeatroLyrick"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Cittàdell'Utopia",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "Cittàdell'Utopia"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#CentroCulturaleAnnalenaTonelli",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "CentroCulturaleAnnalenaTonelli"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Cittàdell'Utopia",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "Cittàdell'Utopia"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroFrancescoStabile",
@@ -1539,16 +1539,16 @@
         "IRI-based" : "Cinema-TeatroSanRocco"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#CineteatroArena",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "CineteatroArena"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroLeCave",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroLeCave"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#CineteatroArena",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "CineteatroArena"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Metropolitan",
@@ -1587,12 +1587,6 @@
         "IRI-based" : "OperaDeiPupi-TuriGrasso"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPonteAMoriano",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroPonteAMoriano"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMarinoniBeneComune",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
@@ -1603,6 +1597,12 @@
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "Aleph"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPonteAMoriano",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroPonteAMoriano"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDiCestello",
@@ -1623,28 +1623,28 @@
         "IRI-based" : "TeatroDeiFilodrammatici"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroBusnelli",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroBusnelli"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDehon",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroDehon"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SiparioBlu",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroBusnelli",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "SiparioBlu"
+        "IRI-based" : "TeatroBusnelli"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Angolodell'Arte",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "Angolodell'Arte"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SiparioBlu",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "SiparioBlu"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDelTrionfo",
@@ -1665,16 +1665,16 @@
         "IRI-based" : "CineTeatroNorba"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroRomano",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroRomano"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroLibero",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroLibero"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroRomano",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroRomano"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#CentroCulturaleSanGiuseppe",
@@ -1695,28 +1695,28 @@
         "IRI-based" : "TeatroSantaCroce"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Teatro",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "Teatro"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#AuditoriumGianniVersace",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "AuditoriumGianniVersace"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#GruppoMusicale",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Teatro",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "GruppoMusicale"
+        "IRI-based" : "Teatro"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroComunaleGiovanniPapini",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroComunaleGiovanniPapini"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#GruppoMusicale",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "GruppoMusicale"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDiSalisano",
@@ -1731,16 +1731,16 @@
         "IRI-based" : "OutOff"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDelleLogge",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroDelleLogge"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPoliziano",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroPoliziano"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDelleLogge",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroDelleLogge"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaDellaComunità",
@@ -1803,16 +1803,16 @@
         "IRI-based" : "TeatroSpazioBixio"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#CentroPolifunzionaleDonMilani",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "CentroPolifunzionaleDonMilani"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#AuditoriumUnitàd'Italia",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "AuditoriumUnitàd'Italia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#CentroPolifunzionaleDonMilani",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "CentroPolifunzionaleDonMilani"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDeAndrè",
@@ -1839,28 +1839,28 @@
         "IRI-based" : "CinemaTeatroVerdi"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#VirtuosiDeVenezia",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "VirtuosiDeVenezia"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#CentroCongressi",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "CentroCongressi"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPiana",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#VirtuosiDeVenezia",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "TeatroPiana"
+        "IRI-based" : "VirtuosiDeVenezia"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#ArenaDelloStretto",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "ArenaDelloStretto"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPiana",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroPiana"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeZe",
@@ -1995,16 +1995,16 @@
         "IRI-based" : "AuditoriumMirellaUrbani"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#GiuseppeVerdi",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "GiuseppeVerdi"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#PiccoloTeatroTomBenetollo",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "PiccoloTeatroTomBenetollo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#GiuseppeVerdi",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "GiuseppeVerdi"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Cinema-TeatroSanMassimo",
@@ -2013,16 +2013,16 @@
         "IRI-based" : "Cinema-TeatroSanMassimo"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMinimoGiuseppeTovini",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroMinimoGiuseppeTovini"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TestoniRagazzi",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TestoniRagazzi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMinimoGiuseppeTovini",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroMinimoGiuseppeTovini"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#teatroSantaCecilia",
@@ -2073,16 +2073,16 @@
         "IRI-based" : "CinemaTeatroSanCarlo"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#S.O.A.M.S.",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "S.O.A.M.S."
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#LaFonderiaSedeAterballeto",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "LaFonderiaSedeAterballeto"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#S.O.A.M.S.",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "S.O.A.M.S."
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDelFuoco",
@@ -2133,16 +2133,16 @@
         "IRI-based" : "TerrazzaDeiPopoli"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SpazioPolaresco",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "SpazioPolaresco"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#DuelBeat",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "DuelBeat"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SpazioPolaresco",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "SpazioPolaresco"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroIncontro",
@@ -2217,22 +2217,16 @@
         "IRI-based" : "AuditoriumComunale"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroSistina",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroSistina"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroUmbertoGiordano",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroUmbertoGiordano"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaTeatroComunale",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroSistina",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "SalaTeatroComunale"
+        "IRI-based" : "TeatroSistina"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#CinemaTeatroSciarrone",
@@ -2241,22 +2235,28 @@
         "IRI-based" : "CinemaTeatroSciarrone"
       }
     }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaTeatroComunale",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "SalaTeatroComunale"
+      }
+    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroComunaleM.S.Severino",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroComunaleM.S.Severino"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroBertagnoglio",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroBertagnoglio"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#PiccoloTeatroDiCatania",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "PiccoloTeatroDiCatania"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroBertagnoglio",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroBertagnoglio"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroSilvioPellico",
@@ -2325,6 +2325,12 @@
         "IRI-based" : "TeatroStabileDeiRagazzi"
       }
     }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDiVillaDuchessaDiGalliera",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroDiVillaDuchessaDiGalliera"
+      }
+    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDadà",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
@@ -2337,16 +2343,10 @@
         "IRI-based" : "TeatroEleonoraDuse"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDiVillaDuchessaDiGalliera",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Teatrodell'Angelo",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "TeatroDiVillaDuchessaDiGalliera"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroSpazioISV",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroSpazioISV"
+        "IRI-based" : "Teatrodell'Angelo"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#AnticoTeatroSacco",
@@ -2355,10 +2355,10 @@
         "IRI-based" : "AnticoTeatroSacco"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Teatrodell'Angelo",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroSpazioISV",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "Teatrodell'Angelo"
+        "IRI-based" : "TeatroSpazioISV"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#teatroG.Spontini",
@@ -2367,16 +2367,16 @@
         "IRI-based" : "teatroG.Spontini"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDonBosco",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroDonBosco"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#AuditoriumBettolini",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "AuditoriumBettolini"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDonBosco",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroDonBosco"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDelLevante",
@@ -2397,16 +2397,16 @@
         "IRI-based" : "TeatroSantaValeria"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Auditorium",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "Auditorium"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroBoito",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroBoito"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Auditorium",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "Auditorium"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroTasso",
@@ -2415,16 +2415,16 @@
         "IRI-based" : "TeatroTasso"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroAmbraAllaGarbatella",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroAmbraAllaGarbatella"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroPalazzo",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroPalazzo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroAmbraAllaGarbatella",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroAmbraAllaGarbatella"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroAmbasciatori",
@@ -2439,16 +2439,16 @@
         "IRI-based" : "TeatroDelTre"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroComunaleA.Testoni",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroComunaleA.Testoni"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroZanardelli",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroZanardelli"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroComunaleA.Testoni",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroComunaleA.Testoni"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroSignorelli",
@@ -2475,16 +2475,16 @@
         "IRI-based" : "SalaPolivalente"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#PiccoloTeatroGiovanniPierobon",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "PiccoloTeatroGiovanniPierobon"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#NuovoTeatroDelleCommedie",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "NuovoTeatroDelleCommedie"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#PiccoloTeatroGiovanniPierobon",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "PiccoloTeatroGiovanniPierobon"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDelSilenzio",
@@ -2541,12 +2541,6 @@
         "IRI-based" : "CineTeatroSanGiuseppe"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMonterosa",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroMonterosa"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalettaOttavia",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
@@ -2557,6 +2551,12 @@
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "SalaLux"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMonterosa",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroMonterosa"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Politeama",
@@ -2595,16 +2595,16 @@
         "IRI-based" : "TeatroAlloScalo"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroArenaDelSole",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroArenaDelSole"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Incantesimi",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "Incantesimi"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroArenaDelSole",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroArenaDelSole"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroAuditoriumComunale",
@@ -2613,16 +2613,16 @@
         "IRI-based" : "TeatroAuditoriumComunale"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroIlPiccolo",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroIlPiccolo"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Ambra",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "Ambra"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroIlPiccolo",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroIlPiccolo"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Cine-TeatroEdelweiss",
@@ -2643,16 +2643,22 @@
         "IRI-based" : "Teatrodell'Unione"
       }
     }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroCiroPinsuti",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroCiroPinsuti"
+      }
+    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroStefanoStrada",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroStefanoStrada"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroCiroPinsuti",
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#AuditoriumRAIDiViaDellaConciliazione",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
-        "IRI-based" : "TeatroCiroPinsuti"
+        "IRI-based" : "AuditoriumRAIDiViaDellaConciliazione"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroGoldoni",
@@ -2665,12 +2671,6 @@
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "Teatroall'aperto"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#AuditoriumRAIDiViaDellaConciliazione",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "AuditoriumRAIDiViaDellaConciliazione"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroAdrianaBaratta",
@@ -2709,16 +2709,16 @@
         "IRI-based" : "TeatroVillaComunale"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroVirginian",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroVirginian"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#CinemaTeatroAstoria",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "CinemaTeatroAstoria"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroVirginian",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroVirginian"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#PiazzaTeatro",
@@ -2817,16 +2817,16 @@
         "IRI-based" : "TeatroErwinPiscator"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#IlBanchettoDelSultano",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "IlBanchettoDelSultano"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#AssociazioneHarpago",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "AssociazioneHarpago"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#IlBanchettoDelSultano",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "IlBanchettoDelSultano"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#LauroRossi",
@@ -2835,16 +2835,16 @@
         "IRI-based" : "LauroRossi"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaConferenzeTonezza",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "SalaConferenzeTonezza"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroSmeraldo",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroSmeraldo"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaConferenzeTonezza",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "SalaConferenzeTonezza"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaTeatroSamuelBeckett",
@@ -2859,16 +2859,16 @@
         "IRI-based" : "TeatroCinghio"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#CentroPolifunzionale-Cineteatro",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "CentroPolifunzionale-Cineteatro"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroGoldonetta",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroGoldonetta"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#CentroPolifunzionale-Cineteatro",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "CentroPolifunzionale-Cineteatro"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#SpazioTadini",
@@ -2967,16 +2967,16 @@
         "IRI-based" : "TeatroSandroPertini"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroArnaldoMomo",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "TeatroArnaldoMomo"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroManzoni",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroManzoni"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroArnaldoMomo",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "TeatroArnaldoMomo"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroComunaleDiCervia",
@@ -2985,16 +2985,16 @@
         "IRI-based" : "TeatroComunaleDiCervia"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaTeatroDonDanteRuffa",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "SalaTeatroDonDanteRuffa"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroComunaleDiegoMartinelli",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroComunaleDiegoMartinelli"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#SalaTeatroDonDanteRuffa",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "SalaTeatroDonDanteRuffa"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TestroDeiVarii",
@@ -3111,18 +3111,6 @@
         "IRI-based" : "TeatroDella14a"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Artè",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "Artè"
-      }
-    }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#CinemaSantaChiara",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "CinemaSantaChiara"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#CinemaTeatroModerno",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
@@ -3133,6 +3121,18 @@
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroEuropa"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Artè",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "Artè"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#CinemaSantaChiara",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "CinemaSantaChiara"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#EttoreThesorieriTeatro",
@@ -3153,16 +3153,16 @@
         "IRI-based" : "TeatroComunaleEbeStignani"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#museo-teatroStabileDeiPupiSiciliani",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "museo-teatroStabileDeiPupiSiciliani"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroDeiRinnovati",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroDeiRinnovati"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#museo-teatroStabileDeiPupiSiciliani",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "museo-teatroStabileDeiPupiSiciliani"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroSperimentaleLirioArena",
@@ -3231,16 +3231,16 @@
         "IRI-based" : "TeatroDanteAlighieri"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Greco",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
-      "labels" : {
-        "IRI-based" : "Greco"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroMascagni",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "TeatroMascagni"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/crawci#Greco",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
+      "labels" : {
+        "IRI-based" : "Greco"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#TeatroArgotStudio",
@@ -3326,16 +3326,16 @@
       "IRI-based" : "Region"
     },
     "individuals" : [ {
-      "iri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Emilia-Romagna",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci",
-      "labels" : {
-        "IRI-based" : "Emilia-Romagna"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Molise",
       "baseIri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci",
       "labels" : {
         "IRI-based" : "Molise"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Emilia-Romagna",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci",
+      "labels" : {
+        "IRI-based" : "Emilia-Romagna"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Veneto",
@@ -3386,28 +3386,28 @@
         "IRI-based" : "Puglia"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Toscana",
-      "baseIri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci",
-      "labels" : {
-        "IRI-based" : "Toscana"
-      }
-    }, {
       "iri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Basilicata",
       "baseIri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci",
       "labels" : {
         "IRI-based" : "Basilicata"
       }
     }, {
-      "iri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Sicilia",
+      "iri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Toscana",
       "baseIri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci",
       "labels" : {
-        "IRI-based" : "Sicilia"
+        "IRI-based" : "Toscana"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Friuli-VeneziaGiulia",
       "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
       "labels" : {
         "IRI-based" : "Friuli-VeneziaGiulia"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci#Sicilia",
+      "baseIri" : "http://www.semanticweb.org/simayguzel/ontologies/2019/10/crawci",
+      "labels" : {
+        "IRI-based" : "Sicilia"
       }
     }, {
       "iri" : "http://www.semanticweb.org/simayguzel/crawci#Trentino",
@@ -3555,7 +3555,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "44",
+    "id" : "46",
     "label" : {
       "IRI-based" : "float"
     }
@@ -3780,7 +3780,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "46",
+    "id" : "44",
     "label" : {
       "IRI-based" : "float"
     }
@@ -4176,21 +4176,21 @@
     "attributes" : [ "datatype" ],
     "id" : "41"
   }, {
-    "iri" : "http://www.semanticweb.org/simayguzel/crawci#hasNofReceivingStolenGoods",
+    "iri" : "http://www.semanticweb.org/simayguzel/crawci#hasCrimeRate",
     "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
     "range" : "44",
     "label" : {
-      "IRI-based" : "hasNofReceivingStolenGoods"
+      "IRI-based" : "hasCrimeRate"
     },
     "domain" : "2",
     "attributes" : [ "datatype" ],
     "id" : "43"
   }, {
-    "iri" : "http://www.semanticweb.org/simayguzel/crawci#hasCrimeRate",
+    "iri" : "http://www.semanticweb.org/simayguzel/crawci#hasNofReceivingStolenGoods",
     "baseIri" : "http://www.semanticweb.org/simayguzel/crawci",
     "range" : "46",
     "label" : {
-      "IRI-based" : "hasCrimeRate"
+      "IRI-based" : "hasNofReceivingStolenGoods"
     },
     "domain" : "2",
     "attributes" : [ "datatype" ],
@@ -4438,17 +4438,17 @@
   }, {
     "range" : "5",
     "domain" : "90",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "100"
   }, {
     "range" : "5",
     "domain" : "49",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "101"
   }, {
     "range" : "5",
     "domain" : "103",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "102"
   }, {
     "iri" : "http://www.semanticweb.org/simayguzel/crawci#hasNofCulpableInjurie",
@@ -4473,7 +4473,7 @@
   }, {
     "range" : "5",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "108"
   }, {
     "iri" : "http://www.semanticweb.org/simayguzel/crawci#hasNofMenaces",
@@ -4488,7 +4488,7 @@
   }, {
     "range" : "5",
     "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "110"
   }, {
     "iri" : "http://www.semanticweb.org/simayguzel/crawci#hasNofSexualActivityWithaMinor",
@@ -4624,7 +4624,7 @@
   }, {
     "range" : "17",
     "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "128"
   }, {
     "iri" : "http://www.semanticweb.org/simayguzel/crawci#hasNofBlows",
