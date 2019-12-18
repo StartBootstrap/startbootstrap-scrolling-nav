@@ -27,7 +27,12 @@ The results in % are presented in the visualization part on the website with the
 Updated csv documents can be found in dataset/rdf folder here: https://github.com/simayguzel/OpenDataCRAWCI/tree/master/dataset-rdf
 
 ### The Ontology
+As seen below, the changes we have made are underlined. The names of classes and some data properties of our ontology have been changed.
 
+![alt text](onto1.png)
+![alt text](onto2.png)
+
+The updated ontology can be found here:
 ### RDF 
 
 Our .rdf has been updated with namespaces from **Geonames Ontology** (http://www.geonames.org/ontology#) in order to sufficiently describe the regions without bearing the risk of referencing primarly those resources that are not reliable enough. 
