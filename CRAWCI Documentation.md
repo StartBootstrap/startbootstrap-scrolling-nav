@@ -389,7 +389,7 @@ We faced the need to create our own ontology once we realized that there was a l
 
 The **CRAWCI Ontology** modeling was based on the analyzed and extracted data while creating our mashup datasets. Hence, it has been developed in a manner that is intended to promote a shared understanding of cultural heritage information and statistical data. We also paid special attention to modeling crime-related namespaces to provide information on the crime situation in the Italian regions observing the practice of different crime types. In this way, it helps to mediate between different sources of information on the Semantic Web.
 
-The full Ontology documentation and visualization can be found here: https://github.com/simayguzel/OpenDataCRAWCI/tree/master/myDocumentation
+The full Ontology documentation and visualization can be found here: https://simayguzel.github.io/OpenDataCRAWCI/myDocumentation/index-en.html
 
 ### 7.1 The CRAWCI Ontology Visualisation
 
