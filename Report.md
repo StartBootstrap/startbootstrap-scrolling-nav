@@ -30,12 +30,15 @@ https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/crawciopend
 https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/typesofcrimes.csv
 
 ### The Ontology
+
+The data properties in the ontology are updated with the ones that are normalized.
+
 As seen below, the changes we have made are underlined. The names of classes and some data properties of our ontology have been changed.
 
 ![alt text](onto1.png)
 ![alt text](onto2.png)
 
-The updated ontology can be found here:
+The updated ontology can be found here: https://github.com/simayguzel/OpenDataCRAWCI/blob/master/finalcrawcii.owl
 
 ### RDF 
 
@@ -50,17 +53,19 @@ As a result, we referenced Geonames links to the regions, (ex. Veneto: http://sw
 The rdf example for Veneto region is presented below:
 
 ```
-  <rdf:Description rdf:about="http://sws.geonames.org/3164604/">
-      <rdfs:seeAlso "http://dbpedia.org/resource/Veneto">
-      <gn:alternateName "Regione del Veneto" , "Veneto" , "Venetia">
-      <gn:countryCode "IT">
-      <gn:locationMap "http://www.geonames.org/3164604/regione-veneto.html">
-      <gn:population>"1234079"</gn:population>
-      <ds:average_salary>30332</ds:average_salary>
-      <cis:hostsCulturalEvent>21</cis:hostsCulturalEvent>
-      <ds:total_crime_rate>47465</dcterms:crimerate>
-      <ds:internet_diffusion>72,4</ds:internet_diffusion>
-  </rdf:Description>
+  <rdf:Description rdf:about="http://sws.geonames.org/3170831/">
+      <rdfs:seeAlso>"http://dbpedia.org/resource/Piedmont"</rdfs:seeAlso>
+      <gn:alternateName>"Pedemons" , "Regione Piemonte"@it , "Pedemontium" , "Piemont"@it</gn:alternateName>
+      <gn:countryCode>"IT"</gn:countryCode>
+      <gn:locationMap>"http://www.geonames.org/3170831/regione-piemonte.html"</gn:locationMap>
+      <gn:name>"Regione Piemonte"</gn:name>
+      <gn:population>"4393000"</gn:population>
+      <ds:average_salary>34290</ds:average_salary>
+      <crawci:hasDensityofCulturalInstitution>0,0246</crawci:hasDensityofCulturalInstitution>
+      <crawci:hasCrimeRate>207885</crawci:hasCrimeRate>
+      <crawci:hasTheaterDensity>0.00468035315392</crawci:hasTheaterDensity>
+       <ds:internet_diffusion>69,1</ds:internet_diffusion>
+   </rdf:Description>
   ```
 
   The updated .rdf can be found here https://github.com/simayguzel/OpenDataCRAWCI/blob/master/dataset-rdf/dataset.rdf
@@ -185,3 +190,5 @@ As it is seen the average salary doesn't affect the density of cultural institut
 
 
 ### Technical issue / User Experience
+
+We tested the data visualization map on all the browsers. It works properly. Besides, we accompanied the map legend with information icons that contain explanations for the data obtained.
