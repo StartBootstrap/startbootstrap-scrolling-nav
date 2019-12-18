@@ -7,7 +7,8 @@
          xmlns:cis="http://dati.beniculturali.it/cis/"
          xmlns:bot="https://w3id.org/bot#"
          xmlns:dc="http://purl.org/dc/elements/1.1/"
-         xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+         xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+         xmlns:crawci="http://www.semanticweb.org/simayguzel/crawci#">
 
 <!--Piemonte-->
 
