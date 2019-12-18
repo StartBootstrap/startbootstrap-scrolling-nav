@@ -20,7 +20,7 @@
       <gn:name>"Regione Piemonte"</gn:name>
       <gn:population>"4393000"</gn:population>
       <ds:average_salary>34290</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0246</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0246</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>207885</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.00468035315392</crawci:hasTheaterDensity>
        <ds:internet_diffusion>69,1</ds:internet_diffusion>
@@ -35,7 +35,7 @@
       <gn:population>"127000"</gn:population>
       <ds:average_salary>33504</ds:average_salary>
       <gn:locationMap>"http://www.geonames.org/3164857/regione-autonoma-valle-d-aosta.html"</gn:locationMap>
-      <hasDensityofCulturalInstitution>0</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>4085</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.000696045590986</crawci:hasTheaterDensity>
       <ds:internet_diffusion>69,4</ds:internet_diffusion>
@@ -50,7 +50,7 @@
       <gn:locationMap>"http://www.geonames.org/3174725/regione-liguria.html"</gn:locationMap>
       <gn:population> "1565000"</gn:population>
       <ds:average_salary>35866</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0511</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0511</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate >79898</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.002902574457345</crawci:hasTheaterDensity>
        <ds:internet_diffusion>65,2</ds:internet_diffusion>
@@ -65,7 +65,7 @@
       <gn:locationMap> "http://www.geonames.org/3174618/regione-lombardia.html"</gn:locationMap>
       <gn:population>"10019000"</gn:population>
       <ds:average_salary>40459</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0238</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0238</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>475194</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.00655756731662</crawci:hasTheaterDensity>
        <ds:internet_diffusion>72,4</ds:internet_diffusion>
@@ -80,7 +80,7 @@
       <gn:locationMap> "http://www.geonames.org/3165244/regione-autonoma-trentino-alto-adige.html"</gn:locationMap>
       <gn:population>"1063000" </gn:population>
       <ds:average_salary>396740</ds:average_salary>
-      <hasDensityofCulturalInstitution>0</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>33620</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.002074688796681</crawci:hasTheaterDensity>
       <ds:internet_diffusion>72,5</ds:internet_diffusion>
@@ -94,7 +94,7 @@
       <gn:locationMap> "http://www.geonames.org/3164604/regione-veneto.html"</gn:locationMap>
       <gn:population>"1234079000"</gn:population>
       <ds:average_salary>39521</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0131</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0131</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>169999</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.00023629489603</crawci:hasTheaterDensity>
        <ds:internet_diffusion>72,4</ds:internet_diffusion>
@@ -111,7 +111,7 @@
      <gn:locationMap> "http://www.geonames.org/3176525/regione-autonoma-friuli-venezia-giulia.html"</gn:locationMap>
      <gn:population>"1219000"</gn:population>
      <ds:average_salary>37483</ds:average_salary>
-     <hasDensityofCulturalInstitution>0,0261</hasDensityofCulturalInstitution>
+     <crawci:hasDensityofCulturalInstitution>0,0261</crawci:hasDensityofCulturalInstitution>
      <crawci:hasCrimeRate>35552</crawci:hasCrimeRate>
      <crawci:hasTheaterDensity>0.001974983541804</crawci:hasTheaterDensity>
      <ds:internet_diffusion>73,1</ds:internet_diffusion>
@@ -127,7 +127,7 @@
      <gn:countryCode>"IT"</gn:countryCode>
      <gn:population>"4449000"</gn:population>
      <ds:average_salary >40187</ds:average_salary>
-     <hasDensityofCulturalInstitution>0,0265</hasDensityofCulturalInstitution>
+     <crawci:hasDensityofCulturalInstitution>0,0265</crawci:hasDensityofCulturalInstitution>
      <crawci:hasCrimeRate>229630</crawci:hasCrimeRate>
      <crawci:hasTheaterDensity>0.004401524109841</crawci:hasTheaterDensity>
      <ds:internet_diffusion>71,9</ds:internet_diffusion>
@@ -144,7 +144,7 @@
     <gn:locationMap> "http://www.geonames.org/3165361/regione-toscana.html"</gn:locationMap>
     <gn:population>"3742000"</gn:population>
     <ds:average_salary>38202</ds:average_salary>
-    <hasDensityofCulturalInstitution>0,0341</hasDensityofCulturalInstitution>
+    <crawci:hasDensityofCulturalInstitution>0,0341</crawci:hasDensityofCulturalInstitution>
     <crawci:hasCrimeRate >176246</crawci:hasCrimeRate>
     <crawci:hasTheaterDensity>0.000827195021074</crawci:hasTheaterDensity>
     <ds:internet_diffusion>71,9,4</ds:internet_diffusion>
@@ -160,7 +160,7 @@
     <gn:locationMap> "http://www.geonames.org/3165048/regione-umbria.html"</gn:locationMap>
     <gn:population>"889000"</gn:population>
     <ds:average_salary>35860</ds:average_salary>
-    <hasDensityofCulturalInstitution>0,0315</hasDensityofCulturalInstitution>
+    <crawci:hasDensityofCulturalInstitution>0,0315</crawci:hasDensityofCulturalInstitution>
     <crawci:hasCrimeRate >30108</crawci:hasCrimeRate>
     <crawci:hasTheaterDensity>0.003160370424813</crawci:hasTheaterDensity>
     <ds:internet_diffusion>69</ds:internet_diffusion>
@@ -176,7 +176,7 @@
     <gn:locationMap> "http://www.geonames.org/3174004/regione-marche.html"</gn:locationMap>
     <gn:population>"1538000"</gn:population>
     <ds:average_salary>36687</ds:average_salary>
-    <hasDensityofCulturalInstitution>0,0413</hasDensityofCulturalInstitution>
+    <crawci:hasDensityofCulturalInstitution>0,0413</crawci:hasDensityofCulturalInstitution>
     <crawci:hasCrimeRate>47067</crawci:hasCrimeRate>
      <crawci:hasTheaterDensity>0.005723781388479</crawci:hasTheaterDensity>
     <ds:internet_diffusion>70</ds:internet_diffusion>
@@ -190,7 +190,7 @@
       <gn:locationMap> "http://www.geonames.org/3174976/regione-lazio.html"</gn:locationMap>
       <gn:population>"5898000"</gn:population>
       <ds:average_salary>36636</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0312</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0312</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>276255</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.001870574088095</crawci:hasTheaterDensity>
       <ds:internet_diffusion>72,9</ds:internet_diffusion>
@@ -205,7 +205,7 @@
       <gn:locationMap> "http://www.geonames.org/3174976/regione-lazio.html"</gn:locationMap>
       <gn:population>"1332000"</gn:population>
       <ds:average_salary>31712</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0224</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0224</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>43136</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.00064623338257</crawci:hasTheaterDensity>
       <ds:internet_diffusion>70</ds:internet_diffusion>
@@ -222,7 +222,7 @@
       <gn:locationMap> "http://www.geonames.org/3173222/regione-molise.html"</gn:locationMap>
       <gn:population>"310000"</gn:population>
       <ds:average_salary >28581</ds:average_salary>
-      <hasDensityofCulturalInstitution >0,0132</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution >0,0132</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>8205</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.00004190412</crawci:hasTheaterDensity>
        <ds:internet_diffusion >63,2</ds:internet_diffusion>
@@ -237,7 +237,7 @@
       <gn:locationMap> "http://www.geonames.org/3181042/regione-campania.html"</gn:locationMap>
       <gn:population>"5839000"</gn:population>
       <ds:average_salary>27778</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0263</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0263</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>222685</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.002084781097985</crawci:hasTheaterDensity>
        <ds:internet_diffusion>64,4</ds:internet_diffusion>
@@ -252,7 +252,7 @@
       <gn:locationMap> "http://www.geonames.org/3169778/regione-puglia.html"</gn:locationMap>
       <gn:population>"4064000"</gn:population>
       <ds:average_salary>31726</ds:average_salary>
-      <hasDensityofCulturalInstitution >0,0129</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution >0,0129</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>149334</crawci:hasCrimeRate>
        <crawci:hasTheaterDensity>0.00627661959202</crawci:hasTheaterDensity>
       <ds:internet_diffusion >62,4</ds:internet_diffusion>
@@ -268,7 +268,7 @@
       <gn:locationMap> "http://www.geonames.org/3169778/regione-puglia.html"</gn:locationMap>
       <gn:population>"570000"</gn:population>
       <ds:average_salary>28578</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0083</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0083</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>13570</crawci:hasCrimeRate>
       <ds:internet_diffusion>62,7</ds:internet_diffusion>
       <crawci:hasTheaterDensity>0.001839926402944</crawci:hasTheaterDensity>
@@ -283,7 +283,7 @@
       <gn:locationMap> "http://www.geonames.org/2525468/regione-calabria.html"</gn:locationMap>
       <gn:population>"1965000"</gn:population>
       <ds:average_salary>26852</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0132</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0132</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>61137</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.001381710250243</crawci:hasTheaterDensity>
        <ds:internet_diffusion>59,4</ds:internet_diffusion>
@@ -298,7 +298,7 @@
       <gn:locationMap> "http://www.geonames.org/2523119/regione-autonoma-siciliana.html"</gn:locationMap>
       <gn:population>"5057000"</gn:population>
       <ds:average_salary>25936</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0121</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0121</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>176318</crawci:hasCrimeRate>
        <crawci:hasTheaterDensity>0.0062766195021074</crawci:hasTheaterDensity>
       <ds:internet_diffusion>60,6</ds:internet_diffusion>
@@ -312,7 +312,7 @@
       <gn:locationMap> "http://www.geonames.org/2523228/regione-autonoma-della-sardegna.html"</gn:locationMap>
       <gn:population>"1653000"</gn:population>
       <ds:average_salary>30332</ds:average_salary>
-      <hasDensityofCulturalInstitution>0,0125</hasDensityofCulturalInstitution>
+      <crawci:hasDensityofCulturalInstitution>0,0125</crawci:hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>47465</crawci:hasCrimeRate>
        <crawci:hasTheaterDensity>0.00468035315392</crawci:hasTheaterDensity>
        <ds:internet_diffusion>72,4</ds:internet_diffusion>
