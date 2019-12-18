@@ -185,3 +185,5 @@ As it is seen the average salary doesn't affect the density of cultural institut
 
 
 ### Technical issue / User Experience
+
+We tested the data visualization map on all the browsers. It works properly. Besides, we accompanied the map legend with information icons that contain explanations for the data obtained.
