@@ -73,7 +73,7 @@
    
 <!-- Trentino-->
 
-   <rdf:Description rdf:about="http://dbpedia.org/resource/Trentino-Alto_Adige%2FS%C3%BCdtirol">
+   <rdf:Description rdf:about="http://sws.geonames.org/3165244/">
       <rdfs:seeAlso>"http://dbpedia.org/resource/Trentino-Alto_Adige%2FS%C3%BCdtirol"</rdfs:seeAlso>
       <gn:alternateName> "Etelä-Tiroli"@fi , "Sidtiroul"@bar , "Venetia Tridentina" , "Tirol del Sud"@ca , "Tirol Meridional"@pt , "Syd-Tirol"@no , "Sydtyrolen"@sv , "South Tyrol" , "Sydtyrolen (Trentino - Alto Adige)"@sv , "Autonomní provincie Bolzano"@cs , "Sudtirolo"@eo , "Autonome Region Trentino-Südtirol" , "Больцано"@ru , "Tirolo" , "Południowy Tyrol"@pl , "Južné Tirolsko"@sk , "Tirolul de Sud"@ro , "Južna Tirolska"@sl , "Su Tirol"@br , "Sudtirol"@it , "Bozen-Zuid-Tirol"@nl , "Venezia Tridentina" , "Trentin-Tyrol-du-Sud"@fr , "Südtirol"@de , "ボルツァーノ自治県"@ja , "Trentin"@it , "Tirolum Meridionale"@la , "Tirol del Sur"@es</gn:alternateName>
       <gn:countryCode> "IT"</gn:countryCode>
