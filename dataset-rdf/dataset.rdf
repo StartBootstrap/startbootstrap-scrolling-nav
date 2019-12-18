@@ -64,7 +64,7 @@
       <gn:countryCode> "IT"</gn:countryCode>
       <gn:locationMap> "http://www.geonames.org/3174618/regione-lombardia.html"</gn:locationMap>
       <gn:population>"10019000"</gn:population>
-      <ds:average_salary>30332</ds:average_salary>
+      <ds:average_salary>40459</ds:average_salary>
       <hasDensityofCulturalInstitution>0,0238</hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>475194</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.00655756731662</crawci:hasTheaterDensity>
@@ -93,7 +93,7 @@
       <gn:countryCode> "IT"</gn:countryCode>
       <gn:locationMap> "http://www.geonames.org/3164604/regione-veneto.html"</gn:locationMap>
       <gn:population>"1234079000"</gn:population>
-      <ds:average_salary>30332</ds:average_salary>
+      <ds:average_salary>39521</ds:average_salary>
       <hasDensityofCulturalInstitution>0,0131</hasDensityofCulturalInstitution>
       <crawci:hasCrimeRate>169999</crawci:hasCrimeRate>
       <crawci:hasTheaterDensity>0.00023629489603</crawci:hasTheaterDensity>
@@ -110,7 +110,7 @@
      <gn:countryCode> "IT"</gn:countryCode>
      <gn:locationMap> "http://www.geonames.org/3176525/regione-autonoma-friuli-venezia-giulia.html"</gn:locationMap>
      <gn:population>"1219000"</gn:population>
-     <ds:average_salary>374830</ds:average_salary>
+     <ds:average_salary>37483</ds:average_salary>
      <hasDensityofCulturalInstitution>0,0261</hasDensityofCulturalInstitution>
      <crawci:hasCrimeRate>35552</crawci:hasCrimeRate>
      <crawci:hasTheaterDensity>0.001974983541804</crawci:hasTheaterDensity>
