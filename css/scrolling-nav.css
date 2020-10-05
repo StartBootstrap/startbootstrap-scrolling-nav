@@ -10,3 +10,7 @@ header {
 section {
   padding: 150px 0;
 }
+.searchBox{
+	margin-left: 150px;
+	width: 130%;
+}
