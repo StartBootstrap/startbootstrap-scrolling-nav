@@ -1,10 +1,23 @@
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
 
-header {
-    padding: 156px 0 100px;
+// Scroll padding for all scroll targets on page used with
+// native CSS smooth scrolling
+// 
+// https://caniuse.com/?search=scroll-padding
+
+html {
+    scroll-padding-top: 3.5rem;
 }
 
+// Header padding accounts for the height of the navbar
+header {
+    padding-top: 6em + 3.5rem;
+    padding-bottom: 6em;
+}
+
+// Section padding
 section {
-    padding: 150px 0;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
 }
