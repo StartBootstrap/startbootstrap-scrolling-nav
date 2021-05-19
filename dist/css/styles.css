@@ -10834,11 +10834,12 @@ textarea.form-control-lg {
   }
 }
 html {
-  scroll-padding-top: 56px;
+  scroll-padding-top: 3.5rem;
 }
 
 header {
-  padding: 156px 0 100px;
+  padding-top: 9.5rem;
+  padding-bottom: 6rem;
 }
 
 section {
